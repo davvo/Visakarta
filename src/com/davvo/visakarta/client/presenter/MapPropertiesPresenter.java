@@ -11,6 +11,7 @@ import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.EventBus;
+import com.google.gwt.user.client.ui.HasValue;
 import com.google.gwt.user.client.ui.Widget;
 
 public class MapPropertiesPresenter  {
@@ -25,10 +26,9 @@ public class MapPropertiesPresenter  {
     public interface Display {
         HasClickHandlers getSaveButton();
         HasClickHandlers getCancelButton();
-        String getTitle();
-        void setTitle(String title);
-        LatLon getCenter();
-        void setCenter(LatLon center);
+        HasValue<String> getTitle();
+        HasValue<Double> getLat();
+        HasValue<Double> getLon();
         int getZoom();
         void setZoom(int zoom);
         void show();
@@ -52,7 +52,8 @@ public class MapPropertiesPresenter  {
             
             @Override
             public void onClick(ClickEvent event) {
-                MapPosition newPos = new MapPosition(view.getCenter(), view.getZoom());
+                LatLon center = new LatLon(view.getLat().getValue(), view.getLon().getValue());
+                MapPosition newPos = new MapPosition(center, view.getZoom());
                 if (mapPos == null || !mapPos.equals(newPos)) {
                     mapPos = newPos;
                     eventBus.fireEventFromSource(new MapPropertiesChangedEvent(newPos), MapPropertiesPresenter.this);
@@ -74,7 +75,8 @@ public class MapPropertiesPresenter  {
             
         @Override
         public void onShowMapProperties(ShowMapPropertiesEvent event) {
-            view.setCenter(mapPos.getCenter());
+            view.getLat().setValue(mapPos.getCenter().getLat());
+            view.getLon().setValue(mapPos.getCenter().getLon());
             view.setZoom(mapPos.getZoom());
             view.show();
         }
@@ -83,7 +85,8 @@ public class MapPropertiesPresenter  {
         public void onMapPropertiesChanged(MapPropertiesChangedEvent event) {
             if (event.getSource() != MapPropertiesPresenter.this) {
                 mapPos = event.getMapPosition();
-                view.setCenter(mapPos.getCenter());
+                view.getLat().setValue(mapPos.getCenter().getLat());
+                view.getLon().setValue(mapPos.getCenter().getLon());
                 view.setZoom(mapPos.getZoom());
             }
         }        

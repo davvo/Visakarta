@@ -4,11 +4,13 @@ import java.awt.FlowLayout;
 
 import com.davvo.visakarta.client.presenter.MapPresenter;
 import com.davvo.visakarta.client.presenter.MapPropertiesPresenter;
+import com.davvo.visakarta.client.presenter.MarkerDetailsPresenter;
 import com.davvo.visakarta.client.presenter.MarkersPresenter;
 import com.davvo.visakarta.client.presenter.Presenter;
 import com.davvo.visakarta.client.presenter.ToolBarPresenter;
 import com.davvo.visakarta.client.view.MapPropertiesView;
 import com.davvo.visakarta.client.view.MapView;
+import com.davvo.visakarta.client.view.MarkerDetailsView;
 import com.davvo.visakarta.client.view.MarkersView;
 import com.davvo.visakarta.client.view.ToolBarView;
 
@@ -55,6 +57,8 @@ public class AppController implements Presenter {
         MapPropertiesPresenter mapProperties = new MapPropertiesPresenter(eventBus, new MapPropertiesView());
         
         MarkersPresenter markersPresenter = new MarkersPresenter(eventBus, new MarkersView());
+        
+        MarkerDetailsPresenter markerDetails = new MarkerDetailsPresenter(eventBus, new MarkerDetailsView());
         
     }
     

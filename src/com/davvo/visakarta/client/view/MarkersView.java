@@ -6,12 +6,14 @@ import java.util.List;
 
 import com.davvo.visakarta.client.presenter.MarkersPresenter.Display;
 import com.davvo.visakarta.shared.VKMarker;
+import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.CheckBox;
 import com.google.gwt.user.client.ui.DialogBox;
 import com.google.gwt.user.client.ui.DockPanel;
 import com.google.gwt.user.client.ui.FlexTable;
+import com.google.gwt.user.client.ui.HTMLTable;
 import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.Widget;
 
@@ -107,5 +109,27 @@ public class MarkersView implements Display {
     public Widget asWidget() {
         return dialogBox;
     }
+
+    @Override
+    public HasClickHandlers getList() {
+        return markersTable;
+    }
+
+    @Override
+    public int getClickedRow(ClickEvent event) {
+        int selectedRow = -1;
+        HTMLTable.Cell cell = markersTable.getCellForEvent(event);
+        
+        if (cell != null) {
+          // Suppress clicks if the user is actually selecting the 
+          //  check box
+          //
+          if (cell.getCellIndex() > 0) {
+            selectedRow = cell.getRowIndex();
+          }
+        }
+        
+        return selectedRow;
+      }
 
 }

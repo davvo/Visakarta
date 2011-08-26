@@ -1,18 +1,17 @@
 package com.davvo.visakarta.client.presenter;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 import com.davvo.visakarta.client.event.AddMarkerEvent;
+import com.davvo.visakarta.client.event.AddMarkerHandler;
 import com.davvo.visakarta.client.event.DeleteMarkerEvent;
+import com.davvo.visakarta.client.event.DeleteMarkerHandler;
 import com.davvo.visakarta.client.event.HasMapHandlers;
+import com.davvo.visakarta.client.event.MarkerAddedEvent;
+import com.davvo.visakarta.client.event.MarkerDeletedEvent;
 import com.davvo.visakarta.client.event.MarkerMovedEvent;
 import com.davvo.visakarta.client.event.MarkerMovedHandler;
-import com.davvo.visakarta.client.event.MarkersEventHandler;
 import com.davvo.visakarta.client.event.ShowMapPropertiesEvent;
-import com.davvo.visakarta.client.event.ShowMarkerDetailsEvent;
-import com.davvo.visakarta.client.event.ShowMarkersEvent;
 import com.davvo.visakarta.client.event.MapMovedEvent;
 import com.davvo.visakarta.client.event.MapMovedHandler;
 import com.davvo.visakarta.client.event.MapPropertiesChangedEvent;
@@ -24,12 +23,10 @@ import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.user.client.ui.HasWidgets;
 import com.google.gwt.user.client.ui.Widget;
 
-public class MapPresenter implements Presenter, MarkersEventHandler {
+public class MapPresenter implements Presenter {
 
     private EventBus eventBus;
     private Display view;
-    
-    List<VKMarker> markers = new ArrayList<VKMarker>();
     
     public interface Display {
         LatLon getCenter();
@@ -71,9 +68,24 @@ public class MapPresenter implements Presenter, MarkersEventHandler {
             }
         });
         
-        eventBus.addHandler(AddMarkerEvent.TYPE, this);
+        eventBus.addHandler(AddMarkerEvent.TYPE, new AddMarkerHandler() {
+            
+            @Override
+            public void onAddMarker(AddMarkerEvent event) {
+                VKMarker marker = new VKMarker(view.getCenter());
+                view.addMarker(marker);
+                eventBus.fireEvent(new MarkerAddedEvent(marker));
+            }
+        });
         
-        eventBus.addHandler(DeleteMarkerEvent.TYPE, this);
+        eventBus.addHandler(DeleteMarkerEvent.TYPE, new DeleteMarkerHandler() {
+            
+            @Override
+            public void onDeleteMarker(DeleteMarkerEvent event) {
+                view.deleteMarkers(event.getIndex());
+                eventBus.fireEvent(new MarkerDeletedEvent(event.getIndex()));
+            }
+        });
         
         view.getMapHandler().addMapMoveHandler(new MapMovedHandler() {
             
@@ -93,34 +105,6 @@ public class MapPresenter implements Presenter, MarkersEventHandler {
             }
         });
         
-    }
-
-    @Override
-    public void onShowMarkers(ShowMarkersEvent event) {
-        // Ignore        
-    }
-
-    @Override
-    public void onShowMarkerDetails(ShowMarkerDetailsEvent event) {
-        // ignore
-    }
-
-    @Override
-    public void onAddMarker(AddMarkerEvent event) {
-        VKMarker marker = new VKMarker(view.getCenter());
-        markers.add(marker);
-        view.addMarker(marker);        
-    }
-
-    @Override
-    public void onDeleteMarker(DeleteMarkerEvent event) {
-        List<Integer> index = event.getIndex();
-        view.deleteMarkers(index);        
-        Collection<VKMarker> toRemove = new ArrayList<VKMarker>(index.size());
-        for (int i: index) {
-            toRemove.add(markers.get(i));
-        }
-        markers.removeAll(toRemove);
     }
 
 }

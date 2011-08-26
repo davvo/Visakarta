@@ -4,9 +4,9 @@ import java.util.List;
 
 import com.google.gwt.event.shared.GwtEvent;
 
-public class DeleteMarkerEvent extends GwtEvent<MarkersEventHandler> {
+public class DeleteMarkerEvent extends GwtEvent<DeleteMarkerHandler> {
     
-    public static Type<MarkersEventHandler> TYPE = new Type<MarkersEventHandler>();
+    public static Type<DeleteMarkerHandler> TYPE = new Type<DeleteMarkerHandler>();
 
     private List<Integer> index;
     
@@ -19,12 +19,12 @@ public class DeleteMarkerEvent extends GwtEvent<MarkersEventHandler> {
     }
     
     @Override
-    public Type<MarkersEventHandler> getAssociatedType() {
+    public Type<DeleteMarkerHandler> getAssociatedType() {
         return TYPE;
     }
 
     @Override
-    protected void dispatch(MarkersEventHandler handler) {
+    protected void dispatch(DeleteMarkerHandler handler) {
         handler.onDeleteMarker(this);
     }
 

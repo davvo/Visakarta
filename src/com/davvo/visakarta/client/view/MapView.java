@@ -97,7 +97,7 @@ public class MapView implements Display {
             @Override
             public void onDrag(MarkerDragEvent event) {
                 int index = markers.indexOf(event.getSender());
-                mapEventHandler.fireEvent(new MarkerMovedEvent(index));                
+                mapEventHandler.fireEvent(new MarkerMovedEvent(index, asLatLon(event.getSender().getLatLng())));                
             }
         });
         

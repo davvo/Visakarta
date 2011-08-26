@@ -5,6 +5,7 @@ import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.DialogBox;
 import com.google.gwt.user.client.ui.DoubleBox;
+import com.google.gwt.user.client.ui.HasValue;
 import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.ListBox;
@@ -14,7 +15,6 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 import com.google.gwt.user.client.ui.Widget;
 
 import com.davvo.visakarta.client.presenter.MapPropertiesPresenter;
-import com.davvo.visakarta.shared.LatLon;
 
 public class MapPropertiesView implements MapPropertiesPresenter.Display {
 
@@ -30,10 +30,6 @@ public class MapPropertiesView implements MapPropertiesPresenter.Display {
     private ListBox zoomBox;
     
     public MapPropertiesView() {
-        buildGUI();
-    }
-    
-    private void buildGUI() {
         Panel contents = new VerticalPanel();
         
         titleBox = new TextBox();
@@ -82,16 +78,15 @@ public class MapPropertiesView implements MapPropertiesPresenter.Display {
     }
     
     @Override
-    public LatLon getCenter() {
-        return new LatLon(latBox.getValue(), lonBox.getValue());
+    public HasValue<Double> getLat() {
+        return latBox;
     }
 
     @Override
-    public void setCenter(LatLon center) {
-        this.latBox.setValue(center.getLat());
-        this.lonBox.setValue(center.getLon());
+    public HasValue<Double> getLon() {
+        return lonBox;
     }
-
+    
     @Override
     public int getZoom() {
         return zoomBox.getSelectedIndex();
@@ -103,13 +98,8 @@ public class MapPropertiesView implements MapPropertiesPresenter.Display {
     }
 
     @Override
-    public String getTitle() {
-        return titleBox.getValue();
-    }
-
-    @Override
-    public void setTitle(String title) {
-        this.titleBox.setValue(title);
+    public HasValue<String> getTitle() {
+        return titleBox;
     }
 
     @Override

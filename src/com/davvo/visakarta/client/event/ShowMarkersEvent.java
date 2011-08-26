@@ -2,17 +2,17 @@ package com.davvo.visakarta.client.event;
 
 import com.google.gwt.event.shared.GwtEvent;
 
-public class ShowMarkersEvent extends GwtEvent<MarkersEventHandler> {
+public class ShowMarkersEvent extends GwtEvent<ShowMarkersHandler> {
 
-    public static Type<MarkersEventHandler> TYPE = new Type<MarkersEventHandler>();
+    public static Type<ShowMarkersHandler> TYPE = new Type<ShowMarkersHandler>();
     
     @Override
-    public Type<MarkersEventHandler> getAssociatedType() {
+    public Type<ShowMarkersHandler> getAssociatedType() {
         return TYPE;
     }
 
     @Override
-    protected void dispatch(MarkersEventHandler handler) {
+    protected void dispatch(ShowMarkersHandler handler) {
         handler.onShowMarkers(this);
     }
 
