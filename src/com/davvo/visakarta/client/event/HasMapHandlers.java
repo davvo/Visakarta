@@ -5,7 +5,7 @@ import com.google.gwt.event.shared.HasHandlers;
 
 public interface HasMapHandlers extends HasHandlers {
 
-    public HandlerRegistration addMapMoveHandler(MapMovedHandler handler);
+    public HandlerRegistration addMapMovedHandler(MapMovedHandler handler);
     
     public HandlerRegistration addMarkerMovedHandler(MarkerMovedHandler handler);
     

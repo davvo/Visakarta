@@ -27,7 +27,7 @@ public class SaveMapView extends DialogBox implements Display {
         setHTML("Save Map");
         
         VerticalPanel verticalPanel = new VerticalPanel();
-        verticalPanel.setSpacing(5);
+        verticalPanel.setSpacing(10);
         setWidget(verticalPanel);
         verticalPanel.setSize("199px", "250px");
         

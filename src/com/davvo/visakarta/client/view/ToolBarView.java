@@ -13,6 +13,7 @@ public class ToolBarView implements Display {
     Panel widget;
     Button mapPropertiesButton;
     Button markersButton;
+    Button saveMapButton;
     
     public ToolBarView() {
         buildGUI();
@@ -20,12 +21,16 @@ public class ToolBarView implements Display {
     
     private void buildGUI() {        
         widget = new FlowPanel();
+        widget.addStyleName("toolBar");
         
-        mapPropertiesButton = new Button("Properties...");
+        mapPropertiesButton = new Button("Properties");
         widget.add(mapPropertiesButton);
 
-        markersButton = new Button("Markers...");
+        markersButton = new Button("Markers");
         widget.add(markersButton);
+        
+        saveMapButton = new Button("Save map!");
+        widget.add(saveMapButton);
     }
     
     @Override
@@ -38,6 +43,11 @@ public class ToolBarView implements Display {
         return markersButton;
     }
 
+    @Override
+    public HasClickHandlers getSaveMapButton() {
+        return saveMapButton;
+    }
+    
     @Override
     public Widget asWidget() {
         return widget;

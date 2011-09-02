@@ -8,14 +8,14 @@ public class MarkerDeletedEvent extends GwtEvent<MarkerDeletedHandler> {
 
     public static Type<MarkerDeletedHandler> TYPE = new Type<MarkerDeletedHandler>();
     
-    private List<Integer> index;
+    private List<Integer> ids;
     
-    public MarkerDeletedEvent(List<Integer> index) {
-        this.index = index;
+    public MarkerDeletedEvent(List<Integer> ids) {
+        this.ids = ids;
     }
     
-    public List<Integer> getIndex() {
-        return index;
+    public List<Integer> getIds() {
+        return ids;
     }
     
     @Override

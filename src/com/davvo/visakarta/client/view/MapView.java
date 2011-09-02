@@ -1,9 +1,8 @@
 package com.davvo.visakarta.client.view;
 
-import java.util.ArrayList;
-
-import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import com.davvo.visakarta.client.event.HasMapHandlers;
 import com.davvo.visakarta.client.event.MarkerMovedEvent;
@@ -28,7 +27,7 @@ public class MapView implements Display {
 
     private MapEventHandler mapEventHandler = new MapEventHandler();    
     private MapWidget mapWidget;
-    private List<Marker> markers = new ArrayList<Marker>();
+    private Map<Integer, Marker> markers = new HashMap<Integer, Marker>();
     
     public MapView() {
         createMapWidget();
@@ -92,30 +91,35 @@ public class MapView implements Display {
         
         Marker m = new Marker(asLatLng(marker.getPos()), options);
         
+        final int id = marker.getId();
         m.addMarkerDragHandler(new MarkerDragHandler() {
             
             @Override
             public void onDrag(MarkerDragEvent event) {
-                int index = markers.indexOf(event.getSender());
-                mapEventHandler.fireEvent(new MarkerMovedEvent(index, asLatLon(event.getSender().getLatLng())));                
+                mapEventHandler.fireEvent(new MarkerMovedEvent(id, asLatLon(event.getSender().getLatLng())));                
             }
         });
         
         mapWidget.addOverlay(m);
-        markers.add(m);
+        markers.put(marker.getId(), m);
     }
 
     @Override
-    public void deleteMarkers(List<Integer> index) {
-        Collection<Marker> toRemove = new ArrayList<Marker>();
-        
-        for (int i: index) {
-            Marker m = markers.get(i);
-            toRemove.add(m);
+    public void updateMarker(VKMarker marker) {
+        Marker m = markers.get(marker.getId());
+        if (m != null) {
+            m.setLatLng(asLatLng(marker.getPos()));
+        }
+    }
+    
+    @Override
+    public void deleteMarkers(List<Integer> ids) {
+
+        for (int i: ids) {
+            Marker m = markers.remove(i);
             mapWidget.removeOverlay(m);
         }
         
-        markers.removeAll(toRemove);
     }
     
     @Override
@@ -138,7 +142,7 @@ public class MapView implements Display {
         }
 
         @Override
-        public HandlerRegistration addMapMoveHandler(MapMovedHandler handler) {
+        public HandlerRegistration addMapMovedHandler(MapMovedHandler handler) {
             return addHandler(MapMovedEvent.TYPE, handler);
         }
         

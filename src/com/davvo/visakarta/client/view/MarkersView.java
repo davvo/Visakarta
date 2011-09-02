@@ -42,6 +42,7 @@ public class MarkersView implements Display {
         addButton = new Button("Add");
         hPanel.add(addButton);
         deleteButton = new Button("Delete");
+        deleteButton.setEnabled(false);
         hPanel.add(deleteButton);
         contentTable.setWidget(0, 0, hPanel);
         
@@ -83,15 +84,15 @@ public class MarkersView implements Display {
         return selectedRows;
     }
 
-    public void setData(List<VKMarker> data) {
+    public void setData(List<VKMarker> markers) {
         markersTable.removeAllRows();
         
-        for (int i = 0; i < data.size(); ++i) {
+        for (int i = 0; i < markers.size(); ++i) {
           markersTable.setWidget(i, 0, new CheckBox());
-          markersTable.setText(i, 1, "Marker " + i);
+          markersTable.setText(i, 1, "Marker " + markers.get(i).getId());
         }
 
-        deleteButton.setEnabled(!data.isEmpty());
+        deleteButton.setEnabled(!markers.isEmpty());
       }
     
     

@@ -1,17 +1,17 @@
 package com.davvo.visakarta.client;
 
-import java.awt.FlowLayout;
-
 import com.davvo.visakarta.client.presenter.MapPresenter;
 import com.davvo.visakarta.client.presenter.MapPropertiesPresenter;
 import com.davvo.visakarta.client.presenter.MarkerDetailsPresenter;
 import com.davvo.visakarta.client.presenter.MarkersPresenter;
 import com.davvo.visakarta.client.presenter.Presenter;
+import com.davvo.visakarta.client.presenter.SaveMapPresenter;
 import com.davvo.visakarta.client.presenter.ToolBarPresenter;
 import com.davvo.visakarta.client.view.MapPropertiesView;
 import com.davvo.visakarta.client.view.MapView;
 import com.davvo.visakarta.client.view.MarkerDetailsView;
 import com.davvo.visakarta.client.view.MarkersView;
+import com.davvo.visakarta.client.view.SaveMapView;
 import com.davvo.visakarta.client.view.ToolBarView;
 
 import com.google.gwt.core.client.GWT;
@@ -21,7 +21,6 @@ import com.google.gwt.event.shared.SimpleEventBus;
 import com.google.gwt.user.client.ui.DockLayoutPanel;
 import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.HasWidgets;
-import com.google.gwt.user.client.ui.LayoutPanel;
 import com.google.gwt.user.client.ui.Panel;
 
 public class AppController implements Presenter {
@@ -59,6 +58,8 @@ public class AppController implements Presenter {
         MarkersPresenter markersPresenter = new MarkersPresenter(eventBus, new MarkersView());
         
         MarkerDetailsPresenter markerDetails = new MarkerDetailsPresenter(eventBus, new MarkerDetailsView());
+        
+        SaveMapPresenter saveMap = new SaveMapPresenter(eventBus, rpcService, new SaveMapView());
         
     }
     

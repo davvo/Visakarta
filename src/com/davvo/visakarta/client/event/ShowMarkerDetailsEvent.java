@@ -1,26 +1,19 @@
 package com.davvo.visakarta.client.event;
 
-import com.davvo.visakarta.shared.LatLon;
 import com.google.gwt.event.shared.GwtEvent;
 
 public class ShowMarkerDetailsEvent extends GwtEvent<ShowMarkerDetailsHandler> {
 
     public static Type<ShowMarkerDetailsHandler> TYPE = new Type<ShowMarkerDetailsHandler>();
     
-    int index;
-    LatLon pos;
+    int id;
     
-    public ShowMarkerDetailsEvent(int index, LatLon pos) {
-        this.index = index;
-        this.pos = pos;
+    public ShowMarkerDetailsEvent(int id) {
+        this.id = id;
     }
     
-    public int getIndex() {
-        return index;
-    }
-    
-    public LatLon getPos() {
-        return pos;
+    public int getId() {
+        return id;
     }
     
     @Override

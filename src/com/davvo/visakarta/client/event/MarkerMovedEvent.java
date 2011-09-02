@@ -6,23 +6,23 @@ import com.google.gwt.event.shared.GwtEvent;
 public class MarkerMovedEvent extends GwtEvent<MarkerMovedHandler> {
 
     public static Type<MarkerMovedHandler> TYPE = new Type<MarkerMovedHandler>();
-
-    private int index;
+    
+    private int id;
     private LatLon pos;
     
-    public MarkerMovedEvent(int index, LatLon pos) {
-        this.index = index;
+    public MarkerMovedEvent(int id, LatLon pos) {
+        this.id = id;
         this.pos = pos;
     }
     
-    public int getIndex() {
-        return this.index;
+    public int getId() {
+        return id;
     }
-    
+
     public LatLon getPos() {
-        return this.pos;
+        return pos;
     }
-    
+
     @Override
     public Type<MarkerMovedHandler> getAssociatedType() {
         return TYPE;
@@ -32,5 +32,7 @@ public class MarkerMovedEvent extends GwtEvent<MarkerMovedHandler> {
     protected void dispatch(MarkerMovedHandler handler) {
         handler.onMarkerMoved(this);
     }
+    
+    
     
 }

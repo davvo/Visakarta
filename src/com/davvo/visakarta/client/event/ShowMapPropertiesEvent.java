@@ -2,17 +2,17 @@ package com.davvo.visakarta.client.event;
 
 import com.google.gwt.event.shared.GwtEvent;
 
-public class ShowMapPropertiesEvent extends GwtEvent<MapPropertiesEventHandler> {
+public class ShowMapPropertiesEvent extends GwtEvent<ShowMapPropertiesHandler> {
 
-    public static Type<MapPropertiesEventHandler> TYPE = new Type<MapPropertiesEventHandler>();
+    public static Type<ShowMapPropertiesHandler> TYPE = new Type<ShowMapPropertiesHandler>();
 
     @Override
-    public Type<MapPropertiesEventHandler> getAssociatedType() {
+    public Type<ShowMapPropertiesHandler> getAssociatedType() {
         return TYPE;
     }
 
     @Override
-    protected void dispatch(MapPropertiesEventHandler handler) {
+    protected void dispatch(ShowMapPropertiesHandler handler) {
         handler.onShowMapProperties(this);
     }
 

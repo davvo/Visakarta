@@ -1,20 +1,19 @@
 package com.davvo.visakarta.client.event;
 
-import com.davvo.visakarta.shared.VKMarker;
 import com.google.gwt.event.shared.GwtEvent;
 
 public class MarkerAddedEvent extends GwtEvent<MarkerAddedHandler> {
 
     public static Type<MarkerAddedHandler> TYPE = new Type<MarkerAddedHandler>();
     
-    private VKMarker marker;
+    private int id;
     
-    public MarkerAddedEvent(VKMarker marker) {
-        this.marker = marker;
+    public MarkerAddedEvent(int id) {
+        this.id = id;
     }
     
-    public VKMarker getMarker() {
-        return marker;
+    public int getId() {
+        return id;
     }
     
     @Override

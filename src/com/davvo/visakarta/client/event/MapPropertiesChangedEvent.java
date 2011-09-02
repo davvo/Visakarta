@@ -1,29 +1,18 @@
 package com.davvo.visakarta.client.event;
 
-import com.davvo.visakarta.shared.MapPosition;
 import com.google.gwt.event.shared.GwtEvent;
 
-public class MapPropertiesChangedEvent extends GwtEvent<MapPropertiesEventHandler> {
+public class MapPropertiesChangedEvent extends GwtEvent<MapPropertiesChangedHandler> {
 
-    public static Type<MapPropertiesEventHandler> TYPE = new Type<MapPropertiesEventHandler>();
+    public static Type<MapPropertiesChangedHandler> TYPE = new Type<MapPropertiesChangedHandler>();
     
-    private MapPosition mapPosition;
-    
-    public MapPropertiesChangedEvent(MapPosition mapPosition) {
-        this.mapPosition = mapPosition;
-    }
-
-    public MapPosition getMapPosition() {
-        return mapPosition;
-    }
-
     @Override
-    public Type<MapPropertiesEventHandler> getAssociatedType() {
+    public Type<MapPropertiesChangedHandler> getAssociatedType() {
         return TYPE;
     }
 
     @Override
-    protected void dispatch(MapPropertiesEventHandler handler) {
+    protected void dispatch(MapPropertiesChangedHandler handler) {
         handler.onMapPropertiesChanged(this);
     }
 

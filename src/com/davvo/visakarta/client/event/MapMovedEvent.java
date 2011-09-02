@@ -13,7 +13,7 @@ public class MapMovedEvent extends GwtEvent<MapMovedHandler> {
 
     @Override
     protected void dispatch(MapMovedHandler handler) {
-        handler.onMapMove(this);
+        handler.onMapMoved(this);
     }
 
 }

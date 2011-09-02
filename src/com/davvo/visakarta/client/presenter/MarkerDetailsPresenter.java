@@ -1,11 +1,16 @@
 package com.davvo.visakarta.client.presenter;
 
-import com.davvo.visakarta.client.event.DeleteMarkerEvent;
-import com.davvo.visakarta.client.event.DeleteMarkerHandler;
-import com.davvo.visakarta.client.event.MarkerMovedEvent;
-import com.davvo.visakarta.client.event.MarkerMovedHandler;
+import com.davvo.visakarta.client.event.MarkerDeletedEvent;
+import com.davvo.visakarta.client.event.MarkerDeletedHandler;
+import com.davvo.visakarta.client.event.MarkerUpdatedEvent;
+import com.davvo.visakarta.client.event.MarkerUpdatedHandler;
 import com.davvo.visakarta.client.event.ShowMarkerDetailsEvent;
 import com.davvo.visakarta.client.event.ShowMarkerDetailsHandler;
+import com.davvo.visakarta.shared.LatLon;
+import com.davvo.visakarta.shared.Map;
+import com.davvo.visakarta.shared.VKMarker;
+import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.user.client.ui.HasValue;
@@ -16,7 +21,7 @@ public class MarkerDetailsPresenter {
     private final EventBus eventBus;
     private final Display view;
     
-    private int markerIndex;
+    private VKMarker marker;
     
     public interface Display {
         HasClickHandlers getOkButton();
@@ -36,13 +41,13 @@ public class MarkerDetailsPresenter {
     }
     
     private void bind() {
-        eventBus.addHandler(MarkerMovedEvent.TYPE, new MarkerMovedHandler() {
+        eventBus.addHandler(MarkerUpdatedEvent.TYPE, new MarkerUpdatedHandler() {
             
             @Override
-            public void onMarkerMoved(MarkerMovedEvent event) {
-                if (event.getIndex() == markerIndex) {
-                    view.getLat().setValue(event.getPos().getLat());
-                    view.getLon().setValue(event.getPos().getLon());
+            public void onMarkerUpdated(MarkerUpdatedEvent event) {
+                if (event.getSource() != this && marker != null && event.getId() == marker.getId()) {
+                    view.getLat().setValue(marker.getPos().getLat());
+                    view.getLon().setValue(marker.getPos().getLon());
                 }
                 
             }
@@ -52,30 +57,39 @@ public class MarkerDetailsPresenter {
                         
             @Override
             public void onShowMarkerDetails(ShowMarkerDetailsEvent event) {
-                markerIndex = event.getIndex();
-                view.getLat().setValue(event.getPos().getLat());
-                view.getLon().setValue(event.getPos().getLon());
-                view.setTitle("Marker " + event.getIndex());
+                marker = Map.getInstance().getMarker(event.getId());
+                view.getLat().setValue(marker.getPos().getLat());
+                view.getLon().setValue(marker.getPos().getLon());
+                view.setTitle("Marker " + marker.getId());
                 view.show();
             }
         });
         
-        eventBus.addHandler(DeleteMarkerEvent.TYPE, new DeleteMarkerHandler() {
+        eventBus.addHandler(MarkerDeletedEvent.TYPE, new MarkerDeletedHandler() {
+
+            @Override
+            public void onMarkerDeleted(MarkerDeletedEvent event) {
+                if (marker != null && event.getIds().contains(marker.getId())) {                    
+                    view.hide();
+                }
+            }
+        });
+        
+        view.getOkButton().addClickHandler(new ClickHandler() {
             
             @Override
-            public void onDeleteMarker(DeleteMarkerEvent event) {
-                System.out.println(markerIndex + " ?? " + event.getIndex());
-                if (event.getIndex().contains(markerIndex)) {
-                    view.hide();
-                } else {
-                    int dec = 0;
-                    for (int index: event.getIndex()) {
-                        if (index < markerIndex) {
-                            ++dec;
-                        }
-                    }
-                    markerIndex -= dec;
-                }
+            public void onClick(ClickEvent event) {
+                marker.setPos(new LatLon(view.getLat().getValue(), view.getLon().getValue()));
+                System.out.println(marker.getPos());
+                eventBus.fireEventFromSource(new MarkerUpdatedEvent(marker.getId()), MarkerDetailsPresenter.this);                
+            }
+        });
+        
+        view.getCancelButton().addClickHandler(new ClickHandler() {
+            
+            @Override
+            public void onClick(ClickEvent event) {
+                view.hide();
             }
         });
             

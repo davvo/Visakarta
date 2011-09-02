@@ -1,5 +1,6 @@
 package com.davvo.visakarta.client.presenter;
 
+import com.davvo.visakarta.client.event.SaveMapEvent;
 import com.davvo.visakarta.client.event.ShowMapPropertiesEvent;
 import com.davvo.visakarta.client.event.ShowMarkersEvent;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -22,6 +23,7 @@ public class ToolBarPresenter implements Presenter {
     public interface Display {
         HasClickHandlers getMapPropertiesButton();
         HasClickHandlers getMarkersButton();
+        HasClickHandlers getSaveMapButton();
         Widget asWidget();
     }
     
@@ -49,6 +51,14 @@ public class ToolBarPresenter implements Presenter {
                 eventBus.fireEvent(new ShowMarkersEvent());
             }
             
+        });
+        
+        view.getSaveMapButton().addClickHandler(new ClickHandler() {
+            
+            @Override
+            public void onClick(ClickEvent event) {
+                eventBus.fireEvent(new SaveMapEvent());
+            }
         });
     }
     
