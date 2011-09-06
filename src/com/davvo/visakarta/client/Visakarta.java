@@ -1,8 +1,26 @@
 package com.davvo.visakarta.client;
 
+import com.davvo.visakarta.client.presenter.MapPresenter;
+import com.davvo.visakarta.client.presenter.MapPropertiesPresenter;
+import com.davvo.visakarta.client.presenter.MarkerDetailsPresenter;
+import com.davvo.visakarta.client.presenter.MarkersPresenter;
+import com.davvo.visakarta.client.presenter.Presenter;
+import com.davvo.visakarta.client.presenter.SaveMapPresenter;
+import com.davvo.visakarta.client.presenter.ToolBarPresenter;
+import com.davvo.visakarta.client.view.MapPropertiesView;
+import com.davvo.visakarta.client.view.MapView;
+import com.davvo.visakarta.client.view.MarkerDetailsView;
+import com.davvo.visakarta.client.view.MarkersView;
+import com.davvo.visakarta.client.view.SaveMapView;
+import com.davvo.visakarta.client.view.ToolBarView;
 import com.google.gwt.core.client.EntryPoint;
-
-import com.google.gwt.maps.client.Maps;
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.dom.client.Style.Unit;
+import com.google.gwt.event.shared.EventBus;
+import com.google.gwt.event.shared.SimpleEventBus;
+import com.google.gwt.user.client.ui.DockLayoutPanel;
+import com.google.gwt.user.client.ui.FlowPanel;
+import com.google.gwt.user.client.ui.Panel;
 import com.google.gwt.user.client.ui.RootLayoutPanel;
 
 /**
@@ -10,26 +28,36 @@ import com.google.gwt.user.client.ui.RootLayoutPanel;
  */
 public class Visakarta implements EntryPoint {
 
+    private final EventBus eventBus = new SimpleEventBus();
+    private final MapServiceAsync rpcService = GWT.create(MapService.class);
+    
     /**
      * This is the entry point method.
      */
     public void onModuleLoad() {
+        final DockLayoutPanel dock = new DockLayoutPanel(Unit.PX);
+        
+        final Panel toolBarPanel = new FlowPanel();
+        dock.addSouth(toolBarPanel, 50);
+        
+        final Panel mapPanel = new FlowPanel();
+        dock.add(mapPanel);
+                
+        Presenter toolBarPresenter = new ToolBarPresenter(eventBus, new ToolBarView());
+        toolBarPresenter.go(toolBarPanel);
+        
+        Presenter mapPresenter = new MapPresenter(eventBus, new MapView());
+        mapPresenter.go(mapPanel);
+        
+        MapPropertiesPresenter mapProperties = new MapPropertiesPresenter(eventBus, new MapPropertiesView());
+        
+        MarkersPresenter markersPresenter = new MarkersPresenter(eventBus, new MarkersView());
+        
+        MarkerDetailsPresenter markerDetails = new MarkerDetailsPresenter(eventBus, new MarkerDetailsView());
+        
+        SaveMapPresenter saveMap = new SaveMapPresenter(eventBus, rpcService, new SaveMapView());
 
-        /*
-         * Asynchronously loads the Maps API.
-         *
-         * The first parameter should be a valid Maps API Key to deploy this
-         * application on a public server, but a blank key will work for an
-         * application served from localhost.
-        */
-        //visakartax.appspot.com ABQIAAAAtE-iz7xe0FQqTquUcmRbARTor9EtsGlcEecBjx5knaQG5AyvJhS8wd2TSZ_pUOyIFWgWYvbt5nPX-A
-        //120.0.0.1 ABQIAAAAtE-iz7xe0FQqTquUcmRbARTb-vLQlFZmc2N8bgWI8YDPp5FEVBTkEv3ldnxgoeD4HyxOm6y383Ut4g
-        Maps.loadMapsApi("ABQIAAAAtE-iz7xe0FQqTquUcmRbARTor9EtsGlcEecBjx5knaQG5AyvJhS8wd2TSZ_pUOyIFWgWYvbt5nPX-A", "2", false, new Runnable() {
-           public void run() {
-               AppController appViewer = new AppController();
-               appViewer.go(RootLayoutPanel.get());
-           }
-         });
+        RootLayoutPanel.get().add(dock);
         
     }
             

@@ -27,6 +27,14 @@
     };
     var map = new google.maps.Map(document.getElementById("map_canvas"),
         myOptions);
+        
+    <#list map.markers as marker>
+      var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(${marker.pos.lat},${marker.pos.lon}), 
+          map: map 
+      });   
+    </#list>        
+        
   }
 
 </script>

@@ -4,7 +4,8 @@ public enum MapType {
 
     NORMAL("Normal"), 
     SATELLITE("Satellite"), 
-    HYBRID("Hybrid");
+    HYBRID("Hybrid"),
+    TERRAIN("Terrain");
     
     private String name;
     

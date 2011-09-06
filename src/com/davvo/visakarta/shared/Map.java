@@ -3,7 +3,7 @@ package com.davvo.visakarta.shared;
 import java.io.Serializable;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Arrays;
 import java.util.List;
 
 import javax.jdo.annotations.PersistenceCapable;
@@ -34,12 +34,12 @@ public class Map implements Serializable {
 
     @Persistent
     private MapType mapType = MapType.NORMAL;
-    
-    @Persistent
-    private NavControl navControl = NavControl.LARGE_3D;
-    
-    @Persistent
-    private List<MapControl> mapControls = Collections.singletonList(MapControl.MAP_TYPE);
+        
+    @Serialized
+    private List<MapControl> controls = Arrays.asList(
+        MapControl.MAP_TYPE,
+        MapControl.NAVIGATION        
+    );
     
     public String getId() {
         return id;
@@ -102,6 +102,14 @@ public class Map implements Serializable {
         return ids;
     }
     
+    public void setControls(List<MapControl> controls) {
+        this.controls = controls;
+    }
+    
+    public List<MapControl> getControls() {
+        return controls;
+    }
+    
     public String toString() {
         return "Map(" + id + ") @ " + center;        
     }
@@ -119,29 +127,6 @@ public class Map implements Serializable {
 
     public MapType getMapType() {
         return mapType;
-    }
-
-    public void setNavControl(NavControl navControl) {
-        this.navControl = navControl;
-    }
-
-    public NavControl getNavControl() {
-        return navControl;
-    }
-
-    public void setMapControls(List<MapControl> mapControls) {
-        this.mapControls = mapControls;
-    }
-
-    public List<MapControl> getMapControls() {
-        return mapControls;
-    }
-    
-    public void addMapControl(MapControl mapControl) {
-        if (mapControls == null) {
-            mapControls = new ArrayList<MapControl>();
-        }
-        mapControls.add(mapControl);
     }
     
 }

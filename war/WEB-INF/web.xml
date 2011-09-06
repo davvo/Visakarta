@@ -4,26 +4,44 @@
     "http://java.sun.com/dtd/web-app_2_3.dtd">
 
 <web-app>
-  
-  <!-- Servlets -->
-  <servlet>
-    <servlet-name>MapService</servlet-name>
-    <servlet-class>com.davvo.visakarta.server.DatastoreMapServiceImpl</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>MapService</servlet-name>
-    <url-pattern>/visakarta/mapserv</url-pattern>
-  </servlet-mapping>
-  
-  <servlet-mapping>
-    <servlet-name>MapService</servlet-name>
-    <url-pattern>/showmap/mapserv</url-pattern>
-  </servlet-mapping>
-  
-  <!-- Default page to serve -->
-  <welcome-file-list>
-    <welcome-file>Visakarta.html</welcome-file>
-  </welcome-file-list>
+
+	<!-- Servlets -->
+	<servlet>
+		<servlet-name>MapService</servlet-name>
+		<servlet-class>com.davvo.visakarta.server.JDOMapServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MapService</servlet-name>
+		<url-pattern>/visakarta/mapserv</url-pattern>
+	</servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowMap</servlet-name>
+        <servlet-class>com.davvo.visakarta.ShowMap</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShowMap</servlet-name>
+        <url-pattern>/show/*</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>UrlRewriteFilter</filter-name>
+        <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+        <init-param>
+            <param-name>logLevel</param-name>
+            <param-value>WARN</param-value>
+        </init-param>
+    </filter>
+    
+    <filter-mapping>
+        <filter-name>UrlRewriteFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>visakarta.html</welcome-file>
+	</welcome-file-list>
 
 </web-app>

@@ -2,18 +2,21 @@ package com.davvo.visakarta.shared;
 
 public enum MapControl {
 
-    MAP_TYPE("Map type"),
-    OVERVIEW("Overview"),
-    SCALE("Scale");
+    //ZOOM("Zoom"),
+    NAVIGATION("Navigation"),
+    MAP_TYPE("Map type");
+    //SCALE("Scale"),
+    //STREETVIEW("Streetview"),
+    //OVERVIEW_MAP("Overview map");
     
-    private String name;
+    String label;
     
-    MapControl(String name) {
-        this.name = name;
+    MapControl(String label) {
+        this.label = label;
     }
     
-    public String toString() {
-        return this.name;
+    public String getLabel() {
+        return label;
     }
     
 }

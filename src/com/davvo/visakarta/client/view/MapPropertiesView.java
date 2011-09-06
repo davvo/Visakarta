@@ -1,6 +1,7 @@
 package com.davvo.visakarta.client.view;
 
 import java.util.ArrayList;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,7 +24,6 @@ import com.google.gwt.user.client.ui.Widget;
 
 import com.davvo.visakarta.client.presenter.MapPropertiesPresenter;
 import com.davvo.visakarta.shared.MapControl;
-import com.davvo.visakarta.shared.NavControl;
 import com.davvo.visakarta.shared.MapType;
 
 public class MapPropertiesView implements MapPropertiesPresenter.Display {
@@ -38,9 +38,8 @@ public class MapPropertiesView implements MapPropertiesPresenter.Display {
     private DoubleBox lonBox;    
     private ListBox zoomBox;
     
-    private Map<MapType, RadioButton> mapTypeButtons = new HashMap<MapType, RadioButton>();
-    private Map<NavControl, RadioButton> navControlButtons = new HashMap<NavControl, RadioButton>();
-    private Map<MapControl, CheckBox> mapControlButtons = new HashMap<MapControl, CheckBox>();
+    private Map<MapType, RadioButton> mapTypes = new HashMap<MapType, RadioButton>();
+    private Map<MapControl, CheckBox> controls = new HashMap<MapControl, CheckBox>();
     
     public MapPropertiesView() {
         Panel contents = new VerticalPanel();
@@ -70,33 +69,24 @@ public class MapPropertiesView implements MapPropertiesPresenter.Display {
         Panel mapTypePanel = new FlowPanel();
         for (MapType mapType: MapType.values()) {
             RadioButton rb = new RadioButton("mapType", mapType.toString());
-            mapTypeButtons.put(mapType, rb);
+            mapTypes.put(mapType, rb);
             mapTypePanel.add(rb);
         }
         
         contents.add(new Label("Map type"));
         contents.add(mapTypePanel);
         
-        Panel navControlPanel = new FlowPanel();
-        for (NavControl control: NavControl.values()) {
-            RadioButton rb = new RadioButton("navControl", control.toString());
-            navControlButtons.put(control, rb);
-            navControlPanel.add(rb);
-        }
-        
-        contents.add(new Label("Navigation"));
-        contents.add(navControlPanel);
-        
-        Panel mapControlPanel = new FlowPanel();
+        Panel controlPanel = new FlowPanel();
+
         for (MapControl control: MapControl.values()) {
-            CheckBox cb = new CheckBox(control.toString());
-            mapControlButtons.put(control, cb);
-            mapControlPanel.add(cb);
+            CheckBox cb = new CheckBox(control.getLabel());
+            controls.put(control, cb);
+            controlPanel.add(cb);
         }
         
         contents.add(new Label("Controls"));
-        contents.add(mapControlPanel);
-        
+        contents.add(controlPanel);
+                
         Panel buttonPanel = new HorizontalPanel();
         saveButton = new Button("Apply");
         buttonPanel.add(saveButton);
@@ -162,7 +152,7 @@ public class MapPropertiesView implements MapPropertiesPresenter.Display {
 
     @Override
     public MapType getMapType() {
-        for (Map.Entry<MapType, RadioButton> e: mapTypeButtons.entrySet()) {
+        for (Map.Entry<MapType, RadioButton> e: mapTypes.entrySet()) {
             if (e.getValue().getValue()) {
                 return e.getKey();
             }
@@ -172,28 +162,13 @@ public class MapPropertiesView implements MapPropertiesPresenter.Display {
 
     @Override
     public void setMapType(MapType mapType) {
-        mapTypeButtons.get(mapType).setValue(true);
+        mapTypes.get(mapType).setValue(true);
     }
     
     @Override
-    public NavControl getNavControl() {
-        for (Map.Entry<NavControl, RadioButton> e: navControlButtons.entrySet()) {
-            if (e.getValue().getValue()) {
-                return e.getKey();
-            }
-        }
-        return NavControl.NONE;
-    }
-
-    @Override
-    public void setNavControl(NavControl navControl) {
-        navControlButtons.get(navControl).setValue(true);
-    }
-
-    @Override
-    public List<MapControl> getMapControls() {
+    public List<MapControl> getControls() {
         List<MapControl> mapControls = new ArrayList<MapControl>();
-        for (Map.Entry<MapControl, CheckBox> e: mapControlButtons.entrySet()) {
+        for (Map.Entry<MapControl, CheckBox> e: controls.entrySet()) {
             if (e.getValue().getValue()) {
                 mapControls.add(e.getKey());
             }
@@ -202,8 +177,8 @@ public class MapPropertiesView implements MapPropertiesPresenter.Display {
     }
 
     @Override
-    public void setMapControls(List<MapControl> mapControls) {
-        for (Map.Entry<MapControl, CheckBox> e: mapControlButtons.entrySet()) {
+    public void setControls(List<MapControl> mapControls) {
+        for (Map.Entry<MapControl, CheckBox> e: controls.entrySet()) {
             e.getValue().setValue(mapControls.contains(e.getKey()));
         }
     }

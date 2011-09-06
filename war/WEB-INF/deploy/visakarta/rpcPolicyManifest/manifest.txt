@@ -1,2 +1,3 @@
 # Module visakarta
 # RPC service class, partial path of RPC policy file
+com.davvo.visakarta.client.MapService, 7DA58B777AEFA70DFC849600C5A2CE6A.gwt.rpc

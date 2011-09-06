@@ -10,7 +10,6 @@ import com.davvo.visakarta.shared.LatLon;
 import com.davvo.visakarta.shared.Map;
 import com.davvo.visakarta.shared.MapControl;
 import com.davvo.visakarta.shared.MapType;
-import com.davvo.visakarta.shared.NavControl;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
@@ -29,14 +28,13 @@ public class MapPropertiesPresenter  {
         HasValue<String> getTitle();
         HasValue<Double> getLat();
         HasValue<Double> getLon();
+        List<MapControl> getControls();
+        void setControls(List<MapControl> controls);
+        
         int getZoom();
         void setZoom(int zoom);
         MapType getMapType();
         void setMapType(MapType mapType);
-        NavControl getNavControl();
-        void setNavControl(NavControl navControl);
-        List<MapControl> getMapControls();
-        void setMapControls(List<MapControl> mapControls);
         void show();
         void hide();
         Widget asWidget();
@@ -72,13 +70,7 @@ public class MapPropertiesPresenter  {
             
             @Override
             public void onClick(ClickEvent event) {
-                LatLon center = new LatLon(view.getLat().getValue(), view.getLon().getValue());
-                Map.getInstance().setCenter(center);
-                Map.getInstance().setZoom(view.getZoom());
-                Map.getInstance().setTitle(view.getTitle().getValue());
-                Map.getInstance().setMapType(view.getMapType());
-                Map.getInstance().setNavControl(view.getNavControl());
-                Map.getInstance().setMapControls(view.getMapControls());
+                populateMap();
                 eventBus.fireEventFromSource(new MapPropertiesChangedEvent(), MapPropertiesPresenter.this);
             }            
         });
@@ -92,14 +84,23 @@ public class MapPropertiesPresenter  {
         });
         
     }
+
+    private void populateMap() {
+        Map map = Map.getInstance();
+        map.setCenter(new LatLon(view.getLat().getValue(), view.getLon().getValue()));
+        map.setZoom(view.getZoom());
+        map.setTitle(view.getTitle().getValue());
+        map.setMapType(view.getMapType());
+        map.setControls(view.getControls());
+    }
     
     private void populateView() {
-        view.getLat().setValue(Map.getInstance().getCenter().getLat());
-        view.getLon().setValue(Map.getInstance().getCenter().getLon());
-        view.setZoom(Map.getInstance().getZoom());
-        view.setMapType(Map.getInstance().getMapType());
-        view.setNavControl(Map.getInstance().getNavControl());
-        view.setMapControls(Map.getInstance().getMapControls());
+        Map map = Map.getInstance();
+        view.getLat().setValue(map.getCenter().getLat());
+        view.getLon().setValue(map.getCenter().getLon());
+        view.setZoom(map.getZoom());
+        view.setMapType(map.getMapType());
+        view.setControls(map.getControls());
     }
             
 }

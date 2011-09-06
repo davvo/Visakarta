@@ -1,6 +1,7 @@
 package com.davvo.visakarta.client.presenter;
 
 import java.util.List;
+
 import com.davvo.visakarta.client.event.HasMapHandlers;
 import com.davvo.visakarta.client.event.MapTypeChangedHandler;
 import com.davvo.visakarta.client.event.MarkerAddedEvent;
@@ -21,7 +22,6 @@ import com.davvo.visakarta.shared.LatLon;
 import com.davvo.visakarta.shared.Map;
 import com.davvo.visakarta.shared.MapControl;
 import com.davvo.visakarta.shared.MapType;
-import com.davvo.visakarta.shared.NavControl;
 import com.davvo.visakarta.shared.VKMarker;
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.user.client.ui.HasWidgets;
@@ -34,19 +34,17 @@ public class MapPresenter implements Presenter {
     
     public interface Display {
         LatLon getCenter();
-        void setCenter(LatLon center, int zoom);
+        void setCenter(LatLon center);
         int getZoom();
         void setZoom(int zoom);
         HasMapHandlers getMapHandler();
         void addMarker(VKMarker marker);
         void updateMarker(VKMarker marker);
         void deleteMarkers(List<Integer> index);
-        void setMapType(MapType mapType);
+        void setMapType(MapType mapType);        
         MapType getMapType();
-        void setNavControl(NavControl navControl);
-        NavControl getNavControl();
-        void setMapControls(List<MapControl> mapControls);
-        List<MapControl> getMapControls();
+        void setControls(List<MapControl> controls);
+        List<MapControl> getControls();
         Widget asWidget();   
     }
     
@@ -70,18 +68,12 @@ public class MapPresenter implements Presenter {
             @Override
             public void onMapPropertiesChanged(MapPropertiesChangedEvent event) {                
                 if (event.getSource() != MapPresenter.this) {
-                    view.setCenter(Map.getInstance().getCenter(), Map.getInstance().getZoom());
-                    view.setMapType(Map.getInstance().getMapType());
-                    view.setNavControl(Map.getInstance().getNavControl());
-                    view.setMapControls(Map.getInstance().getMapControls());
+                    populateView();
                 }
             }
 
         });
                 
-        /**
-         * 
-         */
         eventBus.addHandler(MarkerAddedEvent.TYPE, new MarkerAddedHandler() {
             
             @Override
@@ -124,7 +116,7 @@ public class MapPresenter implements Presenter {
             @Override
             public void onMapTypeChanged(MapTypeChangedEvent event) {
                 Map.getInstance().setMapType(view.getMapType());
-                eventBus.fireEvent(new MapPropertiesChangedEvent());
+                eventBus.fireEventFromSource(new MapPropertiesChangedEvent(), MapPresenter.this);
             }
             
         });
@@ -149,10 +141,10 @@ public class MapPresenter implements Presenter {
     }
 
     private void populateView() {
-        view.setCenter(Map.getInstance().getCenter(), Map.getInstance().getZoom());
+        view.setCenter(Map.getInstance().getCenter());
+        view.setZoom(Map.getInstance().getZoom());        
         view.setMapType(Map.getInstance().getMapType());
-        view.setNavControl(Map.getInstance().getNavControl());
-        view.setMapControls(Map.getInstance().getMapControls());
+        view.setControls(Map.getInstance().getControls());
     }
     
 }

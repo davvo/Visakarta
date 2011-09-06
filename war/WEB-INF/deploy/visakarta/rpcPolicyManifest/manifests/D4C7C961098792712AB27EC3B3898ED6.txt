@@ -1,0 +1,2 @@
+serviceClass: com.davvo.visakarta.client.MapService
+path: 7DA58B777AEFA70DFC849600C5A2CE6A.gwt.rpc
