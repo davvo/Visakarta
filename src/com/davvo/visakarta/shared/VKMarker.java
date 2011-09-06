@@ -1,12 +1,19 @@
 package com.davvo.visakarta.shared;
 
-public class VKMarker {
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class VKMarker implements Serializable {
 
     private static int nextId = 0;
     
     private int id;
     private LatLon pos;
 
+    public VKMarker() {
+        this(new LatLon(0, 0));
+    }
+    
     public VKMarker(LatLon pos) {
         this.id = nextId++;
         this.pos = pos;

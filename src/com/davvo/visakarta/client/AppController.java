@@ -27,7 +27,6 @@ public class AppController implements Presenter {
 
     private final EventBus eventBus = new SimpleEventBus();
     private final MapServiceAsync rpcService = GWT.create(MapService.class);
-    private HasWidgets container;
 
     public AppController() {
         bind();
@@ -35,8 +34,7 @@ public class AppController implements Presenter {
 
     @Override
     public void go(HasWidgets container) {
-        this.container = container;
-        
+
         final DockLayoutPanel dock = new DockLayoutPanel(Unit.PX);
         
         final Panel toolBarPanel = new FlowPanel();

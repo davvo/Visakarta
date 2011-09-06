@@ -21,7 +21,7 @@ public class JDOMapServiceImpl extends RemoteServiceServlet implements MapServic
                 throw new DuplicateMapException(map.getId());
             }
             
-            pm.makePersistent(map);            
+            pm.makePersistent(map);
             
         } finally {
 
@@ -38,7 +38,9 @@ public class JDOMapServiceImpl extends RemoteServiceServlet implements MapServic
         PersistenceManager pm = PMF.get().getPersistenceManager();
 
         try {
-            return pm.getObjectById(Map.class, id);
+            Map map = pm.getObjectById(Map.class, id);
+            map.getMarkers();
+            return pm.detachCopy(map);
         } catch (Exception x) {
             throw new UnknownMapException(id);
         } finally {

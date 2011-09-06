@@ -23,6 +23,7 @@ public class MarkersPresenter {
     public interface Display {
         HasClickHandlers getAddButton();
         HasClickHandlers getDeleteButton();
+        HasClickHandlers getCloseButton();
         List<Integer> getSelectedRows();
         HasClickHandlers getList();
         int getClickedRow(ClickEvent event);      
@@ -79,6 +80,14 @@ public class MarkersPresenter {
                     Map.getInstance().getMarkers().removeAll(Map.getInstance().getMarkersAtIndex(index));
                     view.setData(Map.getInstance().getMarkers());
                 }
+            }
+        });
+        
+        view.getCloseButton().addClickHandler(new ClickHandler() {
+            
+            @Override
+            public void onClick(ClickEvent event) {
+                view.hide();
             }
         });
         

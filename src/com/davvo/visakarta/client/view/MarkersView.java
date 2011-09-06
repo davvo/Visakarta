@@ -22,7 +22,9 @@ public class MarkersView implements Display {
     private DialogBox dialogBox;
 
     private Button addButton;
-    private Button deleteButton;    
+    private Button deleteButton;
+    private Button closeButton;
+    
     private FlexTable markersTable;
     private final FlexTable contentTable;
     
@@ -39,11 +41,18 @@ public class MarkersView implements Display {
         hPanel.setBorderWidth(0);
         hPanel.setSpacing(0);
         hPanel.setHorizontalAlignment(HorizontalPanel.ALIGN_LEFT);
+
         addButton = new Button("Add");
-        hPanel.add(addButton);
+        
         deleteButton = new Button("Delete");
         deleteButton.setEnabled(false);
+        
+        closeButton = new Button("Close");
+        
+        hPanel.add(addButton);
         hPanel.add(deleteButton);
+        hPanel.add(closeButton);
+        
         contentTable.setWidget(0, 0, hPanel);
         
         // Create the contacts list
@@ -70,6 +79,11 @@ public class MarkersView implements Display {
         return deleteButton;
     }
 
+    @Override
+    public HasClickHandlers getCloseButton() {
+        return closeButton;
+    }
+    
     @Override
     public List<Integer> getSelectedRows() {
         List<Integer> selectedRows = new ArrayList<Integer>();

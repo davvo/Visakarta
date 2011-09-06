@@ -1,18 +1,18 @@
 package com.davvo.visakarta.client.presenter;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import com.davvo.visakarta.client.MapServiceAsync;
 import com.davvo.visakarta.client.event.SaveMapEvent;
 import com.davvo.visakarta.client.event.SaveMapHandler;
+import com.davvo.visakarta.shared.Map;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.logical.shared.ValueChangeEvent;
 import com.google.gwt.event.logical.shared.ValueChangeHandler;
 import com.google.gwt.event.shared.EventBus;
+import com.google.gwt.regexp.shared.RegExp;
 import com.google.gwt.user.client.Timer;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasValue;
 
@@ -25,7 +25,7 @@ public class SaveMapPresenter {
     private Timer checkURLTimer;
     private Timer checkEmailTimer;
     
-    private Pattern emailPattern = Pattern.compile("^.+@.+\\.[a-zA-Z]{2,4}$");
+    private RegExp emailPattern = RegExp.compile("^.+@.+\\.[a-zA-Z]{2,4}$");
     
     public interface Display {
         HasValue<String> getMapTitle();
@@ -89,8 +89,23 @@ public class SaveMapPresenter {
     
     private void checkEmail() {
         String email = view.getEmail().getValue().trim();
-        Matcher m = emailPattern.matcher(email);
-        view.setEmailOK(email.length() == 0 || m.matches());
+        view.setEmailOK(email.length() == 0 || emailPattern.test(email));
+    }
+    
+    private void getMap() {
+        rpcService.load(Map.getInstance().getId(), new AsyncCallback<Map>() {
+            
+            @Override
+            public void onSuccess(Map result) {
+                System.out.println(result.getMarkers().size());                
+            }
+            
+            @Override
+            public void onFailure(Throwable caught) {
+                System.err.println("blŠŠ");
+                
+            }
+        });
     }
     
     private void bind() {
@@ -99,6 +114,29 @@ public class SaveMapPresenter {
             @Override
             public void onSaveMap(SaveMapEvent event) {
                 view.showMe();
+            }
+        });
+        
+        view.getSaveButton().addClickHandler(new ClickHandler() {
+            
+            @Override
+            public void onClick(ClickEvent event) {
+                populateMap();
+                rpcService.save(Map.getInstance(), new AsyncCallback<String>() {
+                    
+                    @Override
+                    public void onSuccess(String result) {
+                        Window.alert("Successfully saved map :-)");
+                        
+                        SaveMapPresenter.this.getMap();
+                        
+                    }
+                    
+                    @Override
+                    public void onFailure(Throwable caught) {
+                        Window.alert("Unable to save map :-(");
+                    }
+                });
             }
         });
         
@@ -129,5 +167,8 @@ public class SaveMapPresenter {
         });
     }
     
-    
+    private void populateMap() {
+        Map.getInstance().setTitle(view.getMapTitle().getValue());
+        Map.getInstance().setId(view.getMapURL().getValue());
+    }
 }

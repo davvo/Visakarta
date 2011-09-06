@@ -1,11 +1,16 @@
 package com.davvo.visakarta.client.presenter;
 
+import java.util.List;
+
 import com.davvo.visakarta.client.event.MapPropertiesChangedEvent;
 import com.davvo.visakarta.client.event.MapPropertiesChangedHandler;
 import com.davvo.visakarta.client.event.ShowMapPropertiesEvent;
 import com.davvo.visakarta.client.event.ShowMapPropertiesHandler;
 import com.davvo.visakarta.shared.LatLon;
 import com.davvo.visakarta.shared.Map;
+import com.davvo.visakarta.shared.MapControl;
+import com.davvo.visakarta.shared.MapType;
+import com.davvo.visakarta.shared.NavControl;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
@@ -26,6 +31,12 @@ public class MapPropertiesPresenter  {
         HasValue<Double> getLon();
         int getZoom();
         void setZoom(int zoom);
+        MapType getMapType();
+        void setMapType(MapType mapType);
+        NavControl getNavControl();
+        void setNavControl(NavControl navControl);
+        List<MapControl> getMapControls();
+        void setMapControls(List<MapControl> mapControls);
         void show();
         void hide();
         Widget asWidget();
@@ -43,9 +54,7 @@ public class MapPropertiesPresenter  {
             @Override
             public void onMapPropertiesChanged(MapPropertiesChangedEvent event) {
                 if (event.getSource() != MapPropertiesPresenter.this) {
-                    view.getLat().setValue(Map.getInstance().getCenter().getLat());
-                    view.getLon().setValue(Map.getInstance().getCenter().getLon());
-                    view.setZoom(Map.getInstance().getZoom());
+                    populateView();
                 }
             }        
         });
@@ -54,9 +63,7 @@ public class MapPropertiesPresenter  {
             
             @Override
             public void onShowMapProperties(ShowMapPropertiesEvent event) {
-                view.getLat().setValue(Map.getInstance().getCenter().getLat());
-                view.getLon().setValue(Map.getInstance().getCenter().getLon());
-                view.setZoom(Map.getInstance().getZoom());
+                populateView();
                 view.show();
             }
         });
@@ -69,6 +76,9 @@ public class MapPropertiesPresenter  {
                 Map.getInstance().setCenter(center);
                 Map.getInstance().setZoom(view.getZoom());
                 Map.getInstance().setTitle(view.getTitle().getValue());
+                Map.getInstance().setMapType(view.getMapType());
+                Map.getInstance().setNavControl(view.getNavControl());
+                Map.getInstance().setMapControls(view.getMapControls());
                 eventBus.fireEventFromSource(new MapPropertiesChangedEvent(), MapPropertiesPresenter.this);
             }            
         });
@@ -81,6 +91,15 @@ public class MapPropertiesPresenter  {
             }
         });
         
+    }
+    
+    private void populateView() {
+        view.getLat().setValue(Map.getInstance().getCenter().getLat());
+        view.getLon().setValue(Map.getInstance().getCenter().getLon());
+        view.setZoom(Map.getInstance().getZoom());
+        view.setMapType(Map.getInstance().getMapType());
+        view.setNavControl(Map.getInstance().getNavControl());
+        view.setMapControls(Map.getInstance().getMapControls());
     }
             
 }

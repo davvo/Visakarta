@@ -2,8 +2,6 @@ package com.davvo.visakarta.shared;
 
 import java.io.Serializable;
 
-import com.google.gwt.i18n.client.NumberFormat;
-
 @SuppressWarnings("serial")
 public class LatLon implements Serializable {
 
@@ -12,6 +10,7 @@ public class LatLon implements Serializable {
     private double lon;
     
     public LatLon() {
+        
     }
     
     public LatLon(double lat, double lon) {
@@ -33,13 +32,6 @@ public class LatLon implements Serializable {
     
     public void setLon(double lon) {
         this.lon = lon;
-    }
-    
-    public String toString() {
-        return new StringBuilder()
-        .append("(").append(NumberFormat.getDecimalFormat().format(lat))
-        .append(" ").append(NumberFormat.getDecimalFormat().format(lon))
-        .append(")").toString();
     }
     
     public boolean equals(LatLon pos) {

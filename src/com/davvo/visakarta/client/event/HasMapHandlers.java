@@ -9,4 +9,8 @@ public interface HasMapHandlers extends HasHandlers {
     
     public HandlerRegistration addMarkerMovedHandler(MarkerMovedHandler handler);
     
+    public HandlerRegistration addMarkerClickedHandler(MarkerClickedHandler handler);
+    
+    public HandlerRegistration addMapTypeChanged(MapTypeChangedHandler handler);
+        
 }

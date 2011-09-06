@@ -1,8 +1,11 @@
 package com.davvo.visakarta.server;
 
 import com.davvo.visakarta.client.MapService;
+
 import com.davvo.visakarta.shared.LatLon;
 import com.davvo.visakarta.shared.Map;
+import com.davvo.visakarta.shared.MapType;
+import com.davvo.visakarta.shared.NavControl;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -23,6 +26,8 @@ public class DatastoreMapServiceImpl extends RemoteServiceServlet implements Map
         Entity mapEntity = new Entity("Map", map.getId());
         mapEntity.setProperty("title", map.getTitle());
         mapEntity.setProperty("center", new GeoPt((float) map.getCenter().getLat(), (float) map.getCenter().getLon()));
+        mapEntity.setProperty("mapType", map.getMapType());
+        mapEntity.setProperty("navControl", map.getNavControl());
         
         datastore.put(mapEntity);
         
@@ -42,10 +47,12 @@ public class DatastoreMapServiceImpl extends RemoteServiceServlet implements Map
             Map map = new Map();
             map.setId(id);
             
+            map.setTitle((String) mapEntity.getProperty("title")); 
             GeoPt geoPt = (GeoPt) mapEntity.getProperty("center");            
             map.setCenter(new LatLon(geoPt.getLatitude(), geoPt.getLongitude()));
+            map.setMapType((MapType) mapEntity.getProperty("mapType"));
+            map.setNavControl((NavControl) mapEntity.getProperty("navControl")); 
             
-            map.setTitle((String) mapEntity.getProperty("title")); 
             
             return map;
             

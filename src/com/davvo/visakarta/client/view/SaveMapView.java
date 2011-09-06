@@ -5,6 +5,7 @@ import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.dom.client.KeyUpEvent;
 import com.google.gwt.event.dom.client.KeyUpHandler;
 import com.google.gwt.event.logical.shared.ValueChangeEvent;
+import com.google.gwt.event.logical.shared.ValueChangeHandler;
 import com.google.gwt.user.client.ui.DialogBox;
 import com.google.gwt.user.client.ui.HasValue;
 import com.google.gwt.user.client.ui.VerticalPanel;
@@ -54,7 +55,17 @@ public class SaveMapView extends DialogBox implements Display {
         verticalPanel.add(urlTextBox);
         urlTextBox.setWidth("200px");
         
-        urlDisplayLabel = new Label("http://www.visakarta.se/" + urlTextBox.getValue());
+        urlTextBox.addValueChangeHandler(new ValueChangeHandler<String>() {
+            
+            @Override
+            public void onValueChange(ValueChangeEvent<String> event) {
+                urlDisplayLabel.setText("www.visakarta.se/" + urlTextBox.getValue());
+                
+            }
+            
+        });
+        
+        urlDisplayLabel = new Label("www.visakarta.se/" + urlTextBox.getValue());
         verticalPanel.add(urlDisplayLabel);
         
         HorizontalPanel horizontalPanel = new HorizontalPanel();

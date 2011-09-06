@@ -1,22 +1,27 @@
 package com.davvo.visakarta.client.presenter;
 
 import java.util.List;
-
 import com.davvo.visakarta.client.event.HasMapHandlers;
+import com.davvo.visakarta.client.event.MapTypeChangedHandler;
 import com.davvo.visakarta.client.event.MarkerAddedEvent;
 import com.davvo.visakarta.client.event.MarkerAddedHandler;
+import com.davvo.visakarta.client.event.MarkerClickedEvent;
+import com.davvo.visakarta.client.event.MarkerClickedHandler;
 import com.davvo.visakarta.client.event.MarkerDeletedEvent;
 import com.davvo.visakarta.client.event.MarkerDeletedHandler;
 import com.davvo.visakarta.client.event.MarkerMovedEvent;
 import com.davvo.visakarta.client.event.MarkerMovedHandler;
 import com.davvo.visakarta.client.event.MarkerUpdatedEvent;
-import com.davvo.visakarta.client.event.MapMovedEvent;
 import com.davvo.visakarta.client.event.MapMovedHandler;
 import com.davvo.visakarta.client.event.MapPropertiesChangedEvent;
 import com.davvo.visakarta.client.event.MapPropertiesChangedHandler;
 import com.davvo.visakarta.client.event.MarkerUpdatedHandler;
+import com.davvo.visakarta.client.event.ShowMarkerDetailsEvent;
 import com.davvo.visakarta.shared.LatLon;
 import com.davvo.visakarta.shared.Map;
+import com.davvo.visakarta.shared.MapControl;
+import com.davvo.visakarta.shared.MapType;
+import com.davvo.visakarta.shared.NavControl;
 import com.davvo.visakarta.shared.VKMarker;
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.user.client.ui.HasWidgets;
@@ -35,13 +40,20 @@ public class MapPresenter implements Presenter {
         HasMapHandlers getMapHandler();
         void addMarker(VKMarker marker);
         void updateMarker(VKMarker marker);
-        void deleteMarkers(List<Integer> index); 
+        void deleteMarkers(List<Integer> index);
+        void setMapType(MapType mapType);
+        MapType getMapType();
+        void setNavControl(NavControl navControl);
+        NavControl getNavControl();
+        void setMapControls(List<MapControl> mapControls);
+        List<MapControl> getMapControls();
         Widget asWidget();   
     }
     
     public MapPresenter(EventBus eventBus, Display view) {
         this.eventBus = eventBus;
         this.view = view;
+        populateView();
     }
     
     @Override
@@ -59,6 +71,9 @@ public class MapPresenter implements Presenter {
             public void onMapPropertiesChanged(MapPropertiesChangedEvent event) {                
                 if (event.getSource() != MapPresenter.this) {
                     view.setCenter(Map.getInstance().getCenter(), Map.getInstance().getZoom());
+                    view.setMapType(Map.getInstance().getMapType());
+                    view.setNavControl(Map.getInstance().getNavControl());
+                    view.setMapControls(Map.getInstance().getMapControls());
                 }
             }
 
@@ -104,6 +119,16 @@ public class MapPresenter implements Presenter {
             }            
         });
         
+        view.getMapHandler().addMapTypeChanged(new MapTypeChangedHandler() {
+
+            @Override
+            public void onMapTypeChanged(MapTypeChangedEvent event) {
+                Map.getInstance().setMapType(view.getMapType());
+                eventBus.fireEvent(new MapPropertiesChangedEvent());
+            }
+            
+        });
+        
         view.getMapHandler().addMarkerMovedHandler(new MarkerMovedHandler() {
             
             @Override
@@ -113,6 +138,21 @@ public class MapPresenter implements Presenter {
             }
         });
         
+        view.getMapHandler().addMarkerClickedHandler(new MarkerClickedHandler() {
+            
+            @Override
+            public void onMarkerClicked(MarkerClickedEvent event) {
+                eventBus.fireEvent(new ShowMarkerDetailsEvent(event.getId()));
+            }
+        });
+        
     }
 
+    private void populateView() {
+        view.setCenter(Map.getInstance().getCenter(), Map.getInstance().getZoom());
+        view.setMapType(Map.getInstance().getMapType());
+        view.setNavControl(Map.getInstance().getNavControl());
+        view.setMapControls(Map.getInstance().getMapControls());
+    }
+    
 }
