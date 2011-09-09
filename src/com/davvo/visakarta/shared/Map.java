@@ -21,14 +21,14 @@ public class Map implements Serializable {
     private String id;
 
     @Serialized
+    private List<LatLon> pos = Arrays.asList(new LatLon(59.327, 18.072));
+
+    @Serialized
     private List<VKMarker> markers = new ArrayList<VKMarker>();
     
     @Persistent
-    private String title;
-    
-    @Serialized
-    private LatLon center = new LatLon(59.327, 18.072);
-    
+    private String title; 
+        
     @Persistent
     private int zoom = 6;
 
@@ -40,6 +40,10 @@ public class Map implements Serializable {
         MapControl.MAP_TYPE,
         MapControl.NAVIGATION        
     );
+        
+    public Map() {
+        // Used when serializing
+    }
     
     public String getId() {
         return id;
@@ -66,11 +70,11 @@ public class Map implements Serializable {
     }
     
     public LatLon getCenter() {
-        return center;
+        return pos.get(0);
     }
 
     public void setCenter(LatLon center) {
-        this.center = center;
+        this.pos.set(0, center);
     }
     
     public List<VKMarker> getMarkers() {
@@ -111,7 +115,15 @@ public class Map implements Serializable {
     }
     
     public String toString() {
-        return "Map(" + id + ") @ " + center;        
+        return "Map(" + id + ") @ " + pos.get(0);        
+    }
+    
+    public void setMapType(MapType mapType) {
+        this.mapType = mapType;
+    }
+
+    public MapType getMapType() {
+        return mapType;
     }
     
     public static Map getInstance() {
@@ -119,14 +131,6 @@ public class Map implements Serializable {
             map = new Map();
         }
         return map;
-    }
-
-    public void setMapType(MapType mapType) {
-        this.mapType = mapType;
-    }
-
-    public MapType getMapType() {
-        return mapType;
     }
     
 }

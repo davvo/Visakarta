@@ -24,10 +24,9 @@ import com.davvo.visakarta.shared.MapControl;
 import com.davvo.visakarta.shared.MapType;
 import com.davvo.visakarta.shared.VKMarker;
 import com.google.gwt.event.shared.EventBus;
-import com.google.gwt.user.client.ui.HasWidgets;
 import com.google.gwt.user.client.ui.Widget;
 
-public class MapPresenter implements Presenter {
+public class MapPresenter {
 
     private EventBus eventBus;
     private Display view;
@@ -51,16 +50,10 @@ public class MapPresenter implements Presenter {
     public MapPresenter(EventBus eventBus, Display view) {
         this.eventBus = eventBus;
         this.view = view;
+        bind();
         populateView();
     }
-    
-    @Override
-    public void go(HasWidgets container) {
-        bind();
-        container.clear();
-        container.add(view.asWidget());
-    }
-    
+        
     private void bind() {
         
         eventBus.addHandler(MapPropertiesChangedEvent.TYPE, new MapPropertiesChangedHandler() {

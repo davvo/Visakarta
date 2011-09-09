@@ -34,8 +34,12 @@ public class LatLon implements Serializable {
         this.lon = lon;
     }
     
-    public boolean equals(LatLon pos) {
-        return pos.lat == lat && pos.lon == lon;
+    public boolean equals(Object other) {
+        return (other instanceof LatLon) && ((LatLon) other).lat == lat && ((LatLon) other).lon == lon;
+    }
+    
+    public String toString() {
+        return this.lat + " " + this.lon;
     }
     
 }

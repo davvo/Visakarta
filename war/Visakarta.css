@@ -1,8 +1,19 @@
 /** Add css rules here for your application. */
 
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+	line-height:18px;
+}
 
 .toolBar {
+    text-align: center;
+    padding: 15px;
+}
 
+.toolBar .gwt-Anchor {
+    margin: 0 20px;
 }
 
 .toolBar .gwt-Button { 

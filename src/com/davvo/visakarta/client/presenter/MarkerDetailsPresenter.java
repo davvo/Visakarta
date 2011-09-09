@@ -80,7 +80,6 @@ public class MarkerDetailsPresenter {
             @Override
             public void onClick(ClickEvent event) {
                 marker.setPos(new LatLon(view.getLat().getValue(), view.getLon().getValue()));
-                System.out.println(marker.getPos());
                 eventBus.fireEventFromSource(new MarkerUpdatedEvent(marker.getId()), MarkerDetailsPresenter.this);                
             }
         });

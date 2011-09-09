@@ -3,6 +3,7 @@ package com.davvo.visakarta.client.view;
 import com.davvo.visakarta.client.presenter.ToolBarPresenter.Display;
 
 import com.google.gwt.event.dom.client.HasClickHandlers;
+import com.google.gwt.user.client.ui.Anchor;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.Panel;
@@ -13,7 +14,10 @@ public class ToolBarView implements Display {
     Panel widget;
     Button mapPropertiesButton;
     Button markersButton;
-    Button saveMapButton;
+    Anchor saveMapButton;
+    
+    Anchor markerAnchor;
+    Anchor prefsAnchor;
     
     public ToolBarView() {
         buildGUI();
@@ -22,25 +26,25 @@ public class ToolBarView implements Display {
     private void buildGUI() {        
         widget = new FlowPanel();
         widget.addStyleName("toolBar");
-        
-        mapPropertiesButton = new Button("Properties");
-        widget.add(mapPropertiesButton);
 
-        markersButton = new Button("Markers");
-        widget.add(markersButton);
+        prefsAnchor = new Anchor("Preferences");
+        widget.add(prefsAnchor);
         
-        saveMapButton = new Button("Save map!");
+        markerAnchor = new Anchor("Add markers");
+        widget.add(markerAnchor);
+        
+        saveMapButton = new Anchor("Save map");
         widget.add(saveMapButton);
     }
     
     @Override
     public HasClickHandlers getMapPropertiesButton() {
-        return mapPropertiesButton;
+        return prefsAnchor;
     }
 
     @Override
     public HasClickHandlers getMarkersButton() {
-        return markersButton;
+        return markerAnchor;
     }
 
     @Override

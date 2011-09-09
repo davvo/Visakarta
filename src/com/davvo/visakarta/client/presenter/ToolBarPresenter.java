@@ -1,16 +1,16 @@
 package com.davvo.visakarta.client.presenter;
 
 import com.davvo.visakarta.client.event.SaveMapEvent;
+
 import com.davvo.visakarta.client.event.ShowMapPropertiesEvent;
 import com.davvo.visakarta.client.event.ShowMarkersEvent;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.EventBus;
-import com.google.gwt.user.client.ui.HasWidgets;
 import com.google.gwt.user.client.ui.Widget;
 
-public class ToolBarPresenter implements Presenter {
+public class ToolBarPresenter {
 
     private EventBus eventBus;
     private Display view;
@@ -18,6 +18,7 @@ public class ToolBarPresenter implements Presenter {
     public ToolBarPresenter(EventBus eventBus, Display view) {
         this.eventBus = eventBus;
         this.view = view;
+        bind();
     }
     
     public interface Display {
@@ -27,13 +28,6 @@ public class ToolBarPresenter implements Presenter {
         Widget asWidget();
     }
     
-    @Override
-    public void go(HasWidgets container) {
-        bind();
-        container.clear();
-        container.add(view.asWidget());
-    }
-
     private void bind() {
         view.getMapPropertiesButton().addClickHandler(new ClickHandler() {
             

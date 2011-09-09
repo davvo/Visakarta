@@ -24,6 +24,9 @@
       <#if map.mapType == "Hybrid">
           mapTypeId: google.maps.MapTypeId.HYBRID
       </#if>
+      <#if map.mapType == "Terrain">
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+      </#if>
     };
     var map = new google.maps.Map(document.getElementById("map_canvas"),
         myOptions);

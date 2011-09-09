@@ -1,8 +1,10 @@
 package com.davvo.visakarta.client.presenter;
 
 import com.davvo.visakarta.client.MapServiceAsync;
+
 import com.davvo.visakarta.client.event.SaveMapEvent;
 import com.davvo.visakarta.client.event.SaveMapHandler;
+import com.davvo.visakarta.client.view.MapSavedDialog;
 import com.davvo.visakarta.shared.Map;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -15,8 +17,9 @@ import com.google.gwt.user.client.Timer;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasValue;
+import com.google.gwt.user.client.ui.HasWidgets;
 
-public class SaveMapPresenter {
+public class SaveMapPresenter implements Presenter {
 
     private EventBus eventBus;
     private MapServiceAsync rpcService;
@@ -26,6 +29,7 @@ public class SaveMapPresenter {
     private Timer checkEmailTimer;
     
     private RegExp emailPattern = RegExp.compile("^.+@.+\\.[a-zA-Z]{2,4}$");
+    private RegExp urlPattern = RegExp.compile("^[\\w\\s]+$");
     
     public interface Display {
         HasValue<String> getMapTitle();
@@ -43,30 +47,17 @@ public class SaveMapPresenter {
         this.eventBus = eventBus;
         this.rpcService = rpcService;
         this.view = view;
-        
-        checkURLTimer = new Timer() {
-            
-            @Override
-            public void run() {
-                SaveMapPresenter.this.checkMapURL();
-            }
-        };
-        
-        checkEmailTimer = new Timer() {
-
-            @Override
-            public void run() {
-                SaveMapPresenter.this.checkEmail();
-            }            
-        };
-        
+    }
+    
+    @Override
+    public void go(HasWidgets container) {
         bind();
     }
     
     private void checkMapURL() {
         final String url = view.getMapURL().getValue().trim();
         
-        if (url.length() == 0) {
+        if (url.length() == 0 || !urlPattern.test(url)) {
             
             view.setMapURLOK(false);
             
@@ -92,22 +83,6 @@ public class SaveMapPresenter {
         view.setEmailOK(email.length() == 0 || emailPattern.test(email));
     }
     
-    private void getMap() {
-        rpcService.load(Map.getInstance().getId(), new AsyncCallback<Map>() {
-            
-            @Override
-            public void onSuccess(Map result) {
-                System.out.println(result.getMarkers().size());                
-            }
-            
-            @Override
-            public void onFailure(Throwable caught) {
-                System.err.println("blŠŠ");
-                
-            }
-        });
-    }
-    
     private void bind() {
         eventBus.addHandler(SaveMapEvent.TYPE, new SaveMapHandler() {
             
@@ -126,10 +101,8 @@ public class SaveMapPresenter {
                     
                     @Override
                     public void onSuccess(String result) {
-                        Window.alert("Successfully saved map :-)");
-                        
-                        SaveMapPresenter.this.getMap();
-                        
+                        (new MapSavedDialog()).center();
+                        SaveMapPresenter.this.view.hideMe();
                     }
                     
                     @Override
@@ -152,6 +125,15 @@ public class SaveMapPresenter {
             
             @Override
             public void onValueChange(ValueChangeEvent<String> event) {
+                if (checkURLTimer == null) {
+                    checkURLTimer = new Timer() {
+                        
+                        @Override
+                        public void run() {
+                            SaveMapPresenter.this.checkMapURL();
+                        }
+                    };
+                }
                 checkURLTimer.cancel();
                 checkURLTimer.schedule(300);
             }
@@ -161,6 +143,15 @@ public class SaveMapPresenter {
 
             @Override
             public void onValueChange(ValueChangeEvent<String> event) {
+                if (checkEmailTimer == null) {
+                    checkEmailTimer = new Timer() {
+
+                        @Override
+                        public void run() {
+                            SaveMapPresenter.this.checkEmail();
+                        }            
+                    };
+                }
                 checkEmailTimer.cancel();
                 checkEmailTimer.schedule(300);
             }            
@@ -171,4 +162,5 @@ public class SaveMapPresenter {
         Map.getInstance().setTitle(view.getMapTitle().getValue());
         Map.getInstance().setId(view.getMapURL().getValue());
     }
+
 }

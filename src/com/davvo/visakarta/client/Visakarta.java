@@ -1,10 +1,10 @@
 package com.davvo.visakarta.client;
 
 import com.davvo.visakarta.client.presenter.MapPresenter;
+
 import com.davvo.visakarta.client.presenter.MapPropertiesPresenter;
 import com.davvo.visakarta.client.presenter.MarkerDetailsPresenter;
 import com.davvo.visakarta.client.presenter.MarkersPresenter;
-import com.davvo.visakarta.client.presenter.Presenter;
 import com.davvo.visakarta.client.presenter.SaveMapPresenter;
 import com.davvo.visakarta.client.presenter.ToolBarPresenter;
 import com.davvo.visakarta.client.view.MapPropertiesView;
@@ -19,8 +19,6 @@ import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.event.shared.SimpleEventBus;
 import com.google.gwt.user.client.ui.DockLayoutPanel;
-import com.google.gwt.user.client.ui.FlowPanel;
-import com.google.gwt.user.client.ui.Panel;
 import com.google.gwt.user.client.ui.RootLayoutPanel;
 
 /**
@@ -37,28 +35,20 @@ public class Visakarta implements EntryPoint {
     public void onModuleLoad() {
         final DockLayoutPanel dock = new DockLayoutPanel(Unit.PX);
         
-        final Panel toolBarPanel = new FlowPanel();
-        dock.addSouth(toolBarPanel, 50);
+        ToolBarView toolBarView = new ToolBarView();
+        dock.addNorth(toolBarView.asWidget(), 50);
         
-        final Panel mapPanel = new FlowPanel();
-        dock.add(mapPanel);
-                
-        Presenter toolBarPresenter = new ToolBarPresenter(eventBus, new ToolBarView());
-        toolBarPresenter.go(toolBarPanel);
+        MapView mapView =  new MapView();
+        dock.add(mapView.asWidget());
         
-        Presenter mapPresenter = new MapPresenter(eventBus, new MapView());
-        mapPresenter.go(mapPanel);
-        
-        MapPropertiesPresenter mapProperties = new MapPropertiesPresenter(eventBus, new MapPropertiesView());
-        
-        MarkersPresenter markersPresenter = new MarkersPresenter(eventBus, new MarkersView());
-        
-        MarkerDetailsPresenter markerDetails = new MarkerDetailsPresenter(eventBus, new MarkerDetailsView());
-        
-        SaveMapPresenter saveMap = new SaveMapPresenter(eventBus, rpcService, new SaveMapView());
+        new ToolBarPresenter(eventBus, toolBarView);
+        new MapPresenter(eventBus, mapView);        
+        new MapPropertiesPresenter(eventBus, new MapPropertiesView());        
+        new MarkersPresenter(eventBus, new MarkersView());        
+        new MarkerDetailsPresenter(eventBus, new MarkerDetailsView());        
+        new SaveMapPresenter(eventBus, rpcService, new SaveMapView()).go(null);
 
-        RootLayoutPanel.get().add(dock);
-        
+        RootLayoutPanel.get().add(dock);        
     }
             
 }

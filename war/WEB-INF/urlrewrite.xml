@@ -12,7 +12,7 @@
 <urlrewrite>
 
     <rule match-type="regex">
-        <from>^/([a-zA-Z\s]+)$</from>
+        <from>^/([a-zA-Z0-9\s_-]+)$</from>
         <to>%{context-path}/show/$1</to>
     </rule>
     

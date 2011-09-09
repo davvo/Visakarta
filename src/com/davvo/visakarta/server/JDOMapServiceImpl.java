@@ -22,6 +22,7 @@ public class JDOMapServiceImpl extends RemoteServiceServlet implements MapServic
             }
             
             pm.makePersistent(map);
+            pm.detachCopy(map);
             
         } finally {
 
@@ -40,6 +41,9 @@ public class JDOMapServiceImpl extends RemoteServiceServlet implements MapServic
         try {
             Map map = pm.getObjectById(Map.class, id);
             map.getMarkers();
+            map.getControls();
+            map.getCenter();
+            
             return pm.detachCopy(map);
         } catch (Exception x) {
             throw new UnknownMapException(id);
