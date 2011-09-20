@@ -18,7 +18,7 @@ public class IntegerListBox extends ListBox implements HasValue<Integer> {
     }
 
     public IntegerListBox(int min, int max) {
-        for (int i = 0; i <= 21; ++i) {
+        for (int i = min; i <= max; ++i) {
             addItem(String.valueOf(i));
         }
         
