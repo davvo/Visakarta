@@ -2,10 +2,16 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" output="test-classes" path="test"/>
-	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
 	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/freemarker-gae-2.3.18.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-maps-3.0.2b.gwt22.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/easymock-2.5.2.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse-jee-helios-macosx-cocoa-x86_64/plugins/com.google.appengine.eclipse.sdkbundle_1.5.2.r36v201107211953/appengine-java-sdk-1.5.2/lib/impl/appengine-api-labs.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse-jee-helios-macosx-cocoa-x86_64/plugins/com.google.appengine.eclipse.sdkbundle_1.5.2.r36v201107211953/appengine-java-sdk-1.5.2/lib/impl/appengine-api-stubs.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse-jee-helios-macosx-cocoa-x86_64/plugins/com.google.appengine.eclipse.sdkbundle_1.5.2.r36v201107211953/appengine-java-sdk-1.5.2/lib/impl/appengine-api.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse-jee-helios-macosx-cocoa-x86_64/plugins/com.google.appengine.eclipse.sdkbundle_1.5.2.r36v201107211953/appengine-java-sdk-1.5.2/lib/testing/appengine-testing.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>
