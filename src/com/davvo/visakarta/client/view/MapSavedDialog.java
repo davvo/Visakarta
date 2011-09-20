@@ -13,6 +13,7 @@ public class MapSavedDialog extends DialogBox {
     Button closeButton;
     
     public MapSavedDialog() {
+        super(false, true);
         setGlassEnabled(true);
         setHTML("Map Saved!");
         

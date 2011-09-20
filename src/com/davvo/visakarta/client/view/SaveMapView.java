@@ -24,13 +24,15 @@ public class SaveMapView extends DialogBox implements Display {
     private Label urlDisplayLabel;
 
     public SaveMapView() {
+        super(false, true);
         setGlassEnabled(true);
         setHTML("Save Map");
         
         VerticalPanel verticalPanel = new VerticalPanel();
         verticalPanel.setSpacing(10);
-        setWidget(verticalPanel);
         verticalPanel.setSize("199px", "250px");
+        
+        setWidget(verticalPanel);
         
         Label lblTitle = new Label("Title");
         verticalPanel.add(lblTitle);
@@ -113,17 +115,7 @@ public class SaveMapView extends DialogBox implements Display {
     public void setMapURLOK(boolean ok) {
         saveButton.setEnabled(ok);
     }
-    
-    @Override
-    public void showMe() {
-        this.center();
-    }
-
-    @Override
-    public void hideMe() {
-        this.hide();
-    }
-    
+        
     private static class VolatileTextBox extends TextBox {
 
         private String oldValue;

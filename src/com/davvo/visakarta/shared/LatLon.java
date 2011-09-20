@@ -41,5 +41,5 @@ public class LatLon implements Serializable {
     public String toString() {
         return this.lat + " " + this.lon;
     }
-    
+        
 }

@@ -2,53 +2,92 @@ package com.davvo.visakarta.client.view;
 
 import java.util.HashMap;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Collection;
+import java.util.Iterator;
 import java.util.Map;
 
-import com.davvo.visakarta.client.event.HasMapHandlers;
-import com.davvo.visakarta.client.event.MapTypeChangedHandler;
-import com.davvo.visakarta.client.event.MarkerClickedEvent;
-import com.davvo.visakarta.client.event.MarkerClickedHandler;
-import com.davvo.visakarta.client.event.MarkerMovedEvent;
-import com.davvo.visakarta.client.event.MarkerMovedHandler;
-import com.davvo.visakarta.client.event.MapMovedHandler.MapMovedEvent;
-import com.davvo.visakarta.client.event.MapMovedHandler;
 import com.davvo.visakarta.client.presenter.MapPresenter.Display;
+import com.davvo.visakarta.client.ui.HasValueImpl;
 import com.davvo.visakarta.shared.LatLon;
 import com.davvo.visakarta.shared.MapControl;
 import com.davvo.visakarta.shared.MapType;
 import com.davvo.visakarta.shared.VKMarker;
+import com.google.gwt.event.logical.shared.HasValueChangeHandlers;
+import com.google.gwt.event.logical.shared.ValueChangeEvent;
+import com.google.gwt.event.logical.shared.ValueChangeHandler;
+import com.google.gwt.event.shared.GwtEvent;
 import com.google.gwt.event.shared.HandlerManager;
 import com.google.gwt.event.shared.HandlerRegistration;
 import com.google.gwt.maps.client.MapOptions;
 import com.google.gwt.maps.client.MapTypeId;
 import com.google.gwt.maps.client.MapWidget;
 import com.google.gwt.maps.client.base.HasLatLng;
+import com.google.gwt.maps.client.base.InfoWindow;
 import com.google.gwt.maps.client.base.LatLng;
 import com.google.gwt.maps.client.event.Event;
 import com.google.gwt.maps.client.event.EventCallback;
 import com.google.gwt.maps.client.overlay.Marker;
 import com.google.gwt.maps.client.overlay.MarkerOptions;
+import com.google.gwt.user.client.ui.HasValue;
+import com.google.gwt.user.client.ui.HasWidgets;
 import com.google.gwt.user.client.ui.Widget;
 
 public class MapView implements Display {
 
-    private MapEventHandler mapEventHandler = new MapEventHandler(this);    
     private Map<Integer, Marker> markers = new HashMap<Integer, Marker>();
+    private Map<Integer, InfoWindow> infoWindows = new HashMap<Integer, InfoWindow>();
     private MapWidget mapWidget;
     
-    private List<MapControl> controls = new ArrayList<MapControl>();
+    HasValue<LatLon> center;
+    HasValue<Integer> zoom;
+    HasValue<MapType> mapType;
+    HasValue<Collection<MapControl>> controls;
     
-    public MapView() {
-        createMapWidget();
-        bind();
-    }
-
-    private void createMapWidget() {
+    HasValueChangeHandlers<Integer> markerHandler = new MarkerHandler();
+    
+    public MapView(HasWidgets parent) {
         final MapOptions options = new MapOptions();
         mapWidget = new MapWidget(options);
         mapWidget.setSize("100%", "100%");
+        parent.add(mapWidget);
+        
+        center = new HasValueImpl<LatLon>();
+        center.addValueChangeHandler(new ValueChangeHandler<LatLon>() {
+            @Override
+            public void onValueChange(ValueChangeEvent<LatLon> event) {
+                mapWidget.getMap().setCenter(asLatLng(event.getValue()));
+            }
+        });
+        
+        zoom = new HasValueImpl<Integer>();
+        zoom.addValueChangeHandler(new ValueChangeHandler<Integer>() {
+
+            @Override
+            public void onValueChange(ValueChangeEvent<Integer> event) {
+                mapWidget.getMap().setZoom(event.getValue());
+            }
+        });
+        
+        mapType = new HasValueImpl<MapType>();
+        mapType.addValueChangeHandler(new ValueChangeHandler<MapType>() {
+
+            @Override
+            public void onValueChange(ValueChangeEvent<MapType> event) {
+                mapWidget.getMap().setMapTypeId(asGoogleMapType(event.getValue()));
+            }
+        });
+     
+        controls = new HasValueImpl<Collection<MapControl>>();
+        controls.addValueChangeHandler(new ValueChangeHandler<Collection<MapControl>>() {
+
+            @Override
+            public void onValueChange(ValueChangeEvent<Collection<MapControl>> event) {
+                setControls(event.getValue());
+            }
+        });
+        
+        
+        bind();
     }
     
     private void bind() {
@@ -56,7 +95,8 @@ public class MapView implements Display {
             
             @Override
             public void callback() {
-                mapEventHandler.fireEvent(new MapMovedEvent());    
+                center.setValue(asLatLon(mapWidget.getMap().getCenter()), true);
+                zoom.setValue(mapWidget.getMap().getZoom(), true);
             }
         });
         
@@ -64,45 +104,98 @@ public class MapView implements Display {
             
             @Override
             public void callback() {
-                mapEventHandler.fireEvent(new MapTypeChangedHandler.MapTypeChangedEvent());
+                mapType.setValue(fromGoogleMapType(mapWidget.getMap().getMapTypeId()));
             }
         });
-                
     }
     
     @Override
-    public LatLon getCenter() {
-        return asLatLon(mapWidget.getMap().getCenter());
+    public HasValue<LatLon> getCenter() {
+        return center;
     }
 
     @Override
-    public void setCenter(LatLon center) {
-        mapWidget.getMap().setCenter(asLatLng(center));
+    public HasValue<Integer> getZoom() {
+        return zoom;
     }
 
     @Override
-    public int getZoom() {
-        return mapWidget.getMap().getZoom();
+    public HasValue<MapType> getMapType() {
+        return mapType;
+    }
+    
+    @Override
+    public HasValue<Collection<MapControl>> getControls() {
+        return controls;
+    }
+    
+    @Override
+    public void setMarkers(Collection<VKMarker> markers) {
+        // Remove old
+        retainMarkers(markers);
+        
+        // Add new
+        for (VKMarker m: markers) {
+            setMarker(m);
+        }
+    }
+    
+    @Override
+    public void setMarker(VKMarker marker) {
+        if (this.markers.containsKey(marker.getId())) {
+            updateMarker(marker);
+        } else {
+            addMarker(marker);
+        }
     }
 
     @Override
-    public void setZoom(int zoom) {
-        mapWidget.getMap().setZoom(zoom);
+    public HasValueChangeHandlers<Integer> getMarkerHandler() {
+        return markerHandler;
     }
-
+    
     @Override
-    public HasMapHandlers getMapHandler() {
-        return mapEventHandler;
+    public LatLon getMarkerPosition(int id) {        
+        return asLatLon(markers.get(id).getPosition());
     }
-
+    
     @Override
-    public void addMarker(VKMarker marker) {
+    public Widget asWidget() {
+        return mapWidget;
+    }
+            
+    private void retainMarkers(Collection<VKMarker> ms) {
+        Iterator<Integer> it = markers.keySet().iterator();
+        while (it.hasNext()) {
+            int id = it.next();
+            boolean keep = false;
+            for (VKMarker m: ms) {
+                if (m.getId() == id) {
+                    keep = true;
+                    break;
+                }
+            }
+            if (!keep) {
+                markers.get(id).setVisible(false);
+                infoWindows.remove(id);
+                it.remove();
+            }
+        }
+    }
+    
+    private void addMarker(VKMarker marker) {
         
         MarkerOptions options = new MarkerOptions();        
         options.setDraggable(true);
         options.setVisible(true);
         options.setMap(mapWidget.getMap());
         options.setPosition(asLatLng(marker.getPos()));
+        
+        if (marker.isInfoWindow()) {
+            InfoWindow infoWindow = new InfoWindow();
+            infoWindow.setContent(marker.getInfoWindowContent());
+            infoWindows.put(marker.getId(), infoWindow);
+        }
         
         final Marker m = new Marker(options);
         
@@ -112,7 +205,7 @@ public class MapView implements Display {
             
             @Override
             public void callback() {
-                mapEventHandler.fireEvent(new MarkerMovedEvent(id, asLatLon(m.getPosition())));                
+                ValueChangeEvent.fire(markerHandler, id);
             }
         });
         
@@ -120,67 +213,37 @@ public class MapView implements Display {
             
             @Override
             public void callback() {
-                mapEventHandler.fireEvent(new MarkerClickedEvent(id));
+                if (infoWindows.containsKey(id)) {
+                    infoWindows.get(id).open(mapWidget.getMap(), m);
+                }
+                //mapEventHandler.fireEvent(new MarkerClickedEvent(id));
             }
         });
         
         markers.put(id, m);
     }
 
-    @Override
-    public void updateMarker(VKMarker marker) {
+    private void updateMarker(VKMarker marker) {
         Marker m = markers.get(marker.getId());
         if (m != null) {
             m.setPosition(asLatLng(marker.getPos()));
-        }
-    }
-    
-    @Override
-    public void deleteMarkers(List<Integer> ids) {
-
-        for (int i: ids) {
-            markers.remove(i).setVisible(false);
-        }
-        
-    }
-    
-    @Override
-    public void setMapType(MapType mapType) {
-        mapWidget.getMap().setMapTypeId(asGoogleMapType(mapType));
-    }
-
-    @Override
-    public MapType getMapType() {
-        return fromGoogleMapType(mapWidget.getMap().getMapTypeId());
-    }
-    
-    @Override
-    public void setControls(List<MapControl> mapControls) {
-        MapOptions options = makeMapOptions();
-        
-        for (MapControl control: MapControl.values()) {
-            switch (control) {
-                case MAP_TYPE:
-                    options.setMapTypeControl(mapControls.contains(control));
-                    break;
-                case NAVIGATION:
-                    options.setNavigationControl(mapControls.contains(control));
-                    break;
+            if (marker.isInfoWindow()) {
+                InfoWindow infoWindow = infoWindows.get(marker.getId());
+                if (infoWindow == null) {
+                    infoWindow = new InfoWindow();
+                    infoWindows.put(marker.getId(), infoWindow);
+                }
+                infoWindow.setContent(marker.getInfoWindowContent());
+            } else {
+                InfoWindow infoWindow = infoWindows.get(marker.getId());
+                if (infoWindow != null) {
+                    infoWindow.close();
+                }
+                infoWindows.remove(marker.getId());
             }
-            mapWidget.getMap().setOptions(options);
         }
     }
-
-    @Override
-    public List<MapControl> getControls() {
-        return controls;
-    }
     
-    @Override
-    public Widget asWidget() {
-        return mapWidget;
-    }
-        
     private LatLon asLatLon(HasLatLng pos) {
         return new LatLon(pos.getLatitude(), pos.getLongitude());
     }
@@ -225,31 +288,36 @@ public class MapView implements Display {
         return options;
     }
             
-    private class MapEventHandler extends HandlerManager implements HasMapHandlers {
+    private void setControls(Collection<MapControl> mapControls) {
+        MapOptions options = makeMapOptions();
         
-        public MapEventHandler(Object source) {
-            super(source);
-        }
-
-        @Override
-        public HandlerRegistration addMapMovedHandler(MapMovedHandler handler) {
-            return addHandler(MapMovedEvent.TYPE, handler);
-        }
-        
-        @Override
-        public HandlerRegistration addMarkerMovedHandler(MarkerMovedHandler handler) {
-            return addHandler(MarkerMovedEvent.TYPE, handler);
-        }
-        
-        @Override
-        public HandlerRegistration addMarkerClickedHandler(MarkerClickedHandler handler) {
-            return addHandler(MarkerClickedEvent.TYPE, handler);
-        }
-
-        @Override
-        public HandlerRegistration addMapTypeChanged(MapTypeChangedHandler handler) {
-            return addHandler(MapTypeChangedHandler.MapTypeChangedEvent.TYPE, handler);
+        for (MapControl control: MapControl.values()) {
+            switch (control) {
+                case MAP_TYPE:
+                    options.setMapTypeControl(mapControls.contains(control));
+                    break;
+                case NAVIGATION:
+                    options.setNavigationControl(mapControls.contains(control));
+                    break;
+            }
+            mapWidget.getMap().setOptions(options);
         }
     }
+    
+    private class MarkerHandler implements HasValueChangeHandlers<Integer> {
 
+        HandlerManager mgm = new HandlerManager(null);
+        
+        @Override
+        public void fireEvent(GwtEvent<?> event) {
+            mgm.fireEvent(event);
+        }
+
+        @Override
+        public HandlerRegistration addValueChangeHandler(ValueChangeHandler<Integer> handler) {
+            return mgm.addHandler(ValueChangeEvent.getType(), handler);
+        }
+        
+    }
+    
 }

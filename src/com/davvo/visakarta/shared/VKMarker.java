@@ -9,6 +9,8 @@ public class VKMarker implements Serializable {
     
     private int id;
     private LatLon pos;
+    private boolean infoWindow = true;
+    private String infoWindowContent;
 
     public VKMarker() {
         this(new LatLon(0, 0));
@@ -30,9 +32,50 @@ public class VKMarker implements Serializable {
     public void setPos(LatLon pos) {
         this.pos = pos;
     }
+        
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + id;
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }         
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }        
+        return this.id == ((VKMarker) obj).id;
+    }
+
+    public void setInfoWindow(boolean infoWindow) {
+        this.infoWindow = infoWindow;
+    }
+
+    public boolean isInfoWindow() {
+        return infoWindow;
+    }
+
+    public void setInfoWindowContent(String infoWindowContent) {
+        this.infoWindowContent = infoWindowContent;
+    }
+
+    public String getInfoWindowContent() {
+        if (infoWindowContent == null) {
+            return "";
+        }
+        return infoWindowContent;
+    }
     
-    public boolean equals(VKMarker marker) {
-        return marker.id == id;
+    public String getInfoWindowContentEscaped() {
+        return getInfoWindowContent().replaceAll("\"", "'");
     }
     
 }

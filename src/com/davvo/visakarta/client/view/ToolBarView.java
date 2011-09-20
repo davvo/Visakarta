@@ -2,53 +2,63 @@ package com.davvo.visakarta.client.view;
 
 import com.davvo.visakarta.client.presenter.ToolBarPresenter.Display;
 
-import com.google.gwt.event.dom.client.HasClickHandlers;
-import com.google.gwt.user.client.ui.Anchor;
-import com.google.gwt.user.client.ui.Button;
+
+import com.google.gwt.user.client.ui.DialogBox;
 import com.google.gwt.user.client.ui.FlowPanel;
+import com.google.gwt.user.client.ui.HasValue;
 import com.google.gwt.user.client.ui.Panel;
+import com.google.gwt.user.client.ui.PopupPanel;
+import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.ToggleButton;
 import com.google.gwt.user.client.ui.Widget;
 
-public class ToolBarView implements Display {
+public class ToolBarView extends DialogBox implements Display {
 
     Panel widget;
-    Button mapPropertiesButton;
-    Button markersButton;
-    Anchor saveMapButton;
-    
-    Anchor markerAnchor;
-    Anchor prefsAnchor;
-    
+    ToggleButton mapPropertiesButton;
+    ToggleButton markersButton;
+    ToggleButton saveMapButton;
+        
     public ToolBarView() {
-        buildGUI();
-    }
-    
-    private void buildGUI() {        
+        super(false, false);
+        
         widget = new FlowPanel();
         widget.addStyleName("toolBar");
 
-        prefsAnchor = new Anchor("Preferences");
-        widget.add(prefsAnchor);
+        mapPropertiesButton = new ToggleButton("Preferences");
+        widget.add(mapPropertiesButton);
         
-        markerAnchor = new Anchor("Add markers");
-        widget.add(markerAnchor);
+        markersButton = new ToggleButton("Markers");
+        widget.add(markersButton);
         
-        saveMapButton = new Anchor("Save map");
+        saveMapButton = new ToggleButton("Save map");
         widget.add(saveMapButton);
+        
+        setHTML("Main menu");
+        setWidget(widget);
+        
+        setPopupPositionAndShow(new PopupPanel.PositionCallback() {
+            
+            @Override
+            public void setPosition(int offsetWidth, int offsetHeight) {
+                ToolBarView.this.setPopupPosition(RootPanel.get().getOffsetWidth() - offsetWidth - 10, 50);
+            }
+            
+        });
     }
-    
+        
     @Override
-    public HasClickHandlers getMapPropertiesButton() {
-        return prefsAnchor;
+    public HasValue<Boolean> getMapPropertiesButton() {
+        return mapPropertiesButton;
     }
 
     @Override
-    public HasClickHandlers getMarkersButton() {
-        return markerAnchor;
+    public HasValue<Boolean> getMarkersButton() {
+        return markersButton;
     }
 
     @Override
-    public HasClickHandlers getSaveMapButton() {
+    public HasValue<Boolean> getSaveMapButton() {
         return saveMapButton;
     }
     

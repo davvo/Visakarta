@@ -15,7 +15,7 @@ import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.user.client.ui.Widget;
 
-public class MarkersPresenter {
+public class MarkersPresenter implements Presenter {
 
     private final EventBus eventBus;
     private final Display view;
@@ -36,6 +36,9 @@ public class MarkersPresenter {
     public MarkersPresenter(EventBus eventBus, Display view) {
         this.eventBus = eventBus;
         this.view = view;
+    }
+    
+    public void go() {
         bind();
     }
     
@@ -48,7 +51,13 @@ public class MarkersPresenter {
                         
             @Override
             public void onShowMarkers(ShowMarkersEvent event) {
-                view.show();                
+                if (event.getSource() != MarkersPresenter.this) {
+                    if (event.isVisible()) {
+                        view.show();
+                    } else {
+                        view.hide();
+                    }
+                }
             }
         });
         
@@ -76,8 +85,8 @@ public class MarkersPresenter {
                 List<Integer> index = view.getSelectedRows();
                 
                 if (!index.isEmpty()) {
-                    eventBus.fireEvent(new MarkerDeletedEvent(Map.getInstance().getMarkerIdsAtIndex(index)));
                     Map.getInstance().getMarkers().removeAll(Map.getInstance().getMarkersAtIndex(index));
+                    eventBus.fireEvent(new MarkerDeletedEvent(null));
                     view.setData(Map.getInstance().getMarkers());
                 }
             }
@@ -88,6 +97,7 @@ public class MarkersPresenter {
             @Override
             public void onClick(ClickEvent event) {
                 view.hide();
+                eventBus.fireEventFromSource(new ShowMarkersEvent(false), MarkersPresenter.this);
             }
         });
         

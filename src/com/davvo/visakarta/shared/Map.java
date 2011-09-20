@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 import javax.jdo.annotations.PersistenceCapable;
@@ -36,7 +37,7 @@ public class Map implements Serializable {
     private MapType mapType = MapType.NORMAL;
         
     @Serialized
-    private List<MapControl> controls = Arrays.asList(
+    private Collection<MapControl> controls = Arrays.asList(
         MapControl.MAP_TYPE,
         MapControl.NAVIGATION        
     );
@@ -106,11 +107,11 @@ public class Map implements Serializable {
         return ids;
     }
     
-    public void setControls(List<MapControl> controls) {
+    public void setControls(Collection<MapControl> controls) {
         this.controls = controls;
     }
     
-    public List<MapControl> getControls() {
+    public Collection<MapControl> getControls() {
         return controls;
     }
     

@@ -17,7 +17,6 @@ import com.google.gwt.user.client.Timer;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasValue;
-import com.google.gwt.user.client.ui.HasWidgets;
 
 public class SaveMapPresenter implements Presenter {
 
@@ -39,8 +38,9 @@ public class SaveMapPresenter implements Presenter {
         HasClickHandlers getCancelButton();
         void setEmailOK(boolean ok);
         void setMapURLOK(boolean ok);
-        void showMe();
-        void hideMe();
+        void show();
+        void hide();
+        void center();
     }
 
     public SaveMapPresenter(EventBus eventBus, MapServiceAsync rpcService, Display view) {
@@ -50,10 +50,11 @@ public class SaveMapPresenter implements Presenter {
     }
     
     @Override
-    public void go(HasWidgets container) {
+    public void go() {
         bind();
+        checkMapURL();
     }
-    
+        
     private void checkMapURL() {
         final String url = view.getMapURL().getValue().trim();
         
@@ -88,7 +89,13 @@ public class SaveMapPresenter implements Presenter {
             
             @Override
             public void onSaveMap(SaveMapEvent event) {
-                view.showMe();
+                if (event.getSource() != SaveMapPresenter.this) {
+                    if (event.isVisible()) {
+                        view.center();
+                    } else {
+                        view.hide();
+                    }
+                }
             }
         });
         
@@ -102,7 +109,6 @@ public class SaveMapPresenter implements Presenter {
                     @Override
                     public void onSuccess(String result) {
                         (new MapSavedDialog()).center();
-                        SaveMapPresenter.this.view.hideMe();
                     }
                     
                     @Override
@@ -117,7 +123,8 @@ public class SaveMapPresenter implements Presenter {
             
             @Override
             public void onClick(ClickEvent event) {
-                view.hideMe();
+                view.hide();
+                eventBus.fireEventFromSource(new SaveMapEvent(false), SaveMapPresenter.this);
             }
         });
         
@@ -162,5 +169,5 @@ public class SaveMapPresenter implements Presenter {
         Map.getInstance().setTitle(view.getMapTitle().getValue());
         Map.getInstance().setId(view.getMapURL().getValue());
     }
-
+    
 }

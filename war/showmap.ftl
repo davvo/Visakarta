@@ -11,10 +11,21 @@
     src="http://maps.googleapis.com/maps/api/js?sensor=false">
 </script>
 <script type="text/javascript">
+
   function initialize() {
     var myOptions = {
       zoom: ${map.zoom},
       center: new google.maps.LatLng(${map.center.lat}, ${map.center.lon}),
+      disableDefaultUI: true,      
+      <#list map.controls as control>
+          <#if control == "NAVIGATION">
+            panControl: true,
+            zoomControl: true,
+          </#if>
+          <#if control == "MAP_TYPE">
+            mapTypeControl: true,
+          </#if>
+      </#list>
       <#if map.mapType == "Normal">
           mapTypeId: google.maps.MapTypeId.ROADMAP
       </#if>
@@ -32,10 +43,19 @@
         myOptions);
         
     <#list map.markers as marker>
-      var marker = new google.maps.Marker({
+      var marker${marker.id} = new google.maps.Marker({
           position: new google.maps.LatLng(${marker.pos.lat},${marker.pos.lon}), 
-          map: map 
-      });   
+          map: map
+      });
+      <#if marker.infoWindow>
+        var infoWindow${marker.id} = new google.maps.InfoWindow({
+            content: "${marker.infoWindowContentEscaped}"
+        });
+        
+        google.maps.event.addListener(marker${marker.id}, 'click', function() {
+          infoWindow${marker.id}.open(map, marker${marker.id});
+        });        
+      </#if>
     </#list>        
         
   }

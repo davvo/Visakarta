@@ -5,6 +5,7 @@ body {
 	font-size:12px;
 	color:#666;
 	line-height:18px;
+	overflow: hidden;
 }
 
 .toolBar {
@@ -18,4 +19,8 @@ body {
 
 .toolBar .gwt-Button { 
     margin: 10px 5px;
+}
+
+.toolBar .gwt-ToggleButton {
+    width: 80px;
 }

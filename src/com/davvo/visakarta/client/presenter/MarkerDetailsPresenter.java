@@ -16,7 +16,7 @@ import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.user.client.ui.HasValue;
 import com.google.gwt.user.client.ui.Widget;
 
-public class MarkerDetailsPresenter {
+public class MarkerDetailsPresenter implements Presenter {
 
     private final EventBus eventBus;
     private final Display view;
@@ -26,8 +26,9 @@ public class MarkerDetailsPresenter {
     public interface Display {
         HasClickHandlers getOkButton();
         HasClickHandlers getCancelButton();
-        HasValue<Double> getLat();
-        HasValue<Double> getLon();
+        HasValue<LatLon> getPosition();
+        HasValue<Boolean> isInfoWindow();
+        HasValue<String> getInfoWindowContent();
         void setTitle(String title);
         void hide();
         void show();
@@ -37,6 +38,9 @@ public class MarkerDetailsPresenter {
     public MarkerDetailsPresenter(EventBus eventBus, Display view) {
         this.eventBus = eventBus;
         this.view = view;
+    }
+    
+    public void go() {
         bind();
     }
     
@@ -46,8 +50,7 @@ public class MarkerDetailsPresenter {
             @Override
             public void onMarkerUpdated(MarkerUpdatedEvent event) {
                 if (event.getSource() != this && marker != null && event.getId() == marker.getId()) {
-                    view.getLat().setValue(marker.getPos().getLat());
-                    view.getLon().setValue(marker.getPos().getLon());
+                    populateView();
                 }
                 
             }
@@ -57,10 +60,8 @@ public class MarkerDetailsPresenter {
                         
             @Override
             public void onShowMarkerDetails(ShowMarkerDetailsEvent event) {
-                marker = Map.getInstance().getMarker(event.getId());
-                view.getLat().setValue(marker.getPos().getLat());
-                view.getLon().setValue(marker.getPos().getLon());
-                view.setTitle("Marker " + marker.getId());
+                marker = Map.getInstance().getMarker(event.getId()); 
+                populateView();
                 view.show();
             }
         });
@@ -69,7 +70,7 @@ public class MarkerDetailsPresenter {
 
             @Override
             public void onMarkerDeleted(MarkerDeletedEvent event) {
-                if (marker != null && event.getIds().contains(marker.getId())) {                    
+                if (marker != null && !Map.getInstance().getMarkers().contains(marker)) {
                     view.hide();
                 }
             }
@@ -79,7 +80,7 @@ public class MarkerDetailsPresenter {
             
             @Override
             public void onClick(ClickEvent event) {
-                marker.setPos(new LatLon(view.getLat().getValue(), view.getLon().getValue()));
+                populateMarker();
                 eventBus.fireEventFromSource(new MarkerUpdatedEvent(marker.getId()), MarkerDetailsPresenter.this);                
             }
         });
@@ -94,6 +95,17 @@ public class MarkerDetailsPresenter {
             
     }
     
+    private void populateView() {
+        view.setTitle("Marker " + marker.getId());
+        view.getPosition().setValue(marker.getPos());
+        view.isInfoWindow().setValue(marker.isInfoWindow());
+        view.getInfoWindowContent().setValue(marker.getInfoWindowContent().replace("<br/>", "\n"));
+    }
     
+    private void populateMarker() {
+        marker.setPos(view.getPosition().getValue());
+        marker.setInfoWindow(view.isInfoWindow().getValue());
+        marker.setInfoWindowContent(view.getInfoWindowContent().getValue().replace("\n", "<br/>"));
+    }
     
 }

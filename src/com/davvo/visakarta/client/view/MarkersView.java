@@ -2,6 +2,7 @@ package com.davvo.visakarta.client.view;
 
 import java.util.ArrayList;
 
+
 import java.util.List;
 
 import com.davvo.visakarta.client.presenter.MarkersPresenter.Display;
@@ -15,6 +16,8 @@ import com.google.gwt.user.client.ui.DockPanel;
 import com.google.gwt.user.client.ui.FlexTable;
 import com.google.gwt.user.client.ui.HTMLTable;
 import com.google.gwt.user.client.ui.HorizontalPanel;
+import com.google.gwt.user.client.ui.PopupPanel;
+import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.Widget;
 
 public class MarkersView implements Display {
@@ -66,8 +69,10 @@ public class MarkersView implements Display {
         
         dialogBox = new DialogBox(false, false);
         dialogBox.setText("Markers");
-        dialogBox.setWidget(contentTable);        
+        dialogBox.setWidget(contentTable);
+        
     }
+    
     
     @Override
     public HasClickHandlers getAddButton() {
@@ -112,7 +117,14 @@ public class MarkersView implements Display {
     
     @Override
     public void show() {
-        dialogBox.center();        
+        dialogBox.setPopupPositionAndShow(new PopupPanel.PositionCallback() {
+            
+            @Override
+            public void setPosition(int offsetWidth, int offsetHeight) {
+                dialogBox.setPopupPosition(RootPanel.get().getOffsetWidth() - offsetWidth - 10, 210);
+            }
+            
+        });
     }
 
     @Override

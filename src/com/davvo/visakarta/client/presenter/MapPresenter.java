@@ -1,59 +1,58 @@
 package com.davvo.visakarta.client.presenter;
 
-import java.util.List;
+import java.util.Collection;
 
-import com.davvo.visakarta.client.event.HasMapHandlers;
-import com.davvo.visakarta.client.event.MapTypeChangedHandler;
 import com.davvo.visakarta.client.event.MarkerAddedEvent;
 import com.davvo.visakarta.client.event.MarkerAddedHandler;
-import com.davvo.visakarta.client.event.MarkerClickedEvent;
-import com.davvo.visakarta.client.event.MarkerClickedHandler;
 import com.davvo.visakarta.client.event.MarkerDeletedEvent;
 import com.davvo.visakarta.client.event.MarkerDeletedHandler;
-import com.davvo.visakarta.client.event.MarkerMovedEvent;
-import com.davvo.visakarta.client.event.MarkerMovedHandler;
 import com.davvo.visakarta.client.event.MarkerUpdatedEvent;
-import com.davvo.visakarta.client.event.MapMovedHandler;
 import com.davvo.visakarta.client.event.MapPropertiesChangedEvent;
 import com.davvo.visakarta.client.event.MapPropertiesChangedHandler;
 import com.davvo.visakarta.client.event.MarkerUpdatedHandler;
-import com.davvo.visakarta.client.event.ShowMarkerDetailsEvent;
 import com.davvo.visakarta.shared.LatLon;
 import com.davvo.visakarta.shared.Map;
 import com.davvo.visakarta.shared.MapControl;
 import com.davvo.visakarta.shared.MapType;
 import com.davvo.visakarta.shared.VKMarker;
+import com.google.gwt.event.logical.shared.HasValueChangeHandlers;
+import com.google.gwt.event.logical.shared.ValueChangeEvent;
+import com.google.gwt.event.logical.shared.ValueChangeHandler;
 import com.google.gwt.event.shared.EventBus;
+import com.google.gwt.user.client.ui.HasValue;
 import com.google.gwt.user.client.ui.Widget;
 
-public class MapPresenter {
+public class MapPresenter implements Presenter {
 
     private EventBus eventBus;
     private Display view;
     
     public interface Display {
-        LatLon getCenter();
-        void setCenter(LatLon center);
-        int getZoom();
-        void setZoom(int zoom);
-        HasMapHandlers getMapHandler();
-        void addMarker(VKMarker marker);
-        void updateMarker(VKMarker marker);
-        void deleteMarkers(List<Integer> index);
-        void setMapType(MapType mapType);        
-        MapType getMapType();
-        void setControls(List<MapControl> controls);
-        List<MapControl> getControls();
-        Widget asWidget();   
+        HasValue<LatLon> getCenter();
+        HasValue<Integer> getZoom();
+        HasValue<MapType> getMapType();
+        HasValue<Collection<MapControl>> getControls();
+        
+        void setMarkers(Collection<VKMarker> markers);
+        void setMarker(VKMarker marker);
+        
+        HasValueChangeHandlers<Integer> getMarkerHandler();
+        LatLon getMarkerPosition(int id);
+        
+        Widget asWidget();
     }
     
     public MapPresenter(EventBus eventBus, Display view) {
         this.eventBus = eventBus;
         this.view = view;
+    }
+
+    @Override
+    public void go() {
         bind();
         populateView();
     }
-        
+    
     private void bind() {
         
         eventBus.addHandler(MapPropertiesChangedEvent.TYPE, new MapPropertiesChangedHandler() {
@@ -71,7 +70,7 @@ public class MapPresenter {
             
             @Override
             public void onMarkerAdded(MarkerAddedEvent event) {
-                view.addMarker(Map.getInstance().getMarker(event.getId()));
+                view.setMarkers(Map.getInstance().getMarkers());
             }
             
         });
@@ -80,64 +79,57 @@ public class MapPresenter {
             
             @Override
             public void onMarkerDeleted(MarkerDeletedEvent event) {
-                view.deleteMarkers(event.getIds());
+                view.setMarkers(Map.getInstance().getMarkers());
             }
             
         });
         
         eventBus.addHandler(MarkerUpdatedEvent.TYPE, new MarkerUpdatedHandler() {
-            
-            @Override
-            public void onMarkerUpdated(MarkerUpdatedEvent event) {
-                view.updateMarker(Map.getInstance().getMarker(event.getId()));
-            }
-            
-        });
-        
-        view.getMapHandler().addMapMovedHandler(new MapMovedHandler() {
-            
-            @Override
-            public void onMapMoved(MapMovedEvent event) {
-                Map.getInstance().setCenter(view.getCenter());
-                Map.getInstance().setZoom(view.getZoom());
-                eventBus.fireEventFromSource(new MapPropertiesChangedEvent(), MapPresenter.this);
-            }            
-        });
-        
-        view.getMapHandler().addMapTypeChanged(new MapTypeChangedHandler() {
 
             @Override
-            public void onMapTypeChanged(MapTypeChangedEvent event) {
-                Map.getInstance().setMapType(view.getMapType());
+            public void onMarkerUpdated(MarkerUpdatedEvent event) {
+                if (event.getSource() != MapPresenter.this) {
+                    view.setMarker(Map.getInstance().getMarker(event.getId()));
+                }
+            }
+            
+        });
+        
+        view.getCenter().addValueChangeHandler(new ValueChangeHandler<LatLon>() {
+            
+            @Override
+            public void onValueChange(ValueChangeEvent<LatLon> event) {
+                Map.getInstance().setCenter(view.getCenter().getValue());
                 eventBus.fireEventFromSource(new MapPropertiesChangedEvent(), MapPresenter.this);
             }
-            
         });
         
-        view.getMapHandler().addMarkerMovedHandler(new MarkerMovedHandler() {
+        view.getZoom().addValueChangeHandler(new ValueChangeHandler<Integer>() {
             
             @Override
-            public void onMarkerMoved(MarkerMovedEvent event) {
-                Map.getInstance().getMarker(event.getId()).setPos(event.getPos());
-                eventBus.fireEventFromSource(new MarkerUpdatedEvent(event.getId()), MapPresenter.this);
+            public void onValueChange(ValueChangeEvent<Integer> event) {
+                Map.getInstance().setZoom(view.getZoom().getValue());
+                eventBus.fireEventFromSource(new MapPropertiesChangedEvent(), MapPresenter.this);
             }
         });
         
-        view.getMapHandler().addMarkerClickedHandler(new MarkerClickedHandler() {
+        view.getMarkerHandler().addValueChangeHandler(new ValueChangeHandler<Integer>() {
             
             @Override
-            public void onMarkerClicked(MarkerClickedEvent event) {
-                eventBus.fireEvent(new ShowMarkerDetailsEvent(event.getId()));
+            public void onValueChange(ValueChangeEvent<Integer> event) {
+                VKMarker marker = Map.getInstance().getMarker(event.getValue());
+                marker.setPos(view.getMarkerPosition(marker.getId()));
+                eventBus.fireEventFromSource(new MarkerUpdatedEvent(marker.getId()), MapPresenter.this);
             }
         });
-        
+                
     }
 
     private void populateView() {
-        view.setCenter(Map.getInstance().getCenter());
-        view.setZoom(Map.getInstance().getZoom());        
-        view.setMapType(Map.getInstance().getMapType());
-        view.setControls(Map.getInstance().getControls());
+        view.getCenter().setValue(Map.getInstance().getCenter());
+        view.getZoom().setValue(Map.getInstance().getZoom());        
+        view.getMapType().setValue(Map.getInstance().getMapType());
+        view.getControls().setValue(Map.getInstance().getControls());
     }
-    
+
 }

@@ -1,6 +1,6 @@
 package com.davvo.visakarta.client.presenter;
 
-import java.util.List;
+import java.util.Collection;
 
 import com.davvo.visakarta.client.event.MapPropertiesChangedEvent;
 import com.davvo.visakarta.client.event.MapPropertiesChangedHandler;
@@ -10,32 +10,24 @@ import com.davvo.visakarta.shared.LatLon;
 import com.davvo.visakarta.shared.Map;
 import com.davvo.visakarta.shared.MapControl;
 import com.davvo.visakarta.shared.MapType;
-import com.google.gwt.event.dom.client.ClickEvent;
-import com.google.gwt.event.dom.client.ClickHandler;
-import com.google.gwt.event.dom.client.HasClickHandlers;
+import com.google.gwt.event.logical.shared.ValueChangeEvent;
+import com.google.gwt.event.logical.shared.ValueChangeHandler;
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.user.client.ui.HasValue;
 import com.google.gwt.user.client.ui.Widget;
 
-public class MapPropertiesPresenter  {
+public class MapPropertiesPresenter implements Presenter {
 
     private final EventBus eventBus;
     private final Display view;
     
     public interface Display {
-        HasClickHandlers getSaveButton();
-        HasClickHandlers getCancelButton();
-        HasValue<String> getTitle();
-        HasValue<Double> getLat();
-        HasValue<Double> getLon();
-        List<MapControl> getControls();
-        void setControls(List<MapControl> controls);
+        HasValue<LatLon> getCenter();
+        HasValue<Integer> getZoom();
+        HasValue<MapType> getMapType();
+        HasValue<Collection<MapControl>> getControls();
         
-        int getZoom();
-        void setZoom(int zoom);
-        MapType getMapType();
-        void setMapType(MapType mapType);
-        void show();
+        void showMe();
         void hide();
         Widget asWidget();
     }
@@ -43,6 +35,9 @@ public class MapPropertiesPresenter  {
     public MapPropertiesPresenter(EventBus eventBus, Display view) {
         this.eventBus = eventBus;
         this.view = view;
+    }
+    
+    public void go() {
         bind();
     }
     
@@ -61,46 +56,71 @@ public class MapPropertiesPresenter  {
             
             @Override
             public void onShowMapProperties(ShowMapPropertiesEvent event) {
-                populateView();
-                view.show();
+                if (event.getSource() != MapPropertiesPresenter.this) { 
+                    if (event.isVisible()) {
+                        populateView();
+                        view.showMe();
+                    } else {
+                        view.hide();
+                    }
+                }
             }
         });
-        
-        view.getSaveButton().addClickHandler(new ClickHandler() {  
-            
+
+        view.getCenter().addValueChangeHandler(new ValueChangeHandler<LatLon>() {
+
             @Override
-            public void onClick(ClickEvent event) {
+            public void onValueChange(ValueChangeEvent<LatLon> event) {
                 populateMap();
                 eventBus.fireEventFromSource(new MapPropertiesChangedEvent(), MapPropertiesPresenter.this);
-            }            
-        });
-        
-        view.getCancelButton().addClickHandler(new ClickHandler() {
-            
-            @Override
-            public void onClick(ClickEvent event) {
-                view.hide();
             }
         });
         
+        view.getControls().addValueChangeHandler(new ValueChangeHandler<Collection<MapControl>>() {
+            
+            @Override
+            public void onValueChange(ValueChangeEvent<Collection<MapControl>> event) {
+                populateMap();
+                eventBus.fireEventFromSource(new MapPropertiesChangedEvent(), MapPropertiesPresenter.this);
+            }
+        });
+        
+        view.getMapType().addValueChangeHandler(new ValueChangeHandler<MapType>() {
+            
+            @Override
+            public void onValueChange(ValueChangeEvent<MapType> event) {
+                populateMap();
+                eventBus.fireEventFromSource(new MapPropertiesChangedEvent(), MapPropertiesPresenter.this);
+            }
+        });
+        
+        view.getZoom().addValueChangeHandler(new ValueChangeHandler<Integer>() {
+            
+            @Override
+            public void onValueChange(ValueChangeEvent<Integer> event) {
+                populateMap();
+                eventBus.fireEventFromSource(new MapPropertiesChangedEvent(), MapPropertiesPresenter.this);
+            }
+        });
+
     }
 
     private void populateMap() {
         Map map = Map.getInstance();
-        map.setCenter(new LatLon(view.getLat().getValue(), view.getLon().getValue()));
-        map.setZoom(view.getZoom());
-        map.setTitle(view.getTitle().getValue());
-        map.setMapType(view.getMapType());
-        map.setControls(view.getControls());
+        if (view.getCenter().getValue() != null) {
+            map.setCenter(view.getCenter().getValue());
+        }
+        map.setZoom(view.getZoom().getValue());
+        map.setMapType(view.getMapType().getValue());
+        map.setControls(view.getControls().getValue());
     }
     
     private void populateView() {
         Map map = Map.getInstance();
-        view.getLat().setValue(map.getCenter().getLat());
-        view.getLon().setValue(map.getCenter().getLon());
-        view.setZoom(map.getZoom());
-        view.setMapType(map.getMapType());
-        view.setControls(map.getControls());
+        view.getCenter().setValue(map.getCenter());
+        view.getZoom().setValue(map.getZoom());
+        view.getMapType().setValue(map.getMapType());
+        view.getControls().setValue(map.getControls());
     }
             
 }
