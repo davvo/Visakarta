@@ -15,7 +15,7 @@
   function initialize() {
     var myOptions = {
       zoom: ${map.zoom},
-      center: new google.maps.LatLng(${map.center.lat}, ${map.center.lon}),
+      center: new google.maps.LatLng(${map.center.lat?c}, ${map.center.lon?c}),
       disableDefaultUI: true,      
       <#list map.controls as control>
           <#if control == "NAVIGATION">
@@ -44,7 +44,7 @@
         
     <#list map.markers as marker>
       var marker${marker.id} = new google.maps.Marker({
-          position: new google.maps.LatLng(${marker.pos.lat},${marker.pos.lon}), 
+          position: new google.maps.LatLng(${marker.pos.lat?c},${marker.pos.lon?c}), 
           map: map
       });
       <#if marker.infoWindow>
