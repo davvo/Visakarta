@@ -1,0 +1,3106 @@
+Aapua;66.86083, 23.51889
+Aareavaara;67.44222, 23.48194
+Abbekås;55.39444, 13.6
+Abborrberget;59.38333, 17.04444
+Abborrträsk;65.44917, 19.385
+Abisko;68.35, 18.817
+Abrahamsby;59.80278, 18.17222
+Adak;65.35, 18.59444
+Agerum;56.15694, 14.63833
+Aggarp;55.49611, 13.23306
+Agnäs;63.84917, 19.26361
+Agunnaryd;56.7475, 14.14472
+Albacken;62.77944, 16.00944
+Alberga, Eskilstuna kommun;59.28056, 16.11667
+Alboga (södra delen);58.46222, 16.32306
+Alborga;60.65278, 17.06722
+Albrunna;56.32528, 16.40667
+Alby, Ånge kommun;62.4939, 15.4782472
+Alfta;61.35, 16.083
+Algustorp;56.21806, 13.87861
+Algutsrum;56.68083, 16.53028
+Alingsås;57.933, 12.533
+Allarp, Klippans kommun;56.03972, 13.2625
+Allarp, Laholms kommun;56.44944, 12.94278
+Allerum;56.11, 12.69194
+Allsta (norra delen);62.335, 17.2317
+Almo;60.76333, 14.85056
+Almunge;59.87528, 18.04667
+Almunge kyrkby;59.86889, 18.07083
+Almvik, Södertälje kommun;59.10306, 17.43972
+Alnarp;55.65833, 13.08333
+Alnaryd;56.3425, 15.43278
+Alsike;59.75778, 17.76333
+Alsjön;57.86111, 12.30278
+Alstad;55.45361, 13.20472
+Alster;59.39778, 13.61361
+Alsterbro;56.94306, 15.91389
+Alstermo;56.97472, 15.65306
+Alstugorna;56.22833, 15.58444
+Alunda;60.067, 18.083
+Alvesta;56.90194, 14.56
+Alvesta kommun;56.90194, 14.56
+Alvhem;58.00722, 12.15556
+Alvik, Leksands kommun;60.75472, 14.87056
+Alvik, Luleå kommun;65.56306, 21.78111
+Ambjörby;60.5, 13.18
+Ambjörnarp;57.42222, 13.29167
+Ammarnäs;65.95778, 16.20889
+Ammenäs;58.31389, 11.825
+Andalen;57.7, 11.75
+Andersbo och Sågsbo;60.77194, 15.3925
+Anderslöv;55.43889, 13.31667
+Anderstorp;57.283, 13.633
+Aneby;57.83889, 14.81611
+Aneby kommun;57.83889, 14.81611
+Angelstad;56.82639, 13.76556
+Angered (tätort);57.783, 12.1
+Ankarsrum;57.70028, 16.33194
+Ankarsvik;62.372922, 17.40994
+Anneberg, Kungsbacka kommun;57.53917, 12.10111
+Anneberg, Nässjö kommun;57.72417, 14.80417
+Annelund;57.99167, 13.09167
+Annelöv;55.83667, 13.01972
+Ansmark;63.74472, 20.13583
+Aplared;57.65, 13.067
+Arboga;59.395, 15.84056
+Arboga kommun;59.39389, 15.83917
+Arbrå;61.483, 16.383
+Arentorp;58.24167, 12.87389
+Arild;56.275, 12.57306
+Arjeplog;66.033, 17.95
+Arkelstorp;56.17472, 14.28528
+Arkhyttan;60.44167, 15.88806
+Arkösund;58.483, 16.933
+Arnemark;65.48889, 21.21528
+Arnäsvall;63.31872139, 18.79552472
+Arnö, Nyköpings kommun;58.72917, 17.01861
+Arontorp;56.64417, 16.53139
+Arrie;55.517, 13.083
+Arvidsjaur;65.583, 19.167
+Arvika;59.65, 12.617
+Arvslindan;60.533, 15.15
+Asby;57.90389, 15.205
+Ask, Svalövs kommun;55.9633639, 13.2537472
+Askeby;58.40833, 15.85222
+Askersby, Örebro kommun;59.15, 15.475
+Askersund;58.867, 14.9
+Askeröd;55.75889, 13.59444
+Asketveten;58.867, 12.217
+Asmundtorp;55.8857, 12.9475
+Aspa, Nyköpings kommun;58.92722, 17.1
+Aspeboda;60.55833, 15.49167
+Aspeå;63.53583, 19.36806
+Asplund (ort);59.73222, 18.3725
+Attarp, Hässleholms kommun;56.14333, 13.83944
+Attmar;62.3129472, 17.0510833
+Auktsjaur;65.747048, 19.408164
+Ausås;55.16556, 12.88889
+Avan;65.68028, 21.80361
+Avaträsk;64.33611, 16.27694
+Avesta;60.14556, 16.16833
+Avesta kommun;60.14556, 16.16833
+Axamo;57.77722, 14.07361
+Axelfors;57.44167, 13.09444
+Axelstorp;56.40556, 12.84583
+Axeltofta;55.8607, 12.8906
+Axelvold;55.96998278, 13.09506222
+Axmar by;61.00167, 17.11889
+Axvall;58.383, 13.567
+Backa och Smeberg;58.8, 11.567
+Backa, Hedemora kommun;60.25833, 16.01528
+Backa, Rättviks kommun;60.92389, 15.12083
+Backa, Säters kommun;60.4, 15.63833
+Backaryd;56.34611, 15.15167
+Backberg;60.617, 16.617
+Backe, Strömsunds kommun;63.80917, 16.41
+Baggbo;60.42389, 15.27417
+Baggetorp;59.00806, 16.06556
+Balingsta;59.76028, 17.43361
+Ballingslöv;56.21444, 13.84694
+Balsby;56.07444, 14.20972
+Baltak;58.15, 13.933
+Bammarboda;59.5075, 18.46444
+Banafjäl;63.28639, 19.03111
+Bankekind;58.37472, 15.82528
+Bankeryd;57.85833, 14.125
+Bara;55.58083, 13.1825
+Barkarö;59.55306, 16.50333
+Barlingbo;56.6225, 16.0425
+Barsebäck;55.77083, 12.95556
+Barsebäckshamn;55.75583, 12.90583
+Barum;56.11833, 14.36583
+Baskarp;58.017, 14.133
+Basttjärn;60.02194, 14.98
+Bastuträsk, Norsjö kommun;64.78952806, 20.04382333
+Beddingestrand;55.35833, 13.42917
+Beden-Grevie;55.62694, 13.22028
+Bellö;57.57417, 15.33444
+Benareby;57.63889, 12.175
+Benestad, Tomelilla kommun;55.52389, 13.90694
+Bengtsfors;59.033, 12.217
+Bengtsgården;57.64, 15.24694
+Bengtsheden;60.70056, 15.87222
+Bensbyn;65.64167, 22.23333
+Bensjö;62.70278, 15.45806
+Berg, Bergs kommun;62.57611, 14.28694
+Berg, Hofors kommun;60.51361, 16.44556
+Berg, Linköpings kommun;58.48972, 15.53056
+Berg, Skövde kommun;58.5, 13.783
+Berg, Åtvidabergs kommun;58.217799, 16.023876
+Berga, Högsby kommun;57.216667, 16.03278
+Bergagård;56.97778, 12.57556
+Bergeforsen;62.5280639, 17.3858278
+Berghem, Marks kommun;57.5, 12.583
+Bergkarlås;61.03361, 14.64667
+Bergkvara;56.39028, 16.07944
+Bergom;63.233125, 18.574575
+Bergsgården;60.66139, 15.56
+Bergshammar, Nyköpings kommun;58.74167, 16.91583
+Bergshamra, Norrtälje kommun;59.63889, 18.50278
+Bergsjö;61.983, 17.067
+Bergströmshusen;55.67778, 13.17361
+Bergsviken;65.31111, 21.38333
+Bergvik;61.26, 16.83417
+Bergvik, Ekerö kommun;59.3, 17.67
+Bestorp;58.23444, 15.73083
+Betsele;64.63306, 18.55111
+Bettna;58.90611, 16.64194
+Bie;59.08833, 16.21444
+Billdal (tätort);57.57611, 11.94667
+Billeberga;55.88291389, 12.9990875
+Billesholm;56.05, 12.967
+Billinge;55.9625, 13.33333
+Billingsfors;58.983, 12.25
+Billsta;63.3220139, 18.5116972
+Billsta, Södertälje kommun;59.08056, 17.53
+Bispberg;60.35806, 15.78417
+Bjurfors, Norbergs kommun;60.13306, 16.12528
+Bjurholm;63.93117, 19.21617
+Bjursås;60.717, 15.417
+Bjuråker;61.86028667, 16.56478917
+Bjuv;56.08611, 12.91944
+Bjuvs kommun;56.083, 12.917
+Bjäresjö;55.4625, 13.75083
+Bjärlöv;56.11278, 14.08806
+Bjärnum;56.28944, 13.71139
+Bjärred;55.717, 13.017
+Bjärsjölagård;55.72306, 13.68778
+Bjässhammarn;62.3634694, 17.0618556
+Bjästa;63.2, 18.5
+Björbo;60.45806, 14.7175
+Björboholm;57.875, 12.32778
+Björke, Gävle kommun;60.76556, 17.19111
+Björkedal;56.1575, 13.67722
+Björkeryd;56.25778, 15.51028
+Björkesdal;57.70833, 12.38611
+Björketorp;57.425, 12.525
+Björkfors, Kinda kommun;58.01667, 15.90639
+Björklinge;60.033, 17.55
+Björksele;64.98778, 18.53194
+Björkshult;57.08389, 15.69111
+Björksätter;58.31222, 15.87722
+Björkvik;58.83444, 16.52083
+Björkviken;56.88139, 16.69028
+Björkäng och Smedsgård;57.0141972, 12.3513806
+Björkå;63.1766333, 17.59335
+Björköby, Vetlanda kommun;57.51972, 14.90528
+Björkön;62.2347361, 17.5458694
+Björlanda;57.76167, 11.82472
+Björna;63.55056, 18.59889
+Björnhult;57.3, 16.283
+Björnhult, Grönestad och Hästebäcken;58.05833, 14.19167
+Björnlunda;59.06611, 17.15972
+Björnsholm;57.950707, 16.440482
+Björnstorp;55.64528, 13.40694
+Björnänge;63.37917, 13.14583
+Björnö, Växjö kommun;57.17333, 14.60639
+Björnömalmen och Klacknäset;59.22222, 18.52222
+Björsjö;60.03694, 15.33694
+Björsäter;58.333623, 16.020722
+Blackstad;57.79361, 16.19667
+Blackstalund;59.9625, 17.38333
+Blankaholm;57.59111, 16.52528
+Bleket;57.95, 11.567
+Blentarp;55.583, 13.6
+Blidsberg;57.92972, 13.49222
+Blidö;59.61278, 18.90139
+Blikstorp;58.28111, 14.0575
+Blixtorp;57.0963972, 12.3477306
+Blomstermåla;56.98194, 16.33111
+Blötberget;60.12556, 15.06583
+Boalt, Östra Göinge kommun;56.38139, 14.16111
+Bockara;57.26306, 16.06639
+Boda, Rättviks kommun;61.01139, 15.21194
+Bodafors;57.50611, 14.69972
+Bodarna, Gagnefs kommun;60.54361, 15.12806
+Bodarna, Uppsala kommun;59.79, 17.6075
+Bodarne, Uddsarvet och Åkre;60.4225, 15.65722
+Bodbyn;64.00417, 20.39028
+Boden;65.833, 21.717
+Bodås;60.42583, 16.44833
+Boholmarna;56.65139, 16.29722
+Bokeslund;55.9412972, 13.58278
+Boliden;64.87694, 20.39111
+Bollebygd;57.667, 12.567
+Bollnäs;61.35, 16.4
+Bomsarvet, Blecktorp och Gerbergärd;60.54444, 15.42528
+Bondstorp;57.58917, 13.92361
+Bonnarp;56.07472, 13.19
+Bonäs;61.07222, 14.48722
+Boo;59.32111, 18.24472
+Bor, Värnamo kommun;57.11306, 14.17056
+Borensberg;58.56389, 15.28167
+Borggård, Finspångs kommun;58.72917, 15.55583
+Borgholm;56.87806, 16.66167
+Borgholms kommun;56.87806, 16.66167
+Borgsjöbyn;62.54017, 15.90933
+Borgstena;57.87944, 13.02472
+Borgunda;58.29306, 13.80111
+Borgvattnet;63.42222, 15.825
+Borgåsen;59.69528, 16.18639
+Borgåsund;59.51028, 16.26194
+Borlänge;60.48278, 15.43639
+Borlänge kommun;60.48278, 15.43639
+Borrby;55.45778, 14.17861
+Borås;57.717, 12.933
+Bosnäs;57.667, 12.85
+Bosön;59.38111, 18.18139
+Botkyrka kommun;59.2, 17.833
+Botsmark;64.25, 20.266667
+Bottna, Östergötland;58.39861, 16.67111
+Bottnaryd;57.76944, 13.82611
+Bovallstrand;58.475, 11.32222
+Boxholm;58.19639, 15.05194
+Boxholms kommun;58.19639, 15.05194
+Brandbo;59.95361, 15.89056
+Brandstorp;58.10194, 14.19083
+Brantevik;55.51389, 14.34583
+Brastad;58.383, 11.483
+Brattfors, Filipstads kommun;59.66167, 14.00306
+Braås;57.06222, 15.05361
+Bredared;57.80556, 12.90278
+Bredaryd;57.17583, 13.7375
+Bredbyn;63.45, 18.1
+Bredsjö;59.83167, 14.73389
+Bredsättra;56.84417, 16.79417
+Bredviken;65.83111, 23.21083
+Bregårdsängarna;59.346279, 14.47556
+Brevens bruk;59.01111, 15.58333
+Brevikshalvön;59.233, 18.333
+Brink (norra delen);59.11306, 17.80806
+Brittatorp;57.03556, 14.94
+Bro, Upplands-Bro kommun;59.517, 17.65
+Broaryd;57.11944, 13.25833
+Broby, Östra Göinge kommun;56.255, 14.07583
+Brodalen;58.4175, 11.48056
+Broddbo;59.98722, 16.47778
+Broddetorp;58.30528, 13.60694
+Brokind;58.217, 15.683
+Bromölla;56.075, 14.46722
+Bromölla kommun;56.067, 14.483
+Brottby;59.56667, 18.25
+Bruket;59.1675, 18.02667
+Bruksvallarna;62.64222, 12.43444
+Brunflo;63.083, 14.817
+Brunn, Värmdö kommun;59.285, 18.42361
+Brunna, Upplands-Bro kommun;59.5, 17.75
+Brunnsberg;61.28417, 13.92111
+Brunnsta, Håbo kommun;59.61083, 17.47778
+Bruzaholm;57.64278, 15.27
+Bräcke;62.75056, 15.42167
+Bräkne-Hoby;56.23028, 15.11639
+Brändön;65.6975, 22.33444
+Brännberg;65.78611, 21.23194
+Brännebrona;58.575, 13.60556
+Brännehylte;57.31639, 13.85222
+Brännland, Umeå kommun;63.883333, 20.066667
+Bränntorp;58.86583, 16.05417
+Brännö;57.63611, 11.77778
+Brålanda;58.56111, 12.35278
+Brån;63.909722, 19.854472
+Brösarp;55.72306, 14.10417
+Bröta och Bröthagen;59.10556, 17.86611
+Bröttjärna;60.5025, 15.02083
+Bua;57.2361472, 12.113972
+Bullandö;59.30639, 18.65472
+Bullmark;64.02861, 20.48389
+Bunkeflostrand;55.55, 12.91667
+Bunn;57.98889, 14.51667
+Bunsta;62.25333, 17.32733
+Burens;60.16806, 15.16361
+Bureå;64.61778, 21.20056
+Burgsvik;57.03111, 18.27333
+Burlövs egnahem;55.63611, 13.10278
+Burlövs kommun;55.633, 13.067
+Burs;57.25083, 18.51194
+Burseryd;57.2, 13.28333
+Burträsk;64.51944, 20.65639
+Buskhyttan;58.76639, 17.01806
+Bussemåla;56.18306, 15.27111
+Butbro;58.71639, 15.83389
+Byarum;57.54139, 14.14361
+Bygdeå;64.06111, 20.85417
+Bygdsiljum;64.35056, 20.505
+Byske;64.95333, 21.20389
+Bystaden;57.210778, 12.2196306
+Byxelkrok;57.325, 17.00667
+Bäck och Tomming;62.5968056, 17.0528083
+Bäckaskog;56.04528, 14.33556
+Bäckaskog, Sollefteå kommun;63.1328056, 17.0138306
+Bäckebo;56.88833, 16.066667
+Bäckefors;58.80833, 12.16111
+Bälganet;56.38722, 15.03111
+Bälgviken;59.23806, 16.45833
+Bälinge, Uppsala kommun;59.94722, 17.54167
+Bärby;59.85722, 17.81333
+Bäsksele;64.633, 16.883
+Bäsna;60.53917, 15.20528
+Bålsta;59.56778, 17.52972
+Bårekulla;57.68611, 12.18889
+Bårslöv;56.00861, 12.80694
+Båstad;56.433, 12.833
+Båstads kommun;56.417, 12.867
+Båtvik;64.967, 21.283
+Böda;57.25944, 17.035
+Böksholm;57.085, 15.005
+Böle, Luleå kommun;65.88833, 22.25028
+Bölen och Skulnäs;63.1656306, 18.4208111
+Bölse;56.952472, 12.393528
+Bönan;60.73833, 17.30944
+Börringe;55.50556, 13.35833
+Börringe station;55.49722, 13.33194
+Bössebacken;56.14194, 14.10278
+Böste läge;55.34361, 13.315
+Charlottenberg;59.883, 12.283
+Dagsås;57.06306, 12.48278
+Dalarö;59.133, 18.4
+Dalby;55.65, 13.217
+Dalkarlsberg;59.43333, 14.86667
+Dalkarlså;64.0419194, 20.8621611
+Dals Långed;58.92778, 12.30278
+Dals Rostock;58.80833, 12.42222
+Dalsjöfors;57.717, 13.083
+Dalstorp;57.60278, 13.52222
+Danderyds kommun;59.417, 18.05
+Danholn;60.61972, 15.78917
+Dannemora;60.2, 17.85833
+Dannike;57.68778, 13.22917
+Degeberga;55.83, 14.09028
+Degerbäcken;65.85944, 21.405
+Degerfors;59.233, 14.433
+Degerhamn;56.35611, 16.41611
+Degerön;65.550006, 22.666683
+Deje;59.6, 13.467
+Dekarsön;63.26117, 18.80867
+Delary;56.54722, 13.95389
+Dimbo;58.16944, 13.82028
+Dingelvik;58.933, 12.233
+Dingersjö;62.34298, 17.36161
+Dingle;58.533, 11.583
+Dingtuna;59.57083, 16.38278
+Diseröd;57.925, 12.025
+Diö;56.64111, 14.2225
+Djulö kvarn;58.96778, 16.19778
+Djupedalen;58.383, 12.283
+Djupekås;56.07028, 14.71806
+Djurmo;60.55028, 15.18917
+Djurröd;55.99583, 13.88528
+Djurås;60.55917, 15.13167
+Djurås (södra delen);60.54722, 15.14861
+Djurö, Värmdö kommun;59.31167, 18.70361
+Djurön;58.6284028, 16.3473139
+Djäkneboda;63.99944, 20.80028
+Djäkneböle;63.77167, 20.05639
+Docksta;63.05556, 18.32778
+Domsten;56.12, 12.605
+Donsö;57.6, 11.8
+Dorotea;64.25833, 16.41111
+Drevdagen;61.76389, 12.40667
+Drängsered;57.02, 12.96833
+Drögsperyd;56.17917, 14.54917
+Drömme;63.2575, 18.23333
+Dröverken och Myrbacken;60.19833, 15.09778
+Dunö;56.63472, 16.266667
+Duved;63.39583, 12.94333
+Dvärsätt;63.30194, 14.47278
+Dyvelsten;59.515, 13.44028
+Dädesjö;57.01, 15.10167
+Dångebo;56.50528, 15.15556
+Dörarp;56.99111, 14.00889
+Dösjebro;55.82111, 13.02917
+Ed, Dals-Eds kommun;58.917, 11.917
+Edebo;60.00861, 18.57639
+Edenberga;56.46611, 13.09528
+Edenryd;56.04389, 14.51444
+Edsbro;59.89444, 18.49167
+Edsbruk;58.01833, 16.46889
+Edsbyn;61.383, 15.817
+Edsele;63.4058972, 16.5437028
+Edsleskog;59.05833, 12.45833
+Eftra;56.855917, 12.6525583
+Eggby;58.433, 13.633
+Ekeboda;55.85333, 13.68806
+Ekebol;58.95, 12.283
+Ekeborg;55.91306, 13.54722
+Ekeby, Kumla kommun;59.167, 15.267
+Ekeby, Södertälje kommun;59.183, 17.633
+Ekeby, Upplands Väsby kommun;59.52278, 17.97639
+Ekeby, Östhammars kommun;60.08556, 18.21944
+Ekebyholm;59.7753306, 18.3444917
+Ekedalen;58.2, 13.833
+Ekelid;58.19722, 13.83056
+Ekenäs, Kalmar kommun;56.51194, 16.18028
+Ekenässjön;57.48972, 15.02028
+Ekeryd;57.85361, 14.10111
+Ekerö;59.28, 17.78
+Ekerö kommun;59.35, 17.683
+Ekerö sommarstad;59.27667, 17.73667
+Ekestad;56.13111, 14.25056
+Eket;56.24722, 13.19306
+Eklången;59.24, 16.75556
+Ekolsund;59.62, 17.3775
+Ekshärad;60.1725, 13.49639
+Eksjö;57.66694, 14.97028
+Eksjö kommun;57.66694, 14.97028
+Eksund;58.58778, 16.08972
+Ekängen, Linköpings kommun;58.46611, 15.63861
+Eldsberga;56.59861, 12.98833
+Eljaröd;55.69722, 14.0375
+Ellenö;58.517, 11.983
+Ellös;58.17778, 11.475
+Emmaboda;56.63, 15.53778
+Emmaboda kommun;56.63, 15.53778
+Emmaljunga;56.39694, 13.65083
+Emsfors;57.14556, 16.45806
+Eneryda;56.70444, 14.33833
+Enhagen-Ekbacken;59.56667, 16.52889
+Enkärret;59.26472, 18.44944
+Enköping;59.63556, 17.07639
+Enköpings kommun;59.63556, 17.07639
+Ensjön (tätort);58.55389, 16.20972
+Ensta;59.45472, 18.05417
+Ensta och Bodarna;59.84611, 17.83944
+Enstaberga;58.75, 16.85
+Enviken;60.80806, 15.75778
+Enånger;61.547567, 17.005717
+Erikslund, Svenljunga kommun;57.48194, 13.24
+Erikslund, Ånge kommun;62.52667, 15.913
+Eriksmyst;57.62222, 12.425
+Eriksmåla;56.73583, 15.48417
+Erikstad;58.633, 12.417
+Eringsboda;56.433, 15.333
+Ersmark, Skellefteå kommun;64.84861, 20.89639
+Ersmark, Umeå kommun;63.883, 20.317
+Ersnäs;65.527861, 21.797417
+Eskelhem;57.48889, 18.20833
+Eskilsby och Snugga;57.617, 12.283
+Eskilstorp-Hemmeslövs gård;56.42917, 12.92639
+Eskilstuna;59.37056, 16.51278
+Eskilstuna kommun;59.37056, 16.51278
+Eslöv;55.833, 13.3
+Eslövs kommun;55.833, 13.3
+Essunga kyrkby;58.183, 12.767
+Essvik;62.3087, 17.389167
+Estabo;58.98333, 15.06667
+Etelhem;57.33556, 18.50028
+Evedal;56.921, 14.823
+Evertsberg;61.133, 13.967
+Everöd;55.89917, 14.08917
+Fagerbacken;60.41083, 15.41972
+Fagerfjäll;57.983, 11.65
+Fagerholm, Abborrsjön och Johannesdal;59.2535083, 18.4197806
+Fagerhult, Högsby kommun;57.14778, 15.66278
+Fagerhult, Uddevalla kommun;58.417, 12.017
+Fagersanna;58.467, 14.3
+Fagersta;60.00472, 15.79194
+Fagersta kommun;60.00472, 15.79194
+Fagersta, Hofors kommun;60.52361, 16.33639
+Fagerviken;60.54167, 17.74389
+Falerum;58.14306, 16.20778
+Falkenberg;56.883, 12.5
+Falköping;58.16917, 13.55611
+Falla;58.68556, 15.75028
+Falu kommun;60.60722, 15.63111
+Falun;60.60722, 15.63111
+Fammarp;56.68556, 12.75472
+Fanbyn, Sundsvalls kommun;62.4085, 16.5748
+Fannbyn;63.4505056, 18.1364917
+Fanthyttan;59.66111, 15.10278
+Farhultsbaden;56.22333, 12.71861
+Farstorp, Hässleholms kommun;56.2775, 13.79472
+Fellingsbro;59.43333, 15.59167
+Fiddekulla;56.53444, 15.61889
+Figeholm;57.37333, 16.54944
+Filipshyttan;59.33333, 14.98333
+Filipstad;59.717, 14.167
+Filsbäck;58.49167, 13.24722
+Finja;56.16806, 13.69444
+Finkarby;59.22222, 17.31278
+Finnböle, Hedesunda;60.44139, 17.16167
+Finnerödja;58.925, 14.43889
+Finsjö;57.15, 16.233
+Finspång;58.70917, 15.78694
+Finspångs kommun;58.70917, 15.78694
+Finsta;59.73694, 18.49361
+Fiskarhagen;59.23778, 17.78417
+Fiskebäck, Habo kommun;57.88889, 14.10278
+Fiskebäckskil;58.24722, 11.45833
+Fisksätra;59.29306, 18.2575
+Fjelie;55.72528, 13.10528
+Fjuckby;59.97639, 17.59583
+Fjugesta;59.167, 14.867
+Fjäkelmyra och Skomsarby;60.46222, 15.52944
+Fjälkestad;56.10861, 14.16972
+Fjälkinge;56.04389, 14.27556
+Fjällbacka;58.6, 11.283
+Fjällskäfte;59.11917, 16.36722
+Fjärdhundra;59.77722, 16.92639
+Fjärdsjömåla;56.33917, 15.74111
+Fjärestad;55.9875, 12.83944
+Fjäringsgården;56.17972, 14.26917
+Flackarps mölla;55.6819667, 13.1676833
+Flakeberg;58.32222, 12.76111
+Flarken;64.30222, 20.86917
+Flen;59.05833, 16.58889
+Fleninge;56.10806, 12.79167
+Flens kommun;59.05833, 16.58889
+Flisby;57.78306, 14.79917
+Fliseryd;57.12722, 16.26056
+Floby;58.13889, 13.33611
+Floda och Bäck;60.43194, 15.32583
+Floda, Lerums kommun;57.8, 12.367
+Floget;58.3125, 12.40167
+Flugeby;57.42556, 15.14861
+Flurkmark;63.98222, 20.23806
+Flygsfors;56.84083, 15.77917
+Flyinge;55.75306, 13.36028
+Flyingeby;55.75, 13.35
+Flädie;55.72528, 13.07333
+Folkabo;58.12556, 13.81389
+Folkesred;57.72083, 13.30556
+Follingbo;57.5875, 18.37278
+Forkarby;59.92722, 17.56222
+Fornebo;59.11306, 16.68472
+Fornåsa;58.47917, 15.23028
+Fors, Avesta kommun;60.20778, 16.30722
+Forsbacka, Karlshamns kommun;56.17306, 14.75417
+Forsby, Klippans kommun;56.11333, 13.15333
+Forserum;57.69944, 14.47278
+Forshaga;59.533, 13.467
+Forsheda;57.16361, 13.83222
+Forshem;58.61944, 13.49167
+Forsmark;60.37083, 18.15583
+Forsmo;63.2637944, 17.1801778
+Forssjö;58.95583, 16.28972
+Forsvik;58.57667, 14.43667
+Fotö;57.66944, 11.65556
+Fredrika (tätort);64.07639, 18.4025
+Fredriksberg;60.14028, 14.37472
+Fredriksdal, Nässjö kommun;57.61694, 14.59806
+Fridafors;56.40861, 14.66028
+Fridhemsberg;57.164825, 12.747575
+Fridlevstad;56.27028, 15.54139
+Frillesås;57.3174778, 12.1758056
+Frinnaryd;57.93417, 14.82111
+Fritsla;57.55556, 12.79167
+Froarp;56.22, 14.85222
+Frufällan;57.783, 12.983
+Främmestad;58.233, 12.667
+Frändefors;58.5, 12.283
+Fränninge;55.72083, 13.80028
+Fränsta;62.49806, 16.16972
+Frånö;62.90306, 17.83194
+Fröbol;59.64889, 12.46111
+Frödinge;57.7, 16.00167
+Fröjered;58.24722, 14.01389
+Frösakull;56.66722, 12.73028
+Fröseke;56.9475, 15.79111
+Fröskog;58.983, 12.467
+Frövi;59.467, 15.367
+Fuglie;55.45, 13.083
+Funbo;59.85528, 17.86028
+Funningen;57.69306, 12.88472
+Funäsdalen;62.533, 12.55
+Furuberg;57.617, 12.467
+Furuby;56.85194, 15.03056
+Furudal;61.16972, 15.13556
+Furuhäll, Blårör och Solbergamarken;56.87722, 16.68583
+Furulund;55.77389, 13.09444
+Furumon;56.09361, 14.695
+Furusjö;57.92778, 13.96111
+Furusund;59.66194, 18.91694
+Fyllinge;56.6475, 12.92222
+Fäggeby;60.39583, 15.88861
+Fägre;58.64639, 14.13611
+Fällfors;65.12417, 20.7875
+Färentuna;59.39139, 17.65528
+Färgelanda;58.57083, 11.99361
+Färila;61.66667, 15.84167
+Färingtofta;56.03861, 13.39611
+Färjbäcken;60.55306, 17.42528
+Färjestaden;56.64972, 16.47556
+Färlöv;56.07306, 14.08778
+Färmanstorp;56.17861, 15.49111
+Färmsnäs;60.52083, 14.98056
+Färnäs;61.00056, 14.62667
+Fågelfors;57.20417, 15.84472
+Fågelmara;56.267, 15.95
+Fågelvikshöjden;59.27667, 18.42889
+Fåglum;58.12222, 12.77778
+Fårabäck;55.567, 13.117
+Fårbo;57.38111, 16.48639
+Fårösund;57.85972, 19.05611
+Föllinge;63.67222, 14.60833
+Förlösa;56.74722, 16.2525
+Förslöv;56.35139, 12.81667
+Försäter;60.43944, 17.77806
+Gagnef;60.59111, 15.06389
+Gagnefs kommun;60.55917, 15.13167
+Gagnefsbyn och Nordåker;60.57806, 15.0675
+Galtabäck;57.03889, 12.32278
+Gamla Bo;55.8725, 13.49417
+Gamleby;57.895, 16.40444
+Gammelgården;65.8819389, 23.0402111
+Gantofta;55.99028, 12.80611
+Gargnäs;65.31139, 17.96472
+Garnanäs;56.15861, 15.08694
+Garnviken;58.27778, 12.17222
+Garpenberg;60.31667, 16.19639
+Garsås;60.92028, 14.82667
+Geber (småort);59.2475, 18.13972
+Gemla;56.86722, 14.64389
+Genarp;55.6, 13.4
+Genevad;56.56917, 13.03222
+Gesala;59.73111, 16.56
+Gessie;55.50278, 12.99583
+Gessie villastad;55.49722, 12.95694
+Gesunda;60.88639, 14.54389
+Getberget och Notholmen;59.53056, 17.516667
+Getinge;56.817, 12.733
+Gillstad;58.44028, 12.95556
+Gimmersta, Tyresö kommun;59.23361, 18.27889
+Gimo;60.183, 18.183
+Gingri;57.81056, 13.04389
+Gislaved;57.30278, 13.53833
+Gislaveds kommun;57.30278, 13.53833
+Gislöv;55.383, 13.25
+Gistad;58.465228, 15.88887
+Gladsax;55.56111, 14.2875
+Gladö kvarn;59.19361, 17.98972
+Glemmingebro;55.45278, 14.02056
+Glimåkra;56.30667, 14.13806
+Glommen, Falkenbergs kommun;56.92667, 12.37361
+Glommersträsk;65.267, 19.633
+Glumslöv;55.94167, 12.80972
+Gnarp;62.05, 17.267
+Gnesta;59.0475, 17.31222
+Gnesta kommun;59.0475, 17.31222
+Gnosjö;57.35667, 13.73389
+Gnosjö kommun;57.35667, 13.73389
+Godegård;58.74917, 15.16222
+Gonäs;60.14778, 15.09722
+Gopa;60.72222, 15.34167
+Gopshus;61.09833, 14.23639
+Gothem;57.57556, 18.735
+Gotlands kommun;57.61528, 18.28056
+Gottne;63.43, 18.425
+Gottsunda;59.80972, 17.62778
+Granbergsdal;59.402954, 14.580156
+Granbäcken;57.62889, 12.95
+Grangärde;60.26167, 14.97806
+Granholmen;65.77333, 22.69556
+Granvik, Lidköpings kommun;58.67917, 13.15972
+Grebbestad;58.683, 11.25
+Grebo;58.297806, 15.8679
+Gredeby;56.21139, 15.51639
+Grevbo;60.42, 15.43028
+Grevie, Båstads kommun;56.39028, 12.77917
+Grillby;59.62472, 17.25583
+Grimeton;57.12417, 12.39389
+Grimslöv;56.73694, 14.54194
+Grimslövs by;56.7518722, 14.5680722
+Grimsta och Lundvreten;59.9475, 17.61889
+Grimstorp;57.55917, 14.6975
+Grimsås;57.48333, 13.54944
+Gringelstad;55.93917, 14.11389
+Gripenberg (tätort);57.99278, 14.85278
+Grisslehamn;60.10056, 18.80722
+Grums;59.35, 13.1
+Grundby sand och Kullersta sand;59.45, 16.533
+Grundsund;58.217, 11.417
+Grunnebo;58.33722, 12.22361
+Gruvstugan;58.667, 16.45
+Grycksbo;60.7, 15.467
+Grytgöl;58.8025, 15.55444
+Grythyttan;59.70417, 14.53
+Gryttby;60.1275, 17.58083
+Gräddö;59.76472, 19.03222
+Grängesberg;60.075, 15.00778
+Gränna;58.0225, 14.46778
+Gränsbo;55.383, 13.383
+Gränsfors;62.04028, 17.08861
+Gränsta;59.90417, 18.25444
+Gränum;56.22944, 14.605
+Gräsmyr;63.76694, 19.62694
+Grästorp;58.333, 12.667
+Gräsö;60.383, 18.45
+Gräv;60.6175, 15.04917
+Grådö;60.24667, 16.03194
+Gråmanstorp;56.14972, 16.10111
+Grödby, Bromölla kommun;56.08333, 14.52028
+Grödby, Nynäshamns kommun;59.05167, 17.86917
+Grönadal;56.18667, 15.50917
+Grönby;55.43889, 13.35556
+Grönhögen;56.26833, 16.39944
+Grönskan, Vedhamn och Baldersnäs;59.2305083, 18.4763444
+Grönskåra;57.07556, 15.73556
+Gröstorp;55.55583, 14.31333
+Gualöv;56.04861, 14.41889
+Gubbo;60.1775, 15.32222
+Gullabo;56.46417, 15.80694
+Gullarp;55.85, 13.267
+Gullaskruv;56.875, 15.67722
+Gullbrandstorp;56.70417, 12.73611
+Gullbranna;56.5875, 12.945
+Gulleråsen;61.06889, 15.18167
+Gullgård;62.483, 16.133
+Gullholmen;58.18056, 11.40556
+Gullringen;57.80028, 15.71556
+Gullspång;58.983, 14.117
+Gundal och Högås;57.5625, 11.98306
+Gunnarstorp;56.1, 12.92444
+Gunnebo;57.72028, 16.53222
+Gunneby;58.01389, 11.68056
+Gunsta;59.85361, 17.8325
+Gusselby;59.64167, 15.22222
+Gustavsberg, Sundsvalls kommun;62.404183, 17.414183
+Gustavsberg, Värmdö kommun;59.33333, 18.38333
+Gustavsfors, Hagfors kommun;60.155, 13.805
+Gustavstorp;56.19028, 14.68
+Gusum;58.264509, 16.496519
+Guövik;56.19944, 15.01222
+Gylle;55.40889, 13.19806
+Gylle och Fjärdingslöv;55.40694, 13.20972
+Gyttorp;59.50583, 14.96639
+Gällared;57.0986333, 12.832889
+Gällivare;67.133, 20.65
+Gällstad;57.667, 13.417
+Gälstad-Lundby;58.34, 15.39444
+Gängletorp;56.167, 15.733
+Gärdet;59.3383, 18.1083
+Gärds Köpinge;55.94361, 14.15944
+Gärdslösa;56.79361, 16.74194
+Gärsnäs;55.54583, 14.18194
+Gästre;59.75111, 16.95111
+Gävle;60.683, 17.167
+Gånghester;57.7, 13.033
+Gårdby;56.60361, 16.64306
+Gårdskär;60.60944, 17.57528
+Gårdstånga;55.7625, 13.32222
+Gåsvarv;61.19083, 14.08639
+Gåvsta;59.94444, 17.87778
+Gödestad;57.1330722, 12.379275
+Görarp;56.00806, 12.78611
+Gössäter;58.60833, 13.45278
+Göta, Lilla Edets kommun;58.10556, 12.15
+Göteborg (tätort);57.70694, 11.96694
+Götene;58.533, 13.483
+Götlunda;59.35361, 15.666667
+Hablingbo;57.18528, 18.26861
+Habo;57.90861, 14.07528
+Habo kommun;57.90861, 14.07528
+Hackås;62.92389, 14.51806
+Haga, Enköpings kommun;59.60389, 17.05
+Haga, Heby kommun;60.07361, 17.20556
+Hagbo och Björkhaga;56.19972, 15.9075
+Hagby, Kalmar kommun;56.56028, 16.18194
+Hagby, Skuttunge församling;60.00167, 17.51611
+Hagbyhöjden;59.48, 18.25722
+Hagen, Gagnefs kommun;60.49639, 14.82861
+Hagfors;60.033, 13.7
+Hagge;60.12222, 15.27083
+Haglösa;55.433, 13.183
+Hagsätter;58.63944, 16.10583
+Hakkas;66.91389, 21.566667
+Halahult;56.29889, 15.0025
+Hallabro;56.39083, 15.10222
+Hallaryd;56.485, 13.885
+Hallen, Åre kommun;63.17861, 14.09
+Hallerna;58.033, 11.833
+Hallsberg;59.067, 15.117
+Hallsta, Ånge kommun;62.54067, 15.7625
+Hallstahammar;59.61361, 16.22917
+Hallstahammars kommun;59.61722, 16.22778
+Hallstavik;60.05, 18.6
+Hallsåsåsen;57.75278, 12.28611
+Halltorp;56.5, 16.10278
+Hallviken;63.73083, 15.48444
+Halmby;59.78361, 17.78694
+Halmstad;56.667, 12.85
+Halvarsgårdarna;60.40611, 15.38722
+Hamburgsund;58.55556, 11.275
+Hammar, Kristianstads kommun;56.03083, 14.2075
+Hammarby by;59.95333, 17.80694
+Hammarby, Eskilstuna kommun;59.40556, 16.59444
+Hammarby, Sandvikens kommun;60.55, 16.567
+Hammarby, Uppsala kommun;59.95083, 17.82583
+Hammarglo;57.07028, 16.51028
+Hammarlunda;55.733, 13.433
+Hammarlöv;55.417, 13.133
+Hammarskogen;59.12833, 18.04111
+Hammarslund;56.01833, 14.19222
+Hammarstrand;63.11056, 16.35389
+Hammarö kommun;59.30889, 13.53194
+Hammenhög;55.50278, 14.15
+Hammerdal;63.58222, 15.35194
+Hamneda;56.69722, 13.85556
+Hampetorp;59.13889, 15.66917
+Hanaskog;56.16, 14.09556
+Hangvar;57.83917, 18.69056
+Haninge kommun;59.183, 18.15
+Haparanda;65.833, 24.133
+Hara, Östersunds kommun;63.03778, 14.46556
+Harads;66.08444, 20.95417
+Harbo;60.10528, 17.20028
+Harby;56.68444, 16.1425
+Harg, Norrtälje kommun;59.81167, 18.9575
+Harg, Östhammars kommun;60.18667, 18.39333
+Hargshamn;60.167, 18.467
+Harlösa;55.71667, 13.52611
+Harplinge;56.733, 12.733
+Hassela;62.133, 16.717
+Hasselfors;59.08611, 14.65278
+Hasselstad;56.26583, 15.24972
+Hasslarp;56.13694, 12.81278
+Hasslerör;58.74944, 13.94056
+Hasslö;56.10972, 15.46389
+Hasslösa;58.43056, 13.27361
+Hassmyra;59.87611, 16.34806
+Haurida;57.89028, 14.52167
+Havdhem;57.16167, 18.33167
+Haverdal;56.72778, 12.66778
+Havstenssund;58.75278, 11.18056
+Heberg;56.87694, 12.64111
+Heby;59.93833, 16.8625
+Heby kommun;59.93833, 16.8625
+Hedared;57.80833, 12.75
+Hede, Härjedalens kommun;62.41667, 13.51667
+Hedemora;60.28028, 15.98694
+Hedemora kommun;60.28028, 15.98694
+Heden och Grophamre;61.84861, 15.99444
+Heden, Trollhättans kommun;58.22222, 12.18611
+Hedeskoga;55.45, 13.8
+Hedesunda;60.39389, 17.00528
+Hedeviken;62.40833, 13.67778
+Hedvigsberg;59.267, 18.417
+Hedvigsdal;55.43889, 14.06667
+Hedåker;60.02389, 16.33111
+Helgum;63.15139, 16.95
+Helgö;59.27861, 17.67972
+Helsingborg;56.05222, 12.70056
+Helsingborgs kommun;56.05, 12.7
+Helås;58.275, 12.88889
+Hemavan;65.817, 15.083
+Hemfosa;59.067, 17.967
+Hemmesta;59.32333, 18.49111
+Hemmestorps eke;55.617, 13.567
+Hemmestorps fure;55.617, 13.55
+Hemmingsmark;65.22167, 21.28472
+Hemse;57.2375, 18.37389
+Hemsjö, Alingsås kommun;57.845, 12.4775
+Hemsjö, Olofströms kommun;56.32389, 14.70111
+Henån;58.23611, 11.66389
+Herrljunga;58.083, 13.033
+Herrskog;62.91639, 18.02778
+Herräng;60.12861, 18.64861
+Herstadberg;58.62722, 16.17833
+Hestra, Gislaveds kommun;57.44389, 13.59611
+Hestra, Ydre kommun;57.95472, 15.07083
+Hillared;57.633, 13.15
+Hillerstorp;57.31556, 13.88167
+Hilleshög;59.39028, 17.70361
+Himle;57.072889, 12.3654556
+Hindås;57.7, 12.433
+Hishult;56.42583, 13.31417
+Hittarp;56.09139, 12.65583
+Hjo;58.3, 14.283
+Hjorted;57.62139, 16.30639
+Hjortkvarn;58.89556, 15.43139
+Hjortnäs;60.79333, 14.96972
+Hjortsberga, Alvesta kommun;56.91306, 14.45278
+Hjortshög;56.07111, 12.7975
+Hjulbäck;60.795, 14.92194
+Hjuvik;57.70611, 11.71333
+Hjälmared, Alingsås kommun;57.89444, 12.54861
+Hjälmryd och Vralen;57.81778, 12.87417
+Hjälmsa;56.25722, 15.08972
+Hjälmsätters fritidsområde;59.17694, 15.94194
+Hjälstaby och Vängsta;59.69, 17.37806
+Hjältevad;57.62889, 15.34361
+Hjärnarp;56.32139, 12.90889
+Hjärsås;56.20694, 14.14611
+Hjärtum;58.18056, 12.10889
+Hjärup;55.667, 13.15
+Hobborn och Boda;60.64972, 15.75
+Hofors;60.55, 16.283
+Hofterup;55.79722, 12.97778
+Hogstad;58.3328528, 15.0281389
+Hogstorp;58.4, 11.75
+Hok;57.51278, 14.27833
+Holm, Halmstads kommun;56.73222, 12.86083
+Holm, Sundsvalls kommun;62.65733, 16.63
+Holmby;55.75, 13.4
+Holmeja;55.55417, 13.27361
+Holmsjö;56.41722, 15.54139
+Holmsund;63.7083, 20.37
+Holmsveden;61.11944, 16.72333
+Holsbybrunn;57.43694, 15.20306
+Holsljunga;57.417, 12.967
+Horda;57.03889, 14.25667
+Horn, Kinda kommun;57.9, 15.83806
+Horna;55.95722, 14.275
+Horndal;60.29083, 16.40306
+Hornön;62.815, 17.95
+Horred;57.35833, 12.475
+Horsaryd;56.185, 14.81278
+Horsarydmark;56.18278, 14.82861
+Hosaby;56.04111, 14.69056
+Hov, Båstads kommun;56.43472, 12.72917
+Hova;58.85, 14.217
+Hovenäset;58.37222, 11.29722
+Hovid;62.47385, 17.37185
+Hovmantorp;56.78639, 15.14056
+Hovsta;59.35, 15.217
+Huaröd;55.84222, 13.97
+Huddinge kommun;59.217, 18.017
+Hudene;58.05278, 13.09444
+Hudiksvall;61.733, 17.133
+Hulared;57.59167, 13.59722
+Hullaryd;57.91944, 14.72417
+Hult, Eksjö kommun;57.64361, 15.13222
+Hultafors;57.69444, 12.72778
+Hulterstad;56.44889, 16.56667
+Hultet;58.567, 14.5
+Hultsfred;57.48722, 15.84028
+Hultsfreds kommun;57.48722, 15.84028
+Hulu;57.7, 13.3
+Hummelsta;59.62556, 16.94194
+Hummelstad;57.78472, 16.27111
+Hunnemara;56.16306, 14.89833
+Hunnestad;57.10389, 12.36056
+Hurva;55.79583, 13.43889
+Husby, Hedemora kommun;60.3875, 15.99472
+Husby, Tierps kommun;60.145, 17.57583
+Husum, Örnsköldsviks kommun;63.333, 19.167
+Hybo;61.79444, 16.2
+Hycklinge;57.92278, 15.91611
+Hyllinge;56.10722, 12.86417
+Hyllstofta;56.13333, 13.2875
+Hylta;56.23667, 14.20361
+Hyltarp;55.52083, 13.1875
+Hyppeln;57.76111, 11.61111
+Hyssna;57.55722, 12.53694
+Hägdarve och Dede;57.21389, 18.26417
+Häggeby och Vreta;59.6525, 17.53972
+Häglinge;55.99028, 13.705
+Hägra;63.31111, 14.46111
+Hälgenäs;57.99778, 16.49889
+Häljalt;56.20833, 13.36806
+Häljarp;55.85222, 12.91528
+Hällabrottet;59.11222, 15.22389
+Hällaryd;56.20278, 14.94722
+Hällberga;59.31944, 16.6
+Hällbybrunn;59.39222, 16.42028
+Hällefors;59.767, 14.517
+Hälleforsnäs;59.15389, 16.49917
+Hällestad, Finspångs kommun;58.733, 15.567
+Hällesåker;57.6, 12.183
+Hällesås;57.56222, 11.99917
+Hällevadsholm;58.583, 11.533
+Hällevik;56.0125, 14.69806
+Hälleviksstrand;58.12278, 11.44278
+Hällingsjö;57.617, 12.433
+Härad, Strängnäs kommun;59.36111, 16.90611
+Häradsbygden;60.70139, 15.04444
+Häradsbäck;56.53083, 14.44889
+Härlöv, Alvesta kommun;56.96361, 14.63722
+Härnösand;62.633, 17.933
+Härnösands kommun;62.63217, 17.94183
+Härryda;57.69028, 12.30917
+Härslöv;55.93194, 12.87444
+Hässelmara;59.0825, 18.40278
+Hässleholm;56.15778, 13.76389
+Hässleholms kommun;56.167, 13.75
+Hässlunda;56.02944, 12.89583
+Hästhagen, Nacka kommun;59.29833, 18.15889
+Hästholmen;58.27861, 14.64056
+Hästveda;56.28528, 13.93333
+Hävla;58.91556, 15.86833
+Håbo kommun;59.56778, 17.52972
+Håbo-Tibble kyrkby;59.583, 17.667
+Håbol;58.97222, 12.02222
+Håby;58.483, 11.617
+Håcksvik;57.31389, 13.14444
+Håga;59.83833, 17.575
+Håkanryd;56.09333, 14.53472
+Håkantorp;58.30556, 12.90556
+Håksberg;60.18389, 15.20778
+Hållnäs;60.57528, 17.94972
+Hållsta, Eskilstuna kommun;59.29306, 16.45556
+Hållsta, Gnesta kommun;59.02861, 17.28444
+Hånger;57.07611, 13.97278
+Håstad;55.77361, 13.22833
+Håverud;58.82222, 12.40833
+Håvesten;58.55, 11.983
+Hög, Kävlinge kommun;55.7675, 13.055
+Höganäs;56.2, 12.567
+Höganäs kommun;56.2, 12.55
+Högen, Nordanstigs kommun;61.94333, 17.06444
+Högklint och Nygårds;57.5975, 18.20722
+Högland, Dorotea kommun;64.57889, 15.875
+Högsby;57.165, 16.02694
+Högsby kommun;57.165, 16.02694
+Högsjö, Vingåkers kommun;59.0275, 15.66889
+Högsäter;58.65, 12.05
+Högåsen;59.29167, 14.45167
+Höja, Ängelholms kommun;56.22722, 12.92778
+Hökfors;57.467, 16.283
+Hökhuvud;60.216889, 18.2025
+Hökviken;60.63528, 15.62139
+Hökåsen;59.66389, 16.59222
+Hökön;56.47278, 14.22583
+Hököpinge;55.49444, 13.00139
+Hököpinge kyrkby;55.50139, 13.03056
+Höl;59.28111, 18.68167
+Höljes;60.883, 12.6
+Höllviken;55.417, 12.967
+Hölö;59.02417, 17.54
+Hönsa;58.47778, 14.17222
+Hönö;57.69056, 11.65194
+Hörby;55.85, 13.65
+Hörby kommun;55.85, 13.667
+Hörby, Sölvesborgs kommun;56.04833, 14.65778
+Höreda;57.61667, 15.025
+Hörja;56.205, 13.59083
+Hörken;60.02417, 14.93278
+Hörle;57.26150111, 14.05511889
+Hörningsholm, Sundsvalls kommun;62.464, 17.45217
+Hörvik;56.04111, 14.77111
+Hössna;57.82083, 13.53056
+Höviksnäs;58.033, 11.767
+Höör;55.933, 13.533
+Höörs kommun;55.933, 13.55
+Ickorrbotten;60.16889, 15.18
+Idala, Lunds kommun;55.61944, 13.50694
+Idenor;61.70611, 17.10111
+Idkerberget;60.37611, 15.23056
+Idre;61.85833, 12.716667
+Igelfors;58.84556, 15.69806
+Igelstorp;58.4, 13.967
+Igelösa;55.7625, 13.27083
+Iggesund;61.633, 17.067
+Ignaberga;56.12194, 13.83167
+Ilända;59.40778, 17.68139
+Immeln (tätort);56.20556, 14.24778
+Indal;62.5779, 17.095967
+Ingaröstrand;59.27722, 18.50417
+Ingatorp;57.63722, 15.41528
+Ingelstad;56.74583, 14.9175
+Ingelstorp;55.433, 14.033
+Ingelsträde;56.18444, 12.63306
+Ingetorp och Tolleröd;57.93056, 11.88611
+Ingmarsö;59.475, 18.767
+Innertavle;63.8, 20.4
+Inseros;57.60611, 12.25972
+Insjön, Leksands kommun;60.68, 15.09
+Irsta;59.60361, 16.68528
+Isgrena;59.94861, 17.52111
+Istaby;56.02194, 14.65417
+Ivö;56.1075, 14.40556
+Janstorp;55.52778, 13.51667
+Johannedal;62.433267, 17.385633
+Johannesudd;59.55, 18.033
+Johannishus;56.22639, 15.42
+Johansfors, Halmstads kommun;56.83778, 12.98306
+Jokkmokk;66.617, 19.833
+Jonsered;57.74444, 12.17222
+Jonstorp;56.22778, 12.67194
+Jordbro;59.14472, 18.12778
+Jormvattnet;64.71639, 14.04972
+Jugansbo, Sala kommun;60.00611, 16.70194
+Jukkasjärvi;67.85, 20.617
+Jularbo;60.16083, 16.2675
+Juniskär;62.295, 17.44778
+Junsele;63.69583, 16.87778
+Juoksengi;66.56583, 23.8425
+Jursla;58.65444, 16.16056
+Jäderfors;60.683, 16.667
+Jägarvet;60.665, 15.54722
+Jälkarbyn;60.29472, 15.86222
+Jämjö;56.183, 15.85
+Jämshög;56.24056, 14.53139
+Jänkisjärvi;66.55, 23.183
+Järavallen;55.8062, 12.9419
+Järbo;60.717, 16.6
+Järfälla kommun;59.433, 17.833
+Järle, Örebro kommun;59.465, 15.1525
+Järlåsa;59.88667, 17.19806
+Järlöv och Fageråkra;57.2774667, 12.3674306
+Järna, Södertälje kommun;59.09, 17.56583
+Järna, Vansbro kommun;60.54694, 14.36639
+Järnboås;59.65528, 14.86667
+Järnforsen;57.40972, 15.61861
+Järnsta;60.24806, 14.94778
+Järpås;58.37917, 12.975
+Järrestad;55.53722, 14.283333
+Järvsö;61.717, 16.167
+Jönköping;57.78278, 14.16056
+Jönköpings kommun;57.78278, 14.16056
+Jönåker;58.74528, 16.72278
+Jörlanda;57.983, 11.817
+Jörn;65.05944, 20.03944
+Jössefors;59.67389, 12.50917
+Kabbarp;55.64361, 13.14028
+Kaggeboda;59.74139, 18.81361
+Kalix;65.85, 23.167
+Kall, Åre kommun;63.47389, 13.23389
+Kallinge;56.24972, 15.28278
+Kalmar;56.66306, 16.36306
+Kalmar kommun;56.66306, 16.36306
+Kalvsund;57.70833, 11.68056
+Kalvträsk;64.67056, 19.79667
+Kanntorp;59.02278, 16.46306
+Kappelshamn;57.84917, 18.78389
+Karbenning;60.03694, 16.07306
+Karby;59.567, 18.217
+Karby, Tierps kommun;60.15444, 17.59556
+Kareby;57.91667, 11.89972
+Karesuando;68.43917, 22.46917
+Karl Gustav, Varbergs kommun;57.25778, 12.55056
+Karlholmsbruk;60.52222, 17.63333
+Karlsborg;58.533, 14.517
+Karlsborg, Kalix kommun;65.8, 23.283
+Karlsbyheden, Finngärdet och Karlsbyn;60.64222, 15.84583
+Karlshamn;56.17, 14.86306
+Karlshamns kommun;56.17, 14.86306
+Karlskoga;59.325, 14.525
+Karlskrona;56.16083, 15.58611
+Karlskrona kommun;56.16083, 15.58611
+Karlskär;59.41944, 17.65889
+Karlstad;59.383, 13.533
+Karlsudd;59.38528, 18.31694
+Karmansbo;59.69389, 15.74722
+Kartorp och Rolstorp;56.1856, 15.3639
+Karungi;66.05, 23.95
+Karups sommarby;55.59167, 13.63889
+Kastlösa;56.45694, 16.4275
+Katrineholm;58.99556, 16.20611
+Katrineholms kommun;58.99556, 16.20611
+Kattarp;56.14306, 12.78
+Katthammarsvik;57.43333, 18.84667
+Kattvik;56.45972, 12.76111
+Kaxholmen;57.85833, 14.305
+Kaxås;63.4975, 13.87361
+Kebal;58.95, 11.133
+Kerstinbo;60.23972, 16.9525
+Kiaby;56.06694, 14.33167
+Kil, Nacka kommun;59.335, 18.31944
+Kila, Sala kommun;59.87, 16.545
+Kilen;57.283, 16.467
+Killeberg;56.47639, 14.09583
+Killebäckstorp;56.38417, 12.74361
+Kilsmo;59.06667, 15.54167
+Kimstad;58.54556, 15.96667
+Kinda kommun;57.98917, 15.62722
+Kindbro;59.57833, 15.98639
+Kinna;57.517, 12.683
+Kinnared;57.02611, 13.105
+Kinnarp;58.07222, 13.52083
+Kinnarumma;57.59167, 12.875
+Kiruna;67.85, 20.217
+Kisa;57.98917, 15.62722
+Kivik;55.683333, 14.225
+Kivinge, Kumla och Jädra;59.64111, 17.46167
+Kjuge;56.07222, 14.3575
+Kjulaås;59.38889, 16.67778
+Klagstorp;55.39444, 13.375
+Klasaröd;55.683, 13.833
+Klenshyttan;60.10167, 15.10056
+Klev;60.06389, 18.05
+Klevshult;57.35278, 14.09889
+Klimpfjäll;65.067, 14.8
+Klingsta och Allsta;62.324683, 17.217067
+Klinte;57.37861, 18.23167
+Klintehamn;57.38667, 18.20278
+Klippan;56.133, 13.117
+Klippans bruk;56.11944, 13.14722
+Klippans kommun;56.133, 13.133
+Klitten;61.28056, 14.10278
+Klockarnäs;60.80889, 15.7925
+Klockestrand;62.87944, 17.90639
+Klockrike;58.49833, 15.33639
+Klädesholmen;57.945, 11.54083
+Klågerup;55.59444, 13.24722
+Klörup;55.45556, 13.17778
+Klövsjö;62.53222, 14.1975
+Knislinge;56.19389, 14.08556
+Kniva;60.56056, 15.79389
+Knivsta;59.72611, 17.78861
+Knivsta kommun;59.72611, 17.78861
+Knutby;59.90889, 18.26667
+Knäred;56.517, 13.317
+Kolarvik;59.57556, 17.08444
+Kolboda;56.53139, 16.20139
+Kolbäck;59.565, 16.2325
+Kolsva;59.59139, 15.85556
+Kolviken;60.16472, 15.34167
+Konga;56.49611, 15.12222
+Kopparmora;59.33583, 18.565
+Kopparnäs;65.40417, 21.47889
+Kopprarp;56.20444, 14.93583
+Korsanäs;56.14139, 15.33472
+Korsbacken;59.76889, 17.07
+Korsberga, Vetlanda kommun;57.30083, 15.12611
+Korsgården;58.25833, 14.24028
+Korskrogen, Avesta kommun;60.11111, 16.28806
+Koskullskulle;67.2, 20.833
+Kosta;56.84472, 15.39583
+Kovland;62.47033, 17.15383
+Kramfors;62.93056, 17.77611
+Kramfors kommun;62.93217, 17.77717
+Kristdala;57.40111, 16.2025
+Kristianopel;56.25444, 16.04417
+Kristianstad;56.03167, 14.15472
+Kristianstads kommun;56.033, 14.183
+Kristinehamn;59.31, 14.1083
+Kristvallabrunn;56.77639, 16.05083
+Krokek;58.67472, 16.36417
+Krokom;63.317, 14.5
+Krokvåg;63.15833, 16.26111
+Krägga;59.60417, 17.40639
+Kräklingbo;57.445, 18.71139
+Krågeholm;55.505, 13.20361
+Kråkeberg;57.1690611, 12.2154222
+Kuggeboda och Lunnatorp;56.1452, 15.3679
+Kukkola;65.983, 24.067
+Kullasand;57.825, 12.81111
+Kullen (östra delen);57.633, 12.45
+Kullen och Dyrtorp;58.017, 11.833
+Kulltorp;57.26278, 13.78778
+Kullö;59.41389, 18.30472
+Kumla;59.117, 15.133
+Kumla kyrkby;59.84556, 16.64194
+Kummelnäs;59.35, 18.27722
+Kungabacken;55.783, 13.55
+Kungsbacka;57.483, 12.067
+Kungsberga;59.40417, 17.62417
+Kungsgården, Sandvikens kommun;60.6, 16.617
+Kungshamn;58.35833, 11.25833
+Kungshult;55.85278, 13.41528
+Kungslena;58.22667, 13.80833
+Kungsnäs;62.40717, 17.20267
+Kungsängen;59.483, 17.75
+Kungsäter;57.30639, 12.56917
+Kungsör;59.42361, 16.09611
+Kungsörs kommun;59.42361, 16.09611
+Kungälv;57.867, 11.983
+Kurland, Trelleborgs kommun;55.375, 13.08333
+Kuttainen;68.38083, 22.81333
+Kvarbo sommarstad;57.83611, 12.975
+Kvarntäkt;60.72722, 15.76583
+Kvarnvik;58.19694, 16.36833
+Kvarnåsen;64.94361, 19.07083
+Kvarsebo;58.64639, 16.62806
+Kvibille;56.78278, 12.83167
+Kvicksund;59.4525, 16.31944
+Kvidinge;56.13417, 13.04667
+Kvillsfors;57.405, 15.5
+Kvisljungeby;57.75278, 11.825
+Kvissleby;62.283, 17.35
+Kvistofta;55.96778, 12.82972
+Kvänum;58.3, 13.183
+Kvärlöv;55.83778, 12.99056
+Kylinge;56.18861, 14.61306
+Kylla;59.63944, 16.70333
+Kyna;60.50667, 15.59
+Kyrkberget;60.40944, 15.81389
+Kyrkdal;63.0598889, 17.6210917
+Kyrkesund;58.017, 11.517
+Kyrkheddinge;55.64639, 13.26222
+Kyrkhult;56.355, 14.58694
+Källby;58.51111, 13.30278
+Källesjö;55.44083, 13.785
+Källna;56.20917, 13.03889
+Källsjö;57.21639, 12.655
+Källtorpet;59.85417, 17.87778
+Kämpersvik;58.65, 11.3
+Kännåsen;63.25278, 14.65417
+Kärda;57.17056, 13.92194
+Käringön;58.117, 11.35
+Kärradal;57.1873667, 12.2145222
+Kärreberga;56.11667, 13.00417
+Kärsta och Bredsdal;59.67972, 16.83972
+Kättilsmåla;56.27556, 15.73528
+Kävlinge;55.79389, 13.11333
+Kävlinge kommun;55.783, 13.117
+Kävsta;62.56617, 17.123
+Kåbdalis;66.15, 19.983
+Kåddis;63.84944, 20.11028
+Kåge;64.83556, 20.98472
+Kågeröd;55.99833, 13.08917
+Kåhög;57.75, 12.15
+Kållekärr;58.017, 11.65
+Kånna;56.783, 13.9
+Kårberg;58.95833, 14.95278
+Kåremo;56.84639, 16.38528
+Kårsta;59.65, 18.25
+Kårtorp;58.54694, 16.18806
+Kårtäkt;60.66056, 15.84111
+Kåseberga;55.38667, 14.06444
+Köja och Nyhamn;62.976175, 17.8121556
+Kölinge;60.0225, 17.87194
+Kölsta;59.62528, 16.02972
+Köping, Västmanland;59.51306, 15.99861
+Köpingebro;55.45, 13.933
+Köpings kommun;59.51306, 15.99861
+Köpingsvik;56.87778, 16.72167
+Köpmanholm;59.65917, 18.93139
+Köpmanholmen, Örnsköldsviks kommun;63.167, 18.567
+Köpstadsö;57.62778, 11.8
+Köttkulla;57.69389, 13.57306
+Kövra;62.92417, 14.34722
+Lagan (tätort);56.917, 13.983
+Lagerfors;58.55917, 14.14111
+Laggarberg;62.4635, 17.2525
+Laholm;56.517, 13.033
+Laisvall;66.13056, 17.16389
+Lammhult;57.17028, 14.58556
+Landeryd;57.07917, 13.27056
+Landfjärden;59.03472, 17.99083
+Landsbro;57.36917, 14.90417
+Landskrona;55.87028, 12.83028
+Landskrona kommun;55.867, 12.85
+Landvetter;57.683, 12.217
+Landvetters-Kärret;57.683, 12.167
+Lanna, Lekebergs kommun;59.24056, 14.91444
+Lanna, Värnamo kommun;57.21917, 13.78056
+Lannavaara;68.04722, 21.975
+Lansjärv;66.6540306, 22.1957306
+Laxne;59.16417, 17.18889
+Laxsjö;63.81167, 14.80111
+Laxvik;56.59694, 12.93028
+Laxå;58.9875, 14.62083
+Lejsta;59.95222, 17.89611
+Lekeryd;57.77333, 14.41944
+Leksand;60.73083, 14.99861
+Leksands kommun;60.73083, 14.99861
+Lenhovda;56.99972, 15.28472
+Lennartsfors;59.317, 11.9
+Lerbäck;58.95, 15.04167
+Lerdala;58.47778, 13.70833
+Lerhamn;56.25667, 12.52194
+Lerum;57.767, 12.3
+Lerviken;60.04028, 14.96917
+Lerängen och Bäck;59.369555, 14.572721
+Lesjöfors;59.98722, 14.1875
+Lessebo;56.7525, 15.26917
+Lessebo kommun;56.7525, 15.26917
+Levide;57.28167, 18.26778
+Liared;57.83889, 13.64722
+Liatorp;56.66444, 14.26861
+Lidatorp;58.95833, 17.90556
+Liden;62.7, 16.8
+Lidhult;56.833, 13.433
+Lidingö (tätort);59.367, 18.133
+Lidingö kommun;59.367, 18.183
+Lidköping;58.5, 13.183
+Lidnäs;57.06889, 14.60472
+Lilla Askerön;58.083, 11.733
+Lilla Edet;58.133, 12.133
+Lilla Harrie;55.79222, 13.20556
+Lilla Kullbäckstorp;57.64444, 12.09167
+Lilla Munkhammar;59.44722, 16.30833
+Lilla Stenby;59.383, 17.517
+Lilla Tjärby;56.52583, 13.0575
+Lillaskog, Hässleholms kommun;56.08889, 13.86667
+Lillhaga;61.833, 16.05
+Lillhärdal;61.85, 14.06667
+Lillkyrka;59.56111, 17.25
+Lillängen;59.3047556, 18.1612806
+Lillängsdal;59.2790167, 18.3455806
+Lima, Malung-Sälens kommun;60.93694, 13.36028
+Limedsforsen;60.89, 13.39917
+Limmared;57.53056, 13.35694
+Lindan och Baggarvet;60.45361, 15.39111
+Lindberg;57.1592417, 12.3137861
+Lindby, Borgholms kommun;56.81833, 16.70694
+Lindby, Skurups kommun;55.44722, 13.5
+Linderås;57.975775, 14.8043556
+Linderöd;55.93167, 13.82528
+Lindesberg;59.583, 15.25
+Lindfors;59.60639, 13.833333
+Lindholmen, Vallentuna kommun;59.583, 18.117
+Lindhov;57.1468583, 12.24495
+Lindome;57.567, 12.1
+Lindrum;57.633, 13.617
+Lindsdal;56.73389, 16.2975
+Lindshammar;57.22389, 15.14444
+Lindö;58.61361, 16.25444
+Lindödjupet och Målängen;57.705, 16.715
+Lingbo;61.05611, 16.70722
+Linghed;60.78167, 15.87028
+Linghem;58.433, 15.783
+Linköping;58.41083, 15.62139
+Linköpings kommun;58.41083, 15.62139
+Linnebäck;59.327383, 14.391269
+Linneryd;56.65778, 15.13056
+Linsell;62.15833, 13.88333
+Lissma;59.17361, 18.06083
+Listerby;56.1975, 15.40139
+Lit (tätort);63.317, 14.85
+Litslunda;59.65417, 16.355
+Ljugarn;57.333333, 18.70389
+Ljung (tätort);57.98611, 13.05306
+Ljunga;58.57583, 16.3075
+Ljungaverk;62.4915, 16.05595
+Ljungbacken;55.62222, 13.575
+Ljungby;56.83333, 13.93333
+Ljungby kommun;56.83333, 13.93333
+Ljungbyhed;56.067, 13.2
+Ljungbyholm;56.63444, 16.16917
+Ljunghusen;55.4, 12.917
+Ljungsarp;57.567, 13.583
+Ljungsbro;58.50833, 15.50278
+Ljungskile;58.217, 11.917
+Ljungstorp och Jägersbo;55.90833, 13.56861
+Ljusdal;61.833, 16.083
+Ljusfallshammar;58.78778, 15.49639
+Ljusne;61.217, 17.133
+Lo och Fröksmon;63.05083, 17.794528
+Lockarp;55.54167, 13.04167
+Loddby;58.63861, 16.17694
+Loddbynäset;58.68417, 16.18667
+Lofsdalen;62.11667, 13.26667
+Loftahammar;57.90333, 16.69139
+Lomma;55.667, 13.083
+Lomma kommun;55.667, 13.083
+Los;61.75, 15.167
+Loshult;56.50306, 14.11278
+Lospånga by;59.5575, 16.41028
+Lotorp;58.73639, 15.82806
+Lottefors;61.41583, 16.40778
+Lovene;58.44083, 13.04722
+Lovsjö;57.67778, 14.18944
+Lucksta;62.29633, 17.05
+Ludden;58.54472, 16.16083
+Ludvigsborg;55.90278, 13.60694
+Ludvika;60.14833, 15.18694
+Ludvika kommun;60.14833, 15.18694
+Lugnet och Skälsmara;59.25528, 18.53889
+Lugnet, Håbo kommun;59.69667, 17.53528
+Lugnet, Uppsala kommun;59.79444, 17.67222
+Lugnvik, Kramfors kommun;62.929528, 17.909694
+Luleå;65.58444, 22.15389
+Lummelunda;57.77222, 18.46139
+Lumsheden;60.71028, 16.25
+Lund;55.7, 13.2
+Lund, Järfälla kommun;59.49361, 17.80528
+Lundby, Varbergs kommun;57.1601722, 12.3475167
+Lunde;62.880925, 17.8689444
+Lunde (västra delen);62.52361, 17.34333
+Lunds kommun;55.7, 13.183
+Lundsvedja;60.29, 18.12833
+Lunnarp;55.54111, 14.0425
+Lurudden;59.27222, 17.70833
+Lyby;55.83667, 13.62222
+Lyckebyn;59.19083, 18.20917
+Lyckeområdet;56.1425, 13.29167
+Lyckeåborg;56.22861, 15.68778
+Lycksele;64.58889, 18.67778
+Lye;57.29111, 18.52611
+Lyngby, Kristianstads kommun;55.89417, 14.1125
+Lyrestad;58.80417, 14.05833
+Lysekil;58.26667, 11.43333
+Lysvik;60.01639, 13.13583
+Läby;60.08861, 17.55389
+Läckeby;56.783333, 16.29472
+Lämmetorp;58.71667, 15.94694
+Länghem;57.6, 13.233
+Länna, Uppsala kommun;59.87139, 17.95472
+Läppe;59.13028, 15.80556
+Lärbro;57.785, 18.78833
+Långaryd;57.04111, 13.34583
+Långasjö;56.58389, 15.44528
+Långban;59.85389, 14.26333
+Långemåla;57.08083, 16.18
+Långesjö;58.633, 11.267
+Långlöt;56.74611, 16.72611
+Långsand;60.64639, 17.545
+Långsele;63.183, 17.067
+Långshyttan;60.45306, 16.03417
+Långvik;59.2375, 18.51556
+Långå;62.44444, 13.26667
+Långås;56.97722, 12.4475
+Låssby;57.74167, 11.83889
+Löberöd;55.77556, 13.51278
+Löddeköpinge;55.767, 13.017
+Löderup;55.43917, 14.11222
+Lödöse;58.02944, 12.16306
+Löftaskog;57.2994056, 12.1804917
+Lönneberga;57.55083, 15.72306
+Lönsboda;56.39778, 14.32167
+Lörby;56.07028, 14.69639
+Löttorp;57.16528, 16.9975
+Lövestad;55.65278, 13.89167
+Lövhulta;59.4125, 16.57917
+Lövlund;58.72306, 15.83333
+Lövstabruk;60.40722, 17.87833
+Lövstalöt;59.95, 17.583
+Lövånger;64.36889, 21.31806
+Lövås;57.2525, 13.62194
+Löwenströmska lasarettet;59.55, 17.917
+Madängsholm;58.14167, 13.92222
+Maglehem;55.7725, 14.15111
+Mala;56.23944, 13.71111
+Malexander;58.03333, 15.27722
+Malmberget;67.167, 20.667
+Malmbäck;57.57806, 14.46083
+Malmen-Kolbotten;59.155, 18.4125
+Malmköping;59.133, 16.733
+Malmsjöstugan;58.98306, 17.2825
+Malmslätt;58.41667, 15.51667
+Malmö;55.60583, 13.0025
+Malmön, Bohuslän;58.34722, 11.33611
+Malmön, Västmanland;59.47972, 16.06083
+Malnbaden;61.72111, 17.17083
+Malung;60.68417, 13.71278
+Malungsfors;60.73056, 13.54944
+Malå;65.18333, 18.73889
+Mantorp;58.367, 15.283
+Marbogården;58.49028, 12.90833
+Marbystrand;58.60528, 16.29083
+Marbäck;57.73889, 13.42222
+Margretetorp;56.33778, 12.89944
+Marhult;57.02611, 15.23333
+Mariannelund;57.61667, 15.57333
+Marieby;63.10917, 14.73194
+Mariedal, Upplands-Bro kommun;59.57361, 17.67889
+Mariedamm;58.85278, 15.16389
+Mariefred;59.267, 17.217
+Marieholm, Eslövs kommun;55.86083, 13.17389
+Marielund, Strängnäs kommun;59.25, 17.183
+Marielund, Uppsala kommun;59.84444, 17.87222
+Mariestad;58.7, 13.817
+Markaryd;56.45944, 13.59444
+Markaryds kommun;56.45944, 13.59444
+Marma;60.48889, 17.42389
+Marmaverken;61.2725, 16.87722
+Marmorbyn;59.04722, 16.06833
+Marstrand;57.88611, 11.575
+Marås;57.32722, 13.84472
+Matfors;62.3467, 17.02
+Medåker;59.45333, 15.75306
+Mehedeby;60.45056, 17.40444
+Mellan-Grevie;55.467, 13.1
+Mellansel;63.433, 18.317
+Mellby, Hässleholms kommun;56.04944, 13.71889
+Mellbystrand;56.50111, 12.94444
+Mellerud;58.7, 12.467
+Mellösa;59.10083, 16.56417
+Merlänna;59.283, 16.983
+Mikaelsgården;59.10833, 17.62444
+Minnesberg;55.475, 13.21806
+Misterhult;57.46667, 16.55
+Mjällby;56.04528, 14.67194
+Mjällom;62.98611, 18.43167
+Mjöbäck;57.31111, 12.875
+Mjöhult;56.17694, 12.67806
+Mjölby;58.325, 15.13056
+Mjölby kommun;58.325, 15.13056
+Mjönäs, Hagfors kommun;59.87917, 13.56
+Mjönäs, Kristianstads kommun;56.2375, 14.31528
+Mjövik;56.18611, 15.53
+Moarna;57.0456083, 12.358675
+Mockfjärd;60.483, 14.95
+Mogata;58.45194, 16.44917
+Mohed;61.29778, 16.83111
+Moheda;57.00472, 14.57417
+Moholm;58.60556, 14.03611
+Molkom;59.6, 13.717
+Mollösund;58.07333, 11.47
+Mon, Tibro kommun;58.425, 14.225
+Mora;61.00472, 14.53917
+Mora kommun;61.00472, 14.53917
+Mora, Säters kommun;60.405, 15.59889
+Morgongåva, Heby kommun;59.93278, 16.96417
+Morjärv;66.06944, 22.70611
+Moskosel;65.87444, 19.45167
+Mossel;60.51639, 14.77389
+Motala;58.53639, 15.0375
+Motala kommun;58.53639, 15.0375
+Mullhyttan;59.15, 14.68333
+Mullsjö;57.91722, 13.87889
+Mullsjö kommun;57.91722, 13.87889
+Munga;59.74389, 16.52361
+Munga, Väster-Ensta och Vida;60.30222, 17.42
+Munka-Ljungby;56.25, 12.967
+Munkarp;55.94722, 13.44972
+Munkedal;58.483, 11.683
+Munkfors;59.833, 13.533
+Munktorp;59.53333, 16.13833
+Munsö;59.4011, 17.5603389
+Murjek;66.48056, 20.875
+Muskö;59.00111, 18.13
+Myckelgensjö;63.57833, 17.59444
+Myggenäs;58.05, 11.733
+Myrbo;60.48694, 17.45
+Myresjö;57.38389, 14.96278
+Myrheden;60.53583, 15.12778
+Myrholen;60.48639, 14.935
+Myrviken;62.99861, 14.34056
+Myråsen;58.533, 13.3
+Mysingsö;57.24389, 16.50056
+Mälarbaden;59.45, 16.417
+Mältan;56.23361, 15.6275
+Märsta;59.633, 17.85
+Märsön;59.517, 17.017
+Målen;57.69583, 14.35611
+Målerås;56.915, 15.56889
+Målilla;57.38833, 15.80806
+Målskog;57.30194, 13.73278
+Målsryd;57.683, 13.05
+Mårdaklev;57.24722, 12.975
+Mårtsbo;60.59167, 17.24028
+Möcklö;56.15139, 15.7625
+Möklinta;60.08361, 16.54667
+Mölle;56.2825, 12.49389
+Möllevången, Vellinge kommun;55.47806, 13.13083
+Mölltorp;58.49722, 14.41389
+Mölnbo;59.04722, 17.41806
+Mölnlycke;57.667, 12.117
+Mölntorp;59.54889, 16.26139
+Mönsterås;57.04278, 16.44722
+Mönsterås kommun;57.04278, 16.44722
+Mörarp;56.05528, 12.87361
+Mörbylånga;56.52417, 16.38361
+Mörbylånga kommun;56.52417, 16.38361
+Mörlunda;57.32139, 15.865
+Mörrum;56.183, 14.733
+Mörsil;63.30861, 13.66722
+Mörtfors;57.533, 16.45
+Mörtnäs;59.31778, 18.44556
+Mörtviken;59.2435361, 18.4411528
+Nabbo;59.75417, 18.99917
+Nacka kommun;59.3, 18.233
+Naglarby och Enbacka;60.41472, 15.59444
+Nattavaara;66.75, 20.95
+Nattavaara by;66.75, 21.033
+Nedansjö;62.3785, 16.829
+Nedre Gärdsjö;60.93667, 15.2225
+Nedre Österfors;60.59528, 15.02472
+Niemisel;66.02028, 21.9825
+Nikkala;65.8, 23.917
+Nilsvallen;62.03611, 14.40833
+Nissafors;57.4075, 13.63778
+Nissaström;56.83944, 13.00806
+Nitta;57.82917, 13.1875
+Nittorp;57.58056, 13.49167
+Nittsjö;60.92028, 15.07083
+Njurundabommen;62.26783, 17.37433
+Nogersund;56.00583, 14.73528
+Nogesund;56.09639, 14.49361
+Nora;59.517, 15.033
+Norberg;60.06472, 15.92472
+Norbergs kommun;60.06472, 15.92472
+Nordansjö;60.34694, 15.93944
+Nordanå;55.62361, 13.12361
+Nordanö;60.14833, 16.23667
+Nordingrå;62.93, 18.29111
+Nordkroken;58.383, 12.4
+Nordmaling;63.567, 19.5
+Nore (tätort);61.83889, 16.05833
+Norje;56.12139, 14.67111
+Normlösa;58.41611, 15.22722
+Norr Amsberg;60.52889, 15.35278
+Norr-Hede;62.42556, 13.53083
+Norra Björke;58.27222, 12.50556
+Norra Bredåker;65.90278, 21.35
+Norra Grönby;55.46111, 13.37222
+Norra Härene;58.43889, 13.16111
+Norra Håslöv;55.44167, 13.03194
+Norra Lagnö;59.35556, 18.40361
+Norra Möckleby;56.64639, 16.675
+Norra Rörum;56.0175, 13.50722
+Norra Unnaryd;57.59472, 13.72306
+Norra Vram;56.0875, 12.97444
+Norra Åsum;55.99667, 14.15139
+Norrbo, Ludvika kommun;60.27306, 14.95139
+Norrhult-Klavreström;57.13194, 15.15167
+Norrköping;58.59194, 16.18556
+Norrköpings kommun;58.59194, 16.18556
+Norrskedika;60.285167, 18.291694
+Norrtälje;59.767, 18.7
+Norrtälje kommun;59.767, 18.633
+Norrvrå;59.00611, 17.51472
+Norrö (Åkersberga);59.5, 18.267
+Norsesund;57.86111, 12.43944
+Norsholm;58.50583, 15.9725
+Norsjö;64.91389, 19.48333
+Norsjövallen;64.95, 19.383333
+Nossebro;58.18889, 12.71944
+Nusnäs;60.95889, 14.63833
+Nya Långenäs;57.667, 12.15
+Nybble;59.1, 14.167
+Nybro;56.74306, 15.90889
+Nybro kommun;56.74306, 15.90889
+Nybrostrand;55.4325, 13.94556
+Nybygget, Klippans kommun;56.11944, 13.17444
+Nydalen;58.70194, 14.95806
+Nyehusen och Furuboda;55.84639, 14.22028
+Nygård;58.05694, 12.21944
+Nygård, Taxinge;59.217, 17.283
+Nyhammar;60.28806, 14.9675
+Nyhamn, Sundsvalls kommun;62.32017, 17.39483
+Nyhyttan;59.67389, 14.80972
+Nykil;58.28722, 15.45056
+Nykvarn;59.167, 17.433
+Nykvarns kommun;59.183, 17.4
+Nyköping;58.75278, 17.00861
+Nyköpings kommun;58.75278, 17.00861
+Nyland, Kramfors kommun;63.00667, 17.75639
+Nymö;56.01778, 14.32639
+Nymölla;56.04333, 14.46778
+Nynäshamn;58.90278, 17.95139
+Nynäshamns kommun;58.933, 17.883
+Nysättra;59.81222, 18.89833
+Nyåker;63.75, 19.3
+Nälden;63.34639, 14.24889
+Näs bruk;60.18167, 16.4775
+Nässjö;57.65333, 14.69472
+Nässjö kommun;57.65333, 14.69472
+Näsum;56.17417, 14.50083
+Näsviken, Hudiksvalls kommun;61.75556, 16.87333
+Näsviken, Strömsunds kommun;63.85, 15.53333
+Näsåker;63.433, 16.9
+Nätebäcken;58.033, 14.167
+Nättraby;56.20028, 15.535
+Nävekvarn;58.63278, 16.79667
+Nävlinge;56.06194, 13.83583
+Nävragöl;56.37306, 15.56778
+Nås;60.45278, 14.48778
+Nåsten;59.81667, 17.54167
+Nöbbele;56.69056, 15.02306
+Nödinge-Nol;57.9159, 12.06395
+Nössemark;59.133, 11.833
+Nösund;58.1, 11.55
+Nötabråne;56.23278, 14.86556
+Nötesjö;55.5125, 13.35972
+Oaxen;58.97444, 17.71583
+Obbola;63.70111, 20.31639
+Ockelbo;60.883, 16.717
+Odensberg;58.15444, 13.44361
+Odensjö, Jönköpings kommun;57.71167, 14.16972
+Oderljunga;56.19528, 13.34444
+Ogesta;58.9960806, 17.9519111
+Okome;57.0575, 12.69306
+Olofstorp;57.8, 12.15
+Olofström;56.27806, 14.52194
+Olofströms kommun;56.27806, 14.52194
+Olsbacka, Åkern och Karlsvik;60.55167, 15.55444
+Olsfors;57.69167, 12.69722
+Olshammar;58.75417, 14.79583
+Onsala;57.417, 12.017
+Onslunda, Tomelilla kommun;55.6, 14.05
+Ope;63.13194, 14.76222
+Opphem;58.14444, 15.72889
+Oppmanna;56.15556, 14.30444
+Ormanäs och Stanstorp;55.90972, 13.49167
+Ormaryd;57.667, 14.833
+Ornäs;60.50611, 15.53611
+Orrefors;56.84, 15.74444
+Orresta;59.65944, 16.83528
+Orrviken;63.10167, 14.43083
+Orsa;61.12, 14.60917
+Orsa kommun;61.12, 14.60917
+Osby;56.38, 13.99444
+Osbyholm;55.84861, 13.61306
+Oskar-Fredriksborg;59.4, 18.417
+Oskarshamn;57.265, 16.43361
+Oskarshamns kommun;57.265, 16.43
+Oskarström;56.80278, 12.96583
+Ostraknall;59.44167, 16.59722
+Othem;57.74083, 18.73694
+Othemars;57.73, 18.74694
+Ottebol;59.69583, 12.46944
+Otterbäcken;58.95, 14.033
+Otterstad;58.65694, 13.16417
+Ovanåker;61.362718, 15.893054
+Ovesholm;55.99361, 14.03833
+Oviken;63.00583, 14.39639
+Oxberg, Mora kommun;61.116667, 14.18694
+Oxelösund;58.667, 17.117
+Oxelösunds kommun;58.667, 17.1
+Oxie;55.55, 13.1
+Pajala;67.183, 23.367
+Paradis och Vrån;57.226833, 12.1973556
+Paris, Norrtälje kommun;60.04361, 18.55944
+Parksidan;59.28472, 17.84417
+Pauliström;57.46944, 15.51028
+Pengfors;63.93111, 19.68194
+Penglund;63.91611, 19.65139
+Persberg;59.75278, 14.24917
+Persbo;60.20472, 15.22056
+Persborg, Uppsala kommun;59.78583, 17.58778
+Pershagen;59.183, 17.633
+Perstorp;56.133, 13.383
+Perstorp-Svenstorp;56.43694, 12.65722
+Perstorps kommun;56.133, 13.383
+Pilgrimstad;62.95833, 15.04306
+Pinntorp;57.70833, 12.19167
+Piperskärr;57.77889, 16.63389
+Piteå;65.317, 21.5
+Porjus;66.95833, 19.81944
+Prinseryd;57.84333, 14.11167
+Prässebo;58.1, 12.27583
+Prästmon;63.0784556, 17.75295
+Pukavik;56.15861, 14.6775
+Puksten;58.6575, 16.05833
+Påarp;56.02889, 12.81722
+Pålsboda;59.06667, 15.33889
+Påryd;56.56944, 15.92667
+Påskallavik;57.165, 16.45389
+Rabbalshede;58.61111, 11.475
+Rabostan;59.40833, 16.083333
+Ragunda;63.1125, 16.38333
+Raksta;59.217, 18.3
+Ramdala;56.18528, 15.76361
+Ramkvilla;57.20417, 14.95028
+Rammsjö;56.39556, 12.66806
+Rammsjöstrand;56.38611, 12.66333
+Ramnäs;59.77361, 16.19583
+Ramsberg;59.76667, 15.3
+Ramsdal;58.31917, 16.68333
+Ramsele;63.533, 16.467
+Ramstalund;59.79667, 17.44111
+Ramsåsa;55.55972, 13.88472
+Ramsö;59.38472, 18.40722
+Ramvik;62.8190694, 17.8576889
+Ranered;57.06194, 12.59639
+Ransta, Sala kommun;59.80944, 16.63361
+Rantajärvi;66.7, 23.70556
+Rappestad;58.40056, 15.41694
+Ratan, Robertsfors kommun;63.9921944, 20.8979028
+Ravlunda;55.71111, 14.15139
+Reftele;57.17417, 13.59417
+Rejmyre;58.82806, 15.93583
+Renström;64.91556, 20.10472
+Repbäcken;60.51583, 15.33917
+Resarö;59.433, 18.333
+Revingeby;55.725, 13.46111
+Revsudden;56.77556, 16.47583
+Rexbo, Morsveden och Svedjelund;60.74139, 15.40972
+Riala;59.63083, 18.52167
+Rickarum;55.99389, 13.82222
+Ricksättra;59.39194, 17.7225
+Riddarhyttan;59.80778, 15.54639
+Rimbo;59.75, 18.367
+Rimforsa;58.13583, 15.68639
+Rindö;59.4, 18.4
+Rindö smedja;59.40333, 18.3675
+Ringamåla;56.34139, 14.82944
+Ringarum;58.332584, 16.446522
+Rinkaby, Kalmar kommun;56.64694, 16.22222
+Rinkaby, Kristianstads kommun;55.98472, 14.27167
+Rinkabyholm;56.65528, 16.26111
+Ripa (ort);55.91139, 14.23333
+Risby;60.10167, 17.63667
+Riseberga;56.07222, 13.30417
+Risön;60.30833, 17.86389
+Rixö;58.375, 11.45833
+Robertsfors;64.20833, 20.85222
+Rockhammar;59.53333, 15.45
+Rockneby;56.80444, 16.34528
+Rogsta;61.76556, 17.19389
+Roknäs;65.339629, 21.22786
+Rolfstorp;57.14694, 12.47944
+Rolfstorps f.d. stationssamhälle;57.14694, 12.47944
+Roligheten;59.53389, 16.6975
+Roma (tätort);57.50472, 18.455
+Rone;57.20278, 18.435
+Ronehamn;57.17306, 18.48861
+Ronneby;56.21028, 15.27722
+Ronneby kommun;56.21028, 15.27722
+Ronnebyhamn;56.17972, 15.2975
+Rosenfors;57.36583, 15.84
+Rosenhill;56.18444, 15.78
+Rosenlund;57.525, 13.34444
+Rosersberg;59.583, 17.9
+Rosshyttan;60.06944, 16.355
+Rossön;63.92778, 16.32222
+Rot (tätort);61.25583, 14.04194
+Rottne;57.02389, 14.89278
+Rottneros;59.79944, 13.12722
+Roxenbaden;58.54056, 15.62778
+Ruda (tätort);57.10972, 16.11111
+Rumskulla;57.67333, 15.5925
+Runhällen;60.02611, 16.8225
+Runtuna;58.867, 17.067
+Rusksele;64.81389, 18.89167
+Rya, Härryda kommun;57.7, 12.367
+Ryd, Tingsryds kommun;56.46556, 14.69361
+Rydaholm;56.98556, 14.30944
+Rydal;57.55556, 12.68889
+Rydbo;59.45, 18.183
+Rydboholm, Borås kommun;57.65, 12.883
+Rydebäck;55.96528, 12.77222
+Rydsgård;55.47389, 13.59028
+Rydsnäs;57.79861, 15.14972
+Rydöbruk;56.95972, 13.1375
+Ryssa;60.91556, 14.4925
+Ryssbo;59.6, 17.067
+Ryssby;56.867, 14.167
+Rystad;58.44944, 15.71444
+Rälla;56.77472, 16.57417
+Rämshyttan;60.305, 15.22056
+Rängs sand;55.40972, 13.00417
+Ränneslöv;56.4525, 13.0775
+Räpplinge;56.82778, 16.66389
+Rätansbyn;62.48306, 14.53306
+Rättarboda;59.5, 17.6
+Rättvik;60.88583, 15.11889
+Rättviks kommun;60.88583, 15.11889
+Rävemåla;56.55667, 15.26528
+Rävlanda;57.65, 12.5
+Råby och Norränge;59.61194, 17.60583
+Råby, Bromölla kommun;56.10528, 14.50667
+Råby, Håbo kommun;59.53694, 17.5
+Rådanefors;58.52778, 12.09444
+Rågsveden och Näset;60.47778, 14.06111
+Rågårdsvik;58.20556, 11.45833
+Råneå;65.85389, 22.29222
+Rångedala;57.79167, 13.125
+Rånäs;59.80556, 18.3
+Råstock;59.53417, 16.72167
+Råstorp;56.48583, 13.52833
+Röbäck;63.80833, 20.19333
+Rödbo;57.85556, 11.99444
+Röddinge;55.58194, 13.83611
+Röde och Båräng;62.46067, 17.39117
+Rödeby;56.25, 15.617
+Röfors;58.94056, 14.62222
+Rögla;55.5, 13.667
+Röinge, Hörby kommun;55.91083, 13.59306
+Röjeråsen;60.94472, 14.97972
+Röke;56.235, 13.52083
+Rökinge och Busarp;58.03528, 14.32778
+Rönneshytta;58.92778, 15.03611
+Rönnäng;57.933, 11.583
+Rörbäcksnäs;61.12889, 12.81361
+Rörvik;57.23833, 14.575
+Rörö;57.775, 11.61389
+Röshult;57.7, 13.5
+Röstånga;56.00083, 13.29111
+Saittarova;67.3375, 22.2275
+Sala;59.92111, 16.6075
+Sala kommun;59.92111, 16.6075
+Saladamm och Åby;59.98361, 16.64056
+Salbohed;59.91306, 16.34889
+Saleboda;56.47806, 15.56972
+Saleby;58.367, 12.167
+Salstad;58.34583, 12.59722
+Saltsjöbaden;59.27944, 18.31111
+Saltvik, Oskarshamns kommun;57.3, 16.495
+Samsala;59.05833, 15.14861
+Sanda;57.42694, 18.23556
+Sandared;57.70833, 12.79167
+Sandarne;61.267, 17.167
+Sandby, Borgholms kommun;57.175, 17.0175
+Sandby, Simrishamns kommun;55.43333, 14.17222
+Sandby, Tierps kommun;60.50194, 17.59444
+Sandbäckshult;56.9975, 16.28722
+Sandemar;59.13028, 18.36806
+Sandhamn;59.28889, 18.91111
+Sandhamn och Görvik;56.64833, 12.75556
+Sandhem, Mullsjö kommun;57.98639, 13.77139
+Sandhult;57.767, 12.817
+Sandsjöfors;57.49389, 14.79417
+Sandskogen;55.75972, 12.98333
+Sandslån;63.01111, 17.79472
+Sandvik, Ronneby kommun;56.1725, 15.30889
+Sandviken;60.617, 16.783
+Sandviken, Kramfors kommun;62.96806, 17.74583
+Sandviken, Sala kommun;59.92528, 16.55889
+Sandviken, Södertälje kommun;59.183, 17.633
+Sandåkra;55.49444, 13.51056
+Sankt Olof (tätort);55.63667, 14.13111
+Sankt Sigfrid (småort);56.69389, 16.00556
+Sannahed;59.09444, 15.15833
+Sannäs;58.74167, 11.24722
+Satserup;55.89167, 13.76722
+Saxdalen;60.14528, 14.98778
+Saxemara;56.16667, 15.22833
+Saxhyttan, Hällefors kommun;59.74194, 14.465
+Saxhyttan, Ludvika kommun;60.2925, 15.0125
+Saxnäs;64.97194, 15.33889
+Saxtorp;55.83889, 12.96083
+Saxtorpsskogen;55.83, 12.93972
+Schweizerdalen;59.14167, 18.40222
+Segersäng;59.0275, 17.93139
+Selja;61.01611, 14.47694
+Sennan;56.767, 12.967
+Seskarö;65.733, 23.733
+Sibbarp, Varbergs kommun;57.02722, 12.53444
+Sibbhult;56.26833, 14.2
+Sibble;59.11167, 17.75028
+Sifferbo;60.55528, 15.22917
+Sigtuna;59.617, 17.717
+Sigtuna kommun;59.633, 17.883
+Sikeå;64.1667028, 20.9321917
+Sikeå hamn och Brännstan;64.15889, 20.95833
+Siljansnäs;60.77778, 14.85833
+Silverdalen;57.54222, 15.75083
+Silvåkra;55.68444, 13.495
+Simlångsdalen;56.72139, 13.13139
+Simonstorp;58.78528, 16.15417
+Simpnäs;59.87139, 19.0775
+Simris;55.53611, 14.325
+Simrishamn;55.55, 14.35
+Simrishamns kommun;55.55, 14.35
+Sintorp;57.33889, 12.17917
+Siretorp och Sandviken;56.03389, 14.60917
+Sjonhembacke och Haugbro;57.49528, 18.4825
+Sjuhalla;56.183, 15.567
+Sjunnen;57.43611, 15.17472
+Sjuntorp;58.2, 12.233
+Själsö;57.69694, 18.365
+Sjöberg;59.42333, 17.99167
+Sjöbo;55.633, 13.717
+Sjöbo kommun;55.633, 13.7
+Sjöbo sommarby och Svansjö sommarby;55.63194, 13.65667
+Sjödiken;55.52333, 13.25
+Sjögestad;58.367, 15.367
+Sjömarken;57.717, 12.833
+Sjörröd;56.14472, 13.72778
+Sjösa;58.77583, 17.08611
+Sjötorp, Mariestads kommun;58.833, 13.983
+Sjövik;57.9, 12.367
+Skabersjöby;55.54639, 13.16167
+Skaftet och Falkemåla;57.64917, 16.58806
+Skagersvik;58.967, 14.1
+Skalhamn;58.31944, 11.40556
+Skanör med Falsterbo;55.4, 12.85
+Skara;58.383, 13.433
+Skarpö;59.41083, 18.38972
+Skatteberga;55.733, 13.4
+Skattkärr;59.417, 13.683
+Skattungbyn;61.18472, 14.8475
+Skaulo;67.41583, 21.11528
+Skavkulla och Skillingenäs;56.17889, 15.51306
+Skebobruk;59.96722, 18.6075
+Skeda udde;58.283, 15.55
+Skedala;56.69444, 12.97667
+Skede, Vetlanda kommun;57.46944, 15.17639
+Skedvi kyrkby;60.40556, 15.80472
+Skeen;56.75806, 13.68
+Skegrie;55.40556, 13.08111
+Skelleftehamn;64.68972, 21.22694
+Skellefteå;64.75, 20.95
+Skepparkroken;56.29167, 12.80833
+Skepparslöv;56.01472, 14.06667
+Skeppartorp;59.42917, 16.49583
+Skepplanda;57.833, 12.217
+Skeppmora;60.12333, 15.12583
+Skeppsdalsström;59.30222, 18.47917
+Skeppshult;57.125, 13.37778
+Skevik;59.34917, 18.37861
+Skilleby;59.0439556, 17.5955806
+Skillingaryd;57.43, 14.09278
+Skillinge;55.47361, 14.27806
+Skillingsudd;59.43556, 16.13889
+Skinnskatteberg;59.83194, 15.69361
+Skinnskattebergs kommun;59.83194, 15.69361
+Skirö;57.3725, 15.36944
+Skivarp;55.42222, 13.56944
+Skoby;60.03194, 18.02806
+Skogaby;56.53056, 13.18333
+Skoghall;59.333, 13.5
+Skogsbrynsbyn;59.183, 17.633
+Skogsby;56.62972, 16.51278
+Skogstorp, Falkenbergs kommun;56.91778, 12.43778
+Skolsta;59.65972, 17.24194
+Skorpetorp;57.183, 16.417
+Skottorp;56.44722, 12.96167
+Skrea;56.86472, 12.56583
+Skrea strand;56.88306, 12.50444
+Skreanäs;56.87222, 12.5325
+Skredsvik;58.380754, 11.667759
+Skriketorp;58.683, 16.133
+Skruv, Lessebo kommun;56.67639, 15.36583
+Skuggarvet;60.65972, 15.68389
+Skultorp;58.34167, 13.83056
+Skultuna;59.71694, 16.43056
+Skummeslövsstrand;56.46222, 12.92083
+Skumparp;55.53889, 12.96667
+Skurup;55.483, 13.5
+Skurups kommun;55.483, 13.5
+Skutskär;60.62444, 17.41611
+Skuttungeby;59.995, 17.50194
+Skyllberg;58.94167, 14.99444
+Skyrup;56.13028, 13.66167
+Skyttorp;60.07833, 17.73833
+Skyttstennäs;59.8625, 17.18444
+Skällinge;57.1820417, 12.4681083
+Skällåkra;57.25889, 12.13833
+Skänninge;58.39556, 15.08694
+Skäralid (ort);56.03667, 13.25583
+Skärblacka;58.58167, 15.91417
+Skärgårdsstad;59.483, 18.4
+Skärkind;58.46639, 15.98556
+Skärplinge;60.47278, 17.75528
+Skärsjö;60.40139, 15.54056
+Skärstad;57.88667, 14.36417
+Skålan;62.6525, 14.16667
+Skålö;60.56417, 14.29806
+Skåne-Tranås;55.61389, 13.99444
+Skånes Värsjö;56.33611, 13.43333
+Skånes-Fagerhult;56.37083, 13.46667
+Skåpafors;59.017, 12.283
+Skåpesund;58.083, 11.683
+Skårby;55.483, 13.717
+Skåre, Karlstads kommun;59.41806, 13.41806
+Skåre, Trelleborgs kommun;55.37639, 13.05222
+Sköldinge;59.03194, 16.44944
+Sköllersta;59.12944, 15.32222
+Skölsta;59.87472, 17.74333
+Skövde;58.38944, 13.84583
+Slaggen;60.55694, 15.51278
+Slagnäs;65.567, 18.083
+Slaka;58.365, 15.56167
+Slimminge;55.5125, 13.55
+Slite;57.71028, 18.79944
+Slottsbron;59.325, 13.10139
+Slottsskogen, Håbo kommun;59.69139, 17.61361
+Slussen;59.32056, 18.07222
+Slädaviken och Åssjön;62.441, 17.46467
+Slätten, Kungälvs kommun;57.925, 11.98611
+Slättäng;55.52361, 12.94444
+Slättåkra;56.82583, 12.88639
+Slöinge;56.85139, 12.71333
+Smara;59.87722, 18.40806
+Smedby, Kalmar kommun;56.67917, 16.23556
+Smedjebacken;60.14167, 15.41333
+Smedjebackens kommun;60.14167, 15.41333
+Smedsbo;60.567, 15.45
+Smedsgården och Bredäng;56.16028, 15.36389
+Smedstorp;55.55, 14.117
+Smedstorp, Karlskoga kommun;59.29667, 14.480957
+Smedstorpet;59.91, 17.04333
+Smygehamn;55.34361, 13.3725
+Smådalarö;59.16722, 18.44917
+Smålandsstenar;57.167, 13.4
+Smögen;58.35833, 11.225
+Snarringe;55.40444, 13.09306
+Snavlunda;58.967017, 14.8969
+Snogehall;55.95028, 13.535
+Snogeröd;55.83889, 13.49583
+Snårestad;55.44028, 13.67472
+Snöveltorp;58.50194, 16.16111
+Solberg, Sundsvalls kommun;62.25733, 17.35133
+Solberg, Örnsköldsviks kommun;63.78972, 17.63611
+Solberga och Solåkrabyn;59.09583, 17.616667
+Solberga, Nässjö kommun;57.73528, 14.74806
+Solberga, Österåkers kommun;59.5, 18.35
+Sollefteå;63.167, 17.267
+Sollefteå kommun;63.167, 17.273
+Sollentuna kommun;59.45, 17.917
+Sollerön (tätort);60.91611, 14.61611
+Solsidan, Ekerö kommun;59.28056, 17.85472
+Solvarbo;60.39111, 15.66722
+Sommen (tätort);58.1375, 14.96611
+Sonnboåsen;60.11806, 16.28194
+Sonstorp;58.72361, 15.63556
+Sorsele;65.53444, 17.54083
+Sorunda;59.00889, 17.81389
+Spakbacken;59.74917, 17.8975
+Spannarp;56.19111, 12.88944
+Sparreholm;59.07083, 16.83
+Spjutsbygd;56.31139, 15.59111
+Spjutstorp;55.58056, 14.01528
+Spjutterum;56.69528, 16.67889
+Spjälkö och Saxemaranäs;56.16111, 15.22028
+Spångsholm;58.35194, 15.23528
+Stabbarp;55.865, 13.30194
+Stabby (norra delen);59.79389, 17.57583
+Staffanstorp;55.65, 13.217
+Staffanstorps kommun;55.65, 13.217
+Stallarholmen;59.35722, 17.20583
+Starrkärr och Näs;58.117, 11.817
+Stava, Österåkers kommun;59.5, 18.233
+Stavby;60.00972, 17.96694
+Stavreviken;62.55306, 17.41722
+Stavsjö;58.72778, 16.43806
+Stavsnäs;59.28778, 18.68667
+Stavsten;55.36861, 13.07722
+Stehag;55.90333, 13.39556
+Stenared;57.80556, 12.18889
+Stenestad;56.05389, 13.10028
+Stenhagen och Persborg;59.77944, 17.87056
+Stenhamra;59.333, 17.667
+Steninge;56.76889, 12.63111
+Stenkulla och Årred;57.733, 12.583
+Stenkumla;57.54639, 18.26917
+Stensele;65.067, 17.15
+Stenshult;58.283, 11.717
+Stensjön, Nässjö kommun;57.58222, 14.82083
+Stenstorp;58.27389, 13.71444
+Stensund och Krymla;58.8975, 17.59167
+Stensätter;58.49056, 15.47056
+Stensättra tomtområde;59.2398028, 17.3868306
+Stenungsund;58.083, 11.817
+Stenungsunds kommun;58.083, 11.817
+Stenungsön;58.066667, 11.8
+Sticklinge udde;59.39083, 18.10833
+Stidsvig;56.20278, 13.12083
+Stigen;58.567, 12.067
+Stigtomta;58.8, 16.783
+Stilleryd;56.17361, 14.81972
+Stjärna och Aska;59.25306, 17.45778
+Stjärnhov;59.08222, 17.00861
+Stjärnsund;60.43222, 16.2125
+Stjärnås;57.617, 12.3
+Stoby;56.17806, 13.82694
+Stocka;61.883, 17.317
+Stockamöllan;55.94444, 13.36667
+Stockaryd;57.31694, 14.5925
+Stockekulla;57.3102083, 12.1887722
+Stocken;58.15, 11.417
+Stockholm (tätort);59.32667, 18.07111
+Stockholms kommun;59.333, 18.05
+Stockholmsledet;56.17278, 14.9
+Stocksbo;61.76528, 15.81722
+Stockvik;62.333, 17.367
+Stora Beddinge;55.39444, 13.44861
+Stora Bugärde;57.65278, 12.39444
+Stora Dicka;60.18667, 16.28528
+Stora Dyrön;57.917, 11.6
+Stora Frö;56.57167, 16.41833
+Stora Harrie;55.80361, 13.15417
+Stora Herrestad;55.467, 13.867
+Stora Höga;58.017, 11.817
+Stora Isie;55.36944, 13.33611
+Stora Köpinge;55.467, 13.95
+Stora Levene;58.325, 12.925
+Stora Råby;55.685, 13.225
+Stora Rör;56.75639, 16.5275
+Stora Sidus;58.61306, 16.33556
+Stora Slågarp;55.45278, 13.15972
+Stora Vika;58.95361, 17.79639
+Storahults strand;56.32917, 12.75972
+Storebro;57.58778, 15.84194
+Storfors;59.533, 14.267
+Storholmen;59.39722, 18.13806
+Storsjö;62.8, 13.05
+Storsveden, Ovanåkers kommun;61.34444, 16.025
+Storuman (tätort);65.1, 17.1
+Storvik;60.6, 16.517
+Storvreta;59.95, 17.7
+Storå, Lindesbergs kommun;59.717, 15.133
+Strand, Falu kommun;60.48222, 15.75
+Strandbro;60.42472, 15.44944
+Strandnorum;58.04167, 11.825
+Striberg;59.54667, 14.93056
+Strängnäs;59.37694, 17.03528
+Strängnäs kommun;59.37694, 17.03528
+Strängstorp;59.04056, 16.21944
+Strålsnäs;58.23556, 15.09028
+Strångsjö;58.90444, 16.19
+Stråssa;59.73972, 15.19917
+Stråtenbo;60.57722, 15.46611
+Stråtjärn och Gunnarsbo;60.56694, 15.49417
+Stråvallastrand;57.2989861, 12.1726361
+Ströby, Bösslinge och Åkerby;59.87556, 17.52833
+Ströbylund, Holmtorpet och Solsäter;59.86139, 17.52056
+Strömfors;60.517, 26.467
+Strömma, Värmdö kommun;59.29056, 18.54028
+Strömsberg, Karlskrona kommun;56.33278, 15.64556
+Strömsberg, Tierps kommun;60.40139, 17.58389
+Strömsbruk;61.883, 17.317
+Strömsfors;58.69194, 16.3425
+Strömsholm;59.52222, 16.25
+Strömsnäsbruk;56.54944, 13.73306
+Strömstad;58.933, 11.167
+Strömsund;63.85, 15.583
+Strövelstorp;56.167, 12.833
+Stugun;63.16667, 15.6
+Stumsnäs;60.88028, 14.95722
+Sturefors;58.33333, 15.72917
+Sturkö;56.11472, 15.65611
+Styrsjöbo;60.70389, 14.95167
+Styrsö, Göteborgs kommun;57.61667, 11.77917
+Ställdalen;59.93778, 14.93917
+Stämmet;57.18611, 12.2473083
+Stånga;57.28139, 18.47139
+Stångby;55.75, 13.2
+Stångby kyrkby;55.76556, 13.17278
+Stångeland;57.91556, 16.36278
+Stöcke;63.73972, 20.22917
+Stöcksjö;63.77472, 20.19583
+Stöde;62.417, 16.6
+Stöllet;60.41028, 13.27083
+Störlinge;56.80667, 16.74083
+Sulvik;59.67778, 12.416667
+Sund, Trosa kommun;58.95722, 17.41222
+Sundborn;60.667, 15.767
+Sundby;59.28083, 17.71583
+Sundbyholm;59.43889, 16.61944
+Sundhultsbrunn;57.92944, 14.91417
+Sundsbruk;62.45785, 17.356717
+Sundsvall;62.39083, 17.30694
+Sundsvalls kommun;62.39535, 17.308767
+Sunnansjö;60.21639, 14.95944
+Sunnanå, Burlövs kommun;55.61333, 13.12028
+Sunne;59.835, 13.14861
+Sunningen;58.32778, 11.84444
+Surahammar;59.70722, 16.22222
+Surahammars kommun;59.70722, 16.22222
+Surte;57.833, 12.017
+Svalsta;58.74222, 16.87028
+Svalöv;55.91111, 13.10556
+Svalövs kommun;55.9, 13.1
+Svanabyn;64.10194, 16.63972
+Svanberga;59.83889, 18.65917
+Svanesund;58.16861, 11.78528
+Svanvik;58.11944, 11.68611
+Svanå;59.7775, 16.37917
+Svanö;62.89917, 17.88167
+Svappavaara;67.65, 21.067
+Svarte;55.43278, 13.71417
+Svartlå;66.01333, 21.17278
+Svartnäs;60.91278, 16.13833
+Svartsjö;59.36278, 17.72778
+Svarttorp;57.81361, 14.44611
+Svartvik;62.317, 17.367
+Svartå;59.12694, 14.51889
+Svavelsön;59.4364333, 18.242025
+Svedala;55.51111, 13.23056
+Svedala kommun;55.517, 13.233
+Sveg;62.033, 14.35
+Svenljunga;57.5, 13.117
+Svennevad;59.01611, 15.38361
+Svenshögen;58.14361, 11.94111
+Svensköp;55.87417, 13.8625
+Svenstavik;62.77167, 14.44083
+Svenstorp, Varbergs kommun;57.17472, 12.31667
+Svenstorp, Ystads kommun;55.483, 13.95
+Svenstorp, Ängelholms kommun;56.34028, 12.92889
+Svinnegarn;59.58778, 17.0025
+Svinninge;59.45, 18.283
+Svängsta;56.26306, 14.77111
+Svärdsjö;60.74083, 15.90333
+Svärdsö;58.87, 17.83
+Svärtinge;58.65583, 16.01611
+Svärtinge gård;58.63306, 16.03472
+Sya;58.33306, 15.25
+Sylfaste;57.58583, 18.43444
+Sysslebäck;60.73139, 12.86944
+Säffle;59.133, 12.933
+Säivis;65.82917, 23.65972
+Sälen;61.16139, 13.26278
+Sälleryd;56.29222, 15.8475
+Sälna;59.5725, 17.98972
+Säm och Tanums station;58.717, 11.3
+Sänna;58.79444, 14.97778
+Särdal;56.74833, 12.645
+Särna;61.6925, 13.14167
+Särslöv och Djurslöv;55.625, 13.16389
+Säter;60.34639, 15.74667
+Säters kommun;60.34639, 15.74667
+Sätofta;55.90833, 13.55278
+Sätra brunn;59.86222, 16.44139
+Sättuna;58.45, 15.57861
+Säva;59.76611, 17.38694
+Sävar;63.90167, 20.55
+Sävast;65.76806, 21.73889
+Säve;57.80306, 11.91278
+Sävja;59.82111, 17.7
+Sävsjö;57.40222, 14.66778
+Sävsjö kommun;57.40222, 14.66778
+Sågmyra;60.71167, 15.29583
+Sånahusen;55.62222, 13.31667
+Sånga-Sundby;59.35, 17.7
+Såtenäs;58.44167, 12.69722
+Söder Rälta;60.63528, 15.01667
+Söderala;61.27778, 16.96111
+Söderberga;59.32194, 17.74528
+Söderboda;60.43889, 18.415
+Söderby, Ekerö kommun;59.30833, 17.84167
+Söderby, Upplands-Väsby kommun;59.483, 17.85
+Söderby-Karl;59.88639, 18.69944
+Söderbärke;60.07111, 15.56111
+Söderfors;60.38972, 17.24444
+Söderhamn;61.3, 17.083
+Söderköping;58.48028, 16.3225
+Söderköpings kommun;58.48028, 16.3225
+Söderskogen;59.67944, 17.58861
+Södersvik;59.75139, 18.91083
+Södertälje;59.183, 17.633
+Södertälje kommun;59.1, 17.517
+Söderåkra;56.44917, 16.06444
+Södra Bredåker;65.90333, 21.31444
+Södra Klagshamn;55.52361, 12.93472
+Södra Kyrkbyn;60.15528, 16.22139
+Södra Kättbo;60.18417, 14.19444
+Södra Ljunga;56.74278, 13.97111
+Södra Mellby;55.667, 14.217
+Södra Näs;57.07417, 12.26806
+Södra Rörum;55.92417, 13.66861
+Södra Sandby;55.717, 13.35
+Södra Vi;57.74028, 15.79667
+Södra Åby;55.38611, 13.3125
+Södra Åkarp;55.48333, 13.05417
+Södvik;57.05639, 16.87917
+Sölvesborg;56.0525, 14.58694
+Sölvesborgs kommun;56.0525, 14.58694
+Sörbo;60.50778, 15.73806
+Sörby, Borgholms kommun;56.81694, 16.73222
+Sörby, Trelleborgs kommun;55.44444, 13.32917
+Sörbylund;55.43611, 13.34167
+Sörfors;63.867, 20.033
+Sörfors, Sundsvalls kommun;62.28767, 17.05283
+Sörstafors;59.58361, 16.21361
+Sörvik;60.18528, 15.15111
+Söråker;62.517, 17.5
+Sösdala;56.04, 13.67889
+Sövde;55.583, 13.667
+Sövde sommarby;55.6, 13.633
+Sövestad;55.5, 13.8
+Taberg (tätort);57.683, 14.083
+Tahult;57.7, 12.183
+Tallberga;57.08889, 13.68889
+Tallebo;58.57306, 16.06306
+Tanumshede;58.733, 11.333
+Tavelsjö;64.03722, 20.04944
+Teckomatorp;55.87083, 13.08583
+Tenhult;57.717, 14.317
+Tibble och Lundby;59.65417, 16.94278
+Tibro;58.417, 14.167
+Tidaholm;58.183, 13.95
+Tidan (tätort);58.575, 14.00556
+Tidavad;58.58056, 13.85278
+Tidö-Lindö;59.51389, 16.52861
+Tierp;60.34444, 17.51306
+Tierps kommun;60.34444, 17.51306
+Tierps kyrkby;60.29944, 17.46444
+Tillberga;59.68444, 16.61972
+Timmele;57.85833, 13.42778
+Timmernabben;56.97194, 16.43556
+Timmersdala;58.52778, 13.75833
+Timrå;62.5, 17.333
+Timrå kommun;62.48367, 17.323
+Timsfors;56.48444, 13.61194
+Tings Nöbbelöv;55.95667, 14.05833
+Tingsryd;56.53056, 14.97694
+Tingsryds kommun;56.53056, 14.97694
+Tingstäde;57.73361, 18.60556
+Tjautjas;67.325, 20.73611
+Tjusby;56.81889, 16.75
+Tjuvkil;57.89444, 11.73611
+Tjällmo;58.71556, 15.35194
+Toarp, Malmö kommun;55.54083, 13.1225
+Tobo;60.25889, 17.65694
+Tofta, Gotlands kommun;57.52056, 18.16972
+Tofta, Varbergs kommun;57.17361, 12.29722
+Toftaholm, Eslövs kommun;55.78361, 13.26778
+Toftbyn;60.71417, 15.78528
+Tolfta;60.375, 17.55222
+Tollarp;55.93444, 13.97444
+Tollered;57.817, 12.417
+Tolånga;55.6375, 13.775
+Tomelilla;55.54167, 13.95
+Tomelilla kommun;55.533, 13.95
+Tomta;60.07667, 18.77556
+Torarp;56.20917, 14.81028
+Torbjörntorp;58.21, 13.60556
+Torekov;56.42361, 12.62639
+Torestorp;57.383, 12.667
+Torhamn;56.095, 15.83528
+Tormestorp;56.11389, 13.74361
+Torna Hällestad;55.67778, 13.41667
+Torne;56.69028, 14.60556
+Tornsborg;56.03861, 13.39611
+Torp, Mönsterås kommun;57.067, 16.467
+Torpa skog och Hoppet;59.02611, 18.14667
+Torpaslätt;59.4175, 16.195
+Torpsbruk;57.033333, 14.57306
+Torpshammar;62.467, 16.317
+Torreby;58.44167, 11.59444
+Torresta;59.54056, 17.48222
+Torrlösa;55.91028, 13.13917
+Torsabjörke;56.16917, 14.60278
+Torsbo, Ulricehamn;57.617, 13.467
+Torsby, Värmdö kommun;59.33806, 18.48722
+Torsebro;56.10333, 14.12833
+Torshälla;59.417, 16.467
+Torshälla huvud;59.45556, 16.46111
+Torsnäs;56.1675, 15.7025
+Torsåker, Hofors kommun;60.5125, 16.47361
+Torsång;60.46333, 15.56833
+Torsås;56.4125, 16.00167
+Torsås kommun;56.4125, 16.00167
+Torsö, Sölvesborg;56.00333, 14.64611
+Tortuna;59.67472, 16.72278
+Torup;56.95472, 13.07361
+Tosseryd;57.75833, 12.97917
+Tosteberga;56.00889, 14.43917
+Totebo;57.63083, 16.18611
+Totra;60.91611, 17.08944
+Tottarp;55.64167, 13.14778
+Tovrida udde;57.74389, 14.38639
+Tranemo;57.483, 13.35
+Tranholmen;59.37528, 18.08833
+Transtrand;61.09111, 13.31944
+Tranum;58.45833, 12.85833
+Tranås;58.03417, 14.97556
+Tranås kommun;58.03417, 14.97556
+Traryd;56.57806, 13.74472
+Tredenborg;56.02833, 14.56361
+Trehörna;58.15694, 14.84278
+Trekanten;56.69889, 16.11694
+Trelleborg;55.37361, 13.15556
+Trelleborgs kommun;55.383, 13.167
+Trolldalen;59.38694, 18.14444
+Trollhättan;58.283, 12.283
+Trosa;58.89389, 17.55222
+Trosa kommun;58.89389, 17.55222
+Trulsegården;57.75556, 11.84167
+Truseryd;56.13, 15.87528
+Trädet;57.983, 13.517
+Träkumla;57.56194, 18.30694
+Träne;55.9875, 13.99083
+Träslövsläge;57.05528, 12.27944
+Trångsviken;63.33139, 14.01861
+Tråvad;58.25, 13.083
+Trönninge, Halmstads kommun;56.62111, 12.93667
+Trönninge, Varbergs kommun;57.14333, 12.28722
+Trönningenäs;57.1394528, 12.2232333
+Trönö;61.39722, 16.83222
+Tulebo;57.617, 12.083
+Tullebo;57.71111, 12.49167
+Tulleråsen;63.45556, 14.18889
+Tumba (tätort);59.2, 17.817
+Tumbo;59.42639, 16.33889
+Tumleberg;58.20833, 12.84444
+Tumlehed;57.73056, 11.73611
+Tun;58.42917, 12.73611
+Tuna, Landskrona kommun;55.91389, 12.68889
+Tuna, Södertälje kommun;59.235, 17.51833
+Tuna, Uppsala kommun;60.02028, 18.06222
+Tuna, Vimmerby kommun;57.57667, 16.10556
+Tuna-Hästberg;60.33472, 15.17778
+Tunadal;62.414283, 17.378167
+Tunnerstad;58.052441, 14.343563
+Tureholm;59.31528, 17.72944
+Tving, Karlskrona kommun;56.31167, 15.46444
+Tvärred;57.72778, 13.31111
+Tvärskog;56.62361, 16.04
+Tvärålund;64.09556, 19.66972
+Tvååker;57.04111, 12.4
+Tylösand;56.6475, 12.73556
+Tynningö;59.37639, 18.39722
+Tyresö kommun;59.233, 18.217
+Tyringe;56.15944, 13.60306
+Tystberga;58.85056, 17.24028
+Täby;59.433, 18.083
+Täby kommun;59.467, 18.067
+Täfteå;63.833, 20.483
+Täljö;59.467, 18.25
+Tällberg;60.82361, 14.99361
+Tänndalen;62.54444, 12.33333
+Tännäs;62.44167, 12.68056
+Tärendö;67.33472, 22.61722
+Tärnaby;65.717, 15.267
+Tärnsjö;60.15444, 16.92556
+Tävelsås;56.77028, 14.82528
+Tåby;58.5175, 16.35083
+Tågarp, Svalövs kommun;55.92472, 12.955
+Tånebro;55.45, 13.59111
+Tånga och Rögle;56.19056, 12.77139
+Tångaberg;57.17389, 12.22611
+Tånnö;57.09444, 14.04444
+Töcksfors;59.5, 11.833
+Töllsjö;57.79444, 12.633333
+Tönnersjö;56.64, 13.0675
+Töre;65.9, 22.65
+Töreboda;58.717, 14.133
+Törestorp;57.2975, 13.85167
+Törnby;59.32556, 17.7275
+Törnebyslätt;56.67028, 16.28556
+Tösse;58.97083, 12.64167
+Ucklum;58.08611, 11.95278
+Uddebo;57.475, 13.26389
+Uddeholm;60.02444, 13.61917
+Udden;59.433, 16.417
+Uddens fritidsområde;59.22917, 16.08361
+Uddevalla;58.35, 11.917
+Ugglarp;56.816667, 12.63611
+Ukna;58.0825, 16.355
+Ullared;57.13583, 12.71861
+Ullatti;67.017, 21.817
+Ullervad;58.667, 13.85
+Ullstorp;56.05944, 13.98389
+Ullungsfors;61.4, 15.775
+Ullånger;63.0131175, 18.1877825
+Ulricehamn;57.79167, 13.41278
+Ulrika, Linköpings kommun;58.125, 15.43
+Ulvkälla;62.02222, 14.36111
+Ulvåker;58.475, 13.92778
+Umeå;63.82556, 20.26361
+Umgransele;64.69694, 18.38528
+Undersåker;63.3125, 13.25
+Undrom;63.1193722, 17.7399167
+Unnaryd;56.95444, 13.52833
+Uppbo och Nedernora;60.40167, 15.885
+Upphärad;58.15833, 12.30556
+Upplanda;60.23, 17.73028
+Upplands Väsby;59.517, 17.917
+Upplands Väsby kommun;59.517, 17.9
+Upplands-Bro kommun;59.533, 17.667
+Uppsala;59.85833, 17.65
+Uppsala kommun;59.85833, 17.65
+Uppvidinge kommun;57.16861, 15.34472
+Urshult;56.5325, 14.81139
+Ursviken;64.70944, 21.17556
+Utansjö;62.77444, 17.91139
+Utby, Uddevalla kommun;58.333, 11.783
+Utvalnäs;60.75194, 17.345
+Utvik och Öden;63.0075, 18.19806
+Utvälinge;56.21417, 12.78194
+Utö;58.933, 18.25
+Vad, Smedjebackens kommun;60.02694, 15.6575
+Vadsbro;58.96417, 16.5975
+Vadstena;58.44833, 14.88972
+Vadstena kommun;58.44833, 14.88972
+Vaggeryd;57.49833, 14.1475
+Vaggeryds kommun;57.43, 14.09278
+Vagnhärad;58.95, 17.5
+Valbo;60.667, 17.067
+Valdemarsvik;58.20556, 16.60194
+Valdemarsviks kommun;58.20556, 16.60194
+Valinge;57.17028, 12.38167
+Valje;56.06306, 14.54472
+Valla och Gålby;58.10389, 15.74167
+Valla, Katrineholms kommun;59.02056, 16.37889
+Vallberga;56.46722, 13.0225
+Vallby, Simrishamns kommun;55.5, 14.20417
+Vallby, Trelleborgs kommun;55.38889, 13.34167
+Vallentuna;59.533, 18.083
+Vallentuna kommun;59.583, 18.2
+Valleviken;57.79139, 18.94111
+Vallsta, Bollnäs kommun;61.51861, 16.36611
+Vallåkra;55.96333, 12.8625
+Valskog;59.44167, 15.94167
+Valtorp;58.22778, 13.64722
+Vankiva;56.20056, 13.74333
+Vansbro;60.51111, 14.22361
+Vansbro kommun;60.51111, 14.22361
+Vanstad;55.62083, 13.85833
+Vaplan;63.33694, 14.22
+Varberg;57.10889, 12.25139
+Varekil;58.125, 11.70833
+Vargön;58.35, 12.4
+Varmsätra;59.87, 16.72083
+Varnhem;58.383, 13.65
+Vartofta;58.09722, 13.63056
+Vassbäck;57.34167, 12.14167
+Vassmolösa;56.59472, 16.15694
+Vassunda;59.70556, 17.73
+Vattholma;60.01667, 17.73333
+Vattjom;62.365, 17.0317
+Vattnäs;61.04972, 14.60333
+Vattubrinken;59.183, 17.633
+Vavd;60.47889, 17.95972
+Vaxholm;59.40417, 18.33139
+Vaxholms kommun;59.4, 18.283
+Veberöd;55.633, 13.5
+Vedborm;57.20583, 17.01833
+Veddige;57.267, 12.317
+Vederslöv;56.785, 14.73194
+Vedevåg;59.525, 15.28889
+Vegby;57.68056, 13.37222
+Veinge;56.55333, 13.07306
+Vejbystrand;56.30972, 12.76944
+Velanda;58.22778, 12.31111
+Vellinge;55.47083, 13.01889
+Vellinge Väster;55.45972, 12.99583
+Vellinge kommun;55.467, 13.017
+Vemdalen;62.45, 13.86667
+Vemhån;62.31111, 14.03333
+Vena;57.52111, 15.97056
+Venestad;55.98583, 13.9425
+Venjan;60.95278, 13.91056
+Verum;56.36194, 13.79861
+Vessigebro;56.97917, 12.66611
+Vetlanda;57.42667, 15.08111
+Vetlanda kommun;57.417, 15.083
+Vettershaga;59.59889, 18.67806
+Vi, Sundsvalls kommun;62.4283, 17.4167
+Viared;57.7125, 12.87083
+Viareds sommarstad;57.70417, 12.82222
+Vibble;57.60444, 18.24861
+Viby, Kristianstads kommun;56.01417, 14.23667
+Vickleby;56.58056, 16.45889
+Vidsel;65.85, 20.4
+Viforsen, Vi och Tunbyn;62.31, 17.19
+Vifärna;59.38417, 17.68583
+Vik, Simrishamns kommun;55.61528, 14.28889
+Vika;60.51389, 15.71111
+Vikarbyn;60.90917, 15.02083
+Viken, Höganäs kommun;56.15, 12.567
+Vikhög;55.73028, 12.95861
+Vikingstad;58.383333, 15.433333
+Vikmanshyttan;60.29778, 15.82806
+Viksjö, Härnösands kommun;62.77222, 17.42083
+Viksäter;59.23889, 17.62083
+Vilhelmina (tätort);64.617, 16.65
+Villshärad;56.69389, 12.69611
+Vilshult;56.3525, 14.48389
+Vilske-Kleva;58.20833, 13.44722
+Vimmerby;57.66556, 15.85472
+Vimmerby kommun;57.66556, 15.85472
+Vinberg;56.95556, 12.54944
+Vinbergs kyrkby;56.92861, 12.54583
+Vindeln;64.20222, 19.71944
+Vindön;58.29722, 11.69167
+Vingåker;59.04278, 15.87222
+Vingåkers kommun;59.04278, 15.87222
+Vinninga;58.45278, 13.26111
+Vinnö;56.05056, 14.08806
+Vinslöv;56.10361, 13.91306
+Vintjärn;60.82944, 16.05083
+Vintrie;55.55139, 12.9625
+Vinäs;60.97167, 14.54111
+Vira bruk;59.57111, 18.545
+Vireda;57.91472, 14.63222
+Virsbo;59.87167, 16.04639
+Virserum;57.31917, 15.58194
+Visby;57.63472, 18.29917
+Viskafors;57.633, 12.85
+Viskan;57.225, 12.20778
+Vislanda;56.78722, 14.45028
+Vissefjärda;56.53694, 15.583333
+Visseltofta;56.425, 13.85667
+Vistträsk;65.67889, 20.53556
+Vita villorna;59.20861, 17.87194
+Vitaby;55.683, 14.15
+Vitemölla;55.7, 14.2
+Vittangi;67.67694, 21.64083
+Vittaryd;56.967, 13.95
+Vittinge;59.90472, 17.06083
+Vittjärv;65.845, 21.59778
+Vittsjö;56.34333, 13.66278
+Vittskövle, Kristianstads kommun;55.85917, 14.14806
+Vojakkala;65.9175, 24.09528
+Vollsjö;55.70167, 13.785
+Vomb;55.667, 13.55
+Vrena;58.86167, 16.70333
+Vretstorp;59.02222, 14.86944
+Vrigstad;57.35556, 14.47556
+Vrångö;57.56667, 11.78333
+Vuollerim;66.43056, 20.61944
+Väckelsång;56.64083, 14.91917
+Väderstad;58.31333, 14.92444
+Väggarp;55.78611, 13.24056
+Väjern;58.37778, 11.26389
+Väla by;56.08333, 12.74889
+Välinge;56.18361, 12.80611
+Välleröd;55.583, 13.783
+Väländan;59.11306, 17.98611
+Väne-Ryr;58.33222, 12.13722
+Väne-Åsaka;58.24444, 12.41944
+Vänersborg;58.383, 12.317
+Vänersnäs;58.433, 12.583
+Vänge, Gotlands kommun;57.44972, 18.51583
+Vänge, Uppsala kommun;59.85667, 17.43528
+Vännäs;63.917, 19.75
+Vännäsby;63.91306, 19.80389
+Värestorp;56.19361, 14.21917
+Värmdö kommun;59.317, 18.567
+Värmdö-Evlinge;59.34, 18.55222
+Värnamo;57.18472, 14.04111
+Värnamo kommun;57.18472, 14.04111
+Värne;57.53806, 15.09917
+Värred;57.617, 12.467
+Värsås;58.35, 14.05
+Väröbacka;57.2489667, 12.1814333
+Väsa;61.1875, 14.06778
+Väskinde;57.69111, 18.42139
+Västansjö-Långsjö;60.40861, 15.51861
+Västanvik;60.72806, 14.95111
+Västanå, Bromölla kommun;56.17806, 14.47889
+Västerby, Hedemora kommun;60.31194, 15.93167
+Västerby, Uppsala kommun;59.87667, 17.28222
+Västerfärnebo;59.94472, 16.28056
+Västergarn;57.44417, 18.15333
+Västerhaninge;59.125, 18.11528
+Västerhejde;57.58389, 18.22194
+Västerkärr;57.89444, 13.86111
+Västerljung;58.92111, 17.44944
+Västerlösa;58.42056, 15.34083
+Västermo;59.29167, 16.07917
+Västermyckeläng;61.21028, 14.03472
+Västerstad;55.78333, 13.67639
+Västerstads kyrkby;55.77306, 13.63667
+Västertryserum;58.14381, 16.514168
+Västervik;57.75833, 16.63833
+Västerviks kommun;57.75833, 16.63833
+Västerås;59.60972, 16.54639
+Västerås kommun;59.60806, 16.54611
+Västgärdet och Utanåker;60.83278, 15.10972
+Västibyn;63.917, 20.2
+Västkusten, Hedemora kommun;60.27, 15.95583
+Västland;60.44528, 17.61333
+Västra Alstad;55.44722, 13.20278
+Västra Harg;58.26222, 15.25861
+Västra Husby;58.48611, 16.175
+Västra Ingelstad;55.49139, 13.11472
+Västra Karaby;55.8125, 13.05278
+Västra Karup;56.4125, 12.74444
+Västra Klagstorp;55.52639, 12.99583
+Västra Kärrstorp;55.49722, 13.15833
+Västra Näs;56.02306, 14.58556
+Västra Nöbbelöv;55.43472, 13.61667
+Västra Ormsjö;64.41583, 16.01528
+Västra Strö;55.87583, 13.24667
+Västra Tommarp;55.3975, 13.1025
+Västra Vemmerlöv;55.41528, 13.15833
+Västra Virestad;55.4125, 13.2375
+Västra Ämtervik;59.72694, 13.145
+Västra Örträsk;64.135, 18.94083
+Västtjärna, Östtjärna och Gruvan;60.57111, 15.09
+Växjö;56.87833, 14.80917
+Växjö kommun;56.87833, 14.80917
+Vålberg;59.4, 13.2
+Våmhus;61.11694, 14.47028
+Vånevik;57.167, 16.45
+Vånga, Kristianstads kommun;56.18194, 14.37167
+Vånga, Norrköpings kommun;58.58306, 15.81472
+Vårdsätra;59.79167, 17.62222
+Vårgårda;58.033, 12.8
+Vårsta;59.16528, 17.79722
+Våxtorp;56.41667, 13.12111
+Ydre kommun;57.82722, 15.27389
+Yngsjö;55.88278, 14.22944
+Yngsjöstrand;55.88, 14.2425
+Yrestahed;59.95667, 17.79028
+Ysby;56.49278, 13.11806
+Ystad;55.43056, 13.82056
+Ystads kommun;55.433, 13.817
+Ytterbyn, Vännäs kommun;63.902139, 19.86875
+Ytterhogdal;62.167, 14.95
+Ytterjärna;59.08056, 17.60444
+Ytternäs och Vreta;59.775, 17.60417
+Ytterstad;57.825, 12.20833
+Yttertänger;60.84056, 15.765
+Ytteråkerö;60.70139, 15.0625
+Ytterån;63.317, 14.15
+Zinkgruvan;58.81639, 15.10444
+Älandsbro;62.6759111, 17.8416778
+Älby;60.10139, 17.56694
+Älekulla;57.34444, 12.71389
+Älgarås;58.81306, 14.255
+Älghult;57.00833, 15.57306
+Älmestad;57.9, 13.35
+Älmhult;56.55083, 14.13806
+Älmhults kommun;56.55083, 14.13806
+Älmsta;59.967, 18.8
+Älta;59.25639, 18.17806
+Älvan;58.48361, 15.27611
+Älvdalen;61.2275, 14.03917
+Älvdalens kommun;61.2275, 14.03917
+Älvkarleby;60.567, 17.45
+Älvkarleby kommun;60.62444, 17.41611
+Älvkarleö;60.5375, 17.415
+Älvnäs;59.28806, 17.76583
+Älvros;62.05, 14.667
+Älvsbyn;65.683, 21.017
+Älvsered;57.24111, 12.86667
+Älvängen;57.95833, 12.12028
+Ändesta;59.6025, 16.79889
+Äng, Nässjö kommun;57.69472, 14.56722
+Ängalag-Svenstorp;56.43611, 12.70361
+Ängeby;59.97583, 17.74083
+Ängelholm;56.25, 12.85
+Ängelholms kommun;56.233, 12.867
+Ängelsberg;59.96028, 16.00889
+Ängelsbäck;56.37778, 12.76667
+Ängelsbäcksstrand-Segeltorpsstrand;56.35833, 12.74722
+Ängesbyn;65.7749333, 22.0601833
+Ängsbyn;55.88611, 13.52972
+Ängsvik;59.35833, 18.51611
+Äppelbo;60.483333, 14.01111
+Ärla;59.283, 16.667
+Äs, Katrineholms kommun;59.15278, 16.10917
+Äsköping;59.14861, 16.06833
+Äspered;57.75417, 13.17917
+Äsperöd, Sjöbo kommun;55.60833, 13.91667
+Äspinge;55.86528, 13.7325
+Ätran (tätort);57.1217056, 12.9496194
+Åby;58.667, 16.183
+Åby, Växjö kommun;57.02528, 14.77583
+Åbytorp;59.125, 15.08333
+Ådalen och Högsberga;59.84, 16.92111
+Ådran och Östorp;59.15833, 18.01111
+Åhus;55.92306, 14.29417
+Åkarp;55.65278, 13.10833
+Åkerby och Lopperstad;56.68556, 16.69139
+Åkerby, Södertälje kommun;59.04, 17.55222
+Åkers styckebruk;59.25528, 17.10389
+Åkersberga;59.467, 18.317
+Åkesta;59.6675, 16.48056
+Åkraberg och Lilla Sunnvära;57.2328028, 12.21375
+Åkullsjön;64.268194, 20.494056
+Ålabodarna;55.94167, 12.77222
+Ålberga;58.72556, 16.57667
+Åled;56.74361, 12.95056
+Ålem;56.95417, 16.38306
+Ålstorp;56.45917, 13.15861
+Åmanäs och Nilstorp;56.12639, 13.74139
+Åmmeberg;58.86556, 14.99917
+Åmsele;64.52917, 19.34722
+Åmål;59.05, 12.7
+Ånge;62.517, 15.617
+Ånge kommun;62.52533, 15.65967
+Ånn;63.325, 12.53389
+Ånneröd;58.96111, 11.17778
+Ånäset;64.2795444, 21.0460667
+Åraslöv;56.10556, 13.97889
+Åre;63.4, 24.08333
+Årjäng;59.383, 12.133
+Årnäs, Varbergs kommun;57.20306, 12.20611
+Årsta havsbad;59.08139, 18.16528
+Åryd, Karlshamns kommun;56.20778, 15.01083
+Åryd, Växjö kommun;56.82972, 14.97944
+Ås, Gislaveds kommun;57.12444, 13.68
+Ås, Krokoms kommun;63.233, 14.55
+Ås, Nora kommun;59.5291833, 14.9882694
+Åsbro;58.9975, 15.05861
+Åsby;57.2347556, 12.3086361
+Åseda;57.16861, 15.34472
+Åsele;64.16167, 17.35278
+Åselstad;58.54667, 16.22889
+Åsen;61.27472, 13.82417
+Åsenhöga;57.40778, 13.79611
+Åshammar;60.65, 16.533
+Åskloster;57.21917, 12.22167
+Åsle;58.18056, 13.68778
+Åsljunga;56.30694, 13.37222
+Åstol;57.917, 11.6
+Åstorp;56.13389, 12.94889
+Åstorps kommun;56.133, 12.933
+Åsättra;59.52889, 18.43722
+Återvall;59.27139, 18.46889
+Åtorp;59.117, 14.367
+Åtvidaberg;58.20167, 15.99806
+Åtvidabergs kommun;58.20167, 15.99806
+Åvinge;59.13833, 17.80889
+Öbonäs;58.54111, 16.185
+Öckerö (tätort);57.71111, 11.64722
+Ödeshög;58.23083, 14.65278
+Ödeshögs kommun;58.23083, 14.65278
+Ödsmål, Stenungsunds kommun;58.017, 11.833
+Ödåkra;56.10417, 12.74583
+Öggestorp;57.72444, 14.38306
+Öja, Ystads kommun;55.45639, 13.84444
+Öje;60.80972, 13.85361
+Öjebro;58.376136, 15.193373
+Öjersjö;57.70556, 12.14167
+Ölbo;60.417, 17.05
+Öljersjö;56.18806, 15.70833
+Ölmbrotorp;59.39167, 15.24444
+Ölmstad;57.92667, 14.39861
+Ölsta, Ekerö kommun;59.4, 17.65
+Önneköp;55.78639, 13.87139
+Önnerud;60.16806, 13.005
+Önnestad;56.05778, 14.02306
+Örbyhus;60.22667, 17.70472
+Örebro;59.273944, 15.213361
+Öregrund;60.333, 18.433
+Örja;55.88, 12.88
+Örkelljunga;56.283, 13.283
+Örkelljunga kommun;56.283, 13.283
+Örnahusen;55.45, 14.26306
+Örnsköldsvik;63.283, 18.733
+Örnsköldsviks kommun;63.29017, 18.71783
+Örserum;58.00806, 14.57306
+Örsjö, Nybro kommun;56.7, 15.75056
+Örslösa;58.50611, 13.01083
+Örsundsbro;59.73639, 17.30833
+Örtagården, Västerås kommun;59.5625, 16.46694
+Örtofta;55.78333, 13.25
+Örtomta;58.41222, 15.92472
+Ösmo;58.983, 17.9
+Össjö;56.233, 13.033
+Östadkulle;58.02222, 12.63611
+Östansjö, Hallsbergs kommun;59.04444, 14.98194
+Östantjärna och Färnviken;60.52222, 15.73667
+Östavall;62.425, 15.479
+Östbjörka;60.96917, 15.14083
+Öster-Ekeby och Backbo;60.14167, 17.60667
+Österbybruk;60.2, 17.9
+Österbymo;57.82722, 15.27389
+Österbyn och Östansjö;60.75167, 15.96167
+Österfärnebo;60.3, 16.8
+Österhaninge (småort);59.12778, 18.16806
+Österslöv;56.09639, 14.24722
+Österstad;58.51972, 15.17333
+Östersund;63.17889, 14.63639
+Östervåla;60.183, 17.183
+Östervång;55.92, 13.97889
+Österäng;58.63472, 13.56111
+Österå;60.66556, 15.62222
+Österåkers kommun;59.5, 18.45
+Österås;63.2116333, 17.1879111
+Östhammar;60.25889, 18.37361
+Östhammars kommun;60.25889, 18.37361
+Östhamra;59.7425, 18.7025
+Östnor;61.02778, 14.48861
+Östra Asmundtorp;55.2725, 13.27667
+Östra Genastorp;56.34361, 14.01139
+Östra Grevie;55.467, 13.133
+Östra Göinge kommun;56.25, 14.083
+Östra Hoby;55.47222, 14.23222
+Östra Husby;58.57889, 16.56333
+Östra Kallfors;59.11111, 17.55833
+Östra Karup;56.42361, 12.94583
+Östra Ljungby;56.19028, 13.06806
+Östra Ny;58.49639, 16.56611
+Östra Odarslöv;55.73333, 13.26667
+Östra Ramlösa;56.03111, 12.76972
+Östra Ryd, Söderköpings kommun;58.402102, 16.164579
+Östra Rönnäs;60.70361, 15.13778
+Östra Sönnarslöv;55.88833, 14.01361
+Östra Tommarp;55.533, 14.233
+Östra Vedåkra;55.79222, 13.67667
+Östra Vemmerlöv;55.583, 14.233
+Östra Värlinge;55.425, 13.10833
+Östra Öje;60.81028, 13.87333
+Östra Örträsk;64.13278, 18.98833
+Östraby;55.75917, 13.68528
+Östunaby och Erkesberga;59.75667, 17.89861
+Öttum;58.32083, 13.21944
+Övarp;56.11917, 14.03694
+Övedskloster;55.683, 13.633
+Överammer;63.21667, 15.95
+Överboda, Umeå kommun;63.85056, 19.93194
+Överkalix;66.35, 22.883
+Överklinten;64.24472, 20.65889
+Överlida;57.35, 12.9
+Övertorneå;66.383, 23.667
+Överturingen;62.45083, 14.91683
+Övertänger;60.86278, 15.75056
+Överum;57.98889, 16.31194
+Övre Soppero;68.09111, 21.69639
+Övre Tunbyn;62.32, 17.23611
+Öxabäck;57.39583, 12.80278
+Öxeryd;57.73889, 12.27222

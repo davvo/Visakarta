@@ -1,6 +1,7 @@
 package com.davvo.visakarta;
 
 import java.io.IOException;
+
 import java.io.Writer;
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.davvo.visakarta.server.JDOMapServiceImpl;
-import com.davvo.visakarta.shared.VKMarker;
 
 import freemarker.template.Configuration;
 import freemarker.template.DefaultObjectWrapper;

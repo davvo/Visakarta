@@ -17,6 +17,17 @@
 	</servlet-mapping>
 
     <servlet>
+        <servlet-name>SearchService</servlet-name>
+        <servlet-class>com.davvo.visakarta.server.SearchServiceImpl</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>SearchService</servlet-name>
+        <url-pattern>/visakarta/search</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
         <servlet-name>ShowMap</servlet-name>
         <servlet-class>com.davvo.visakarta.ShowMap</servlet-class>
     </servlet>

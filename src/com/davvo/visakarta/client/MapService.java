@@ -13,5 +13,5 @@ public interface MapService extends RemoteService {
     Map load(String id);
     
     boolean exists(String id);
-    
+        
 }
